@@ -367,7 +367,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "cooked_beef": "2025-01-19 17:21:42 +0000"
+      "cooked_beef": "2025-01-19 17:21:42 +0000",
+      "bread": "2025-01-19 17:36:44 +0000"
     },
     "done": false
   },
@@ -668,6 +669,7 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
+      "muskeg": "2025-01-19 17:29:41 +0000",
       "shrubland": "2025-01-18 19:08:23 +0000",
       "rocky_shrubland": "2025-01-19 17:14:36 +0000",
       "highland": "2025-01-18 18:24:16 +0000",
@@ -680,7 +682,12 @@
       "spider_nest": "2025-01-18 19:15:52 +0000",
       "redwood_forest": "2025-01-18 19:10:02 +0000",
       "cherry_blossom_grove": "2025-01-18 19:09:39 +0000",
+      "seasonal_orchard": "2025-01-19 17:30:09 +0000",
+      "seasonal_forest": "2025-01-19 17:30:27 +0000",
       "dead_forest": "2025-01-19 17:23:22 +0000",
+      "fir_clearing": "2025-01-19 17:32:37 +0000",
+      "pumpkin_patch": "2025-01-19 17:34:29 +0000",
+      "crag": "2025-01-19 17:31:36 +0000",
       "snowy_maple_woods": "2025-01-19 17:23:28 +0000",
       "ominous_woods": "2025-01-18 19:03:36 +0000"
     },
@@ -1208,6 +1215,12 @@
   "minecraft:recipes/building_blocks/black_wool": {
     "criteria": {
       "has_white_wool": "2025-01-18 19:08:35 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/ashes_and_bones": {
+    "criteria": {
+      "coded_trigger": "2025-01-19 17:31:56 +0000"
     },
     "done": true
   },
@@ -1783,6 +1796,7 @@
       "minecraft:frozen_river": "2025-01-19 17:23:14 +0000",
       "minecraft:beach": "2025-01-18 19:05:44 +0000",
       "minecraft:river": "2025-01-18 19:05:05 +0000",
+      "minecraft:stony_shore": "2025-01-19 17:33:09 +0000",
       "minecraft:snowy_taiga": "2025-01-19 17:23:56 +0000",
       "minecraft:forest": "2025-01-18 18:38:50 +0000",
       "minecraft:meadow": "2025-01-18 18:25:14 +0000",

@@ -1220,3 +1220,279 @@ Caused by: java.lang.NullPointerException: Cannot invoke "com.sk89q.worldedit.wo
 2025-01-19 17:31:31,379 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7026_(1412)[m: SoySander lost connection: Disconnected
 2025-01-19 17:31:31,380 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander left the game
 2025-01-19 17:31:38,489 [32mINFO [m [m[Async Chat Thread - #20][m [mn.m.s.MinecraftServer.m_241158_(2088)[m: <Jeiker45> realmente quiere que se le explote la pc
+2025-01-19 17:31:56,030 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:tombstone.undead_killed, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x00007055d4a54140@372ddd66}
+2025-01-19 17:31:56,031 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: DarienZ45 has made the advancement [Ashes 'n Bones]
+2025-01-19 17:32:08,633 [33mWARN [m [m[Server thread][m [mn.m.s.l.ServerPlayerGameMode.m_214168_(205)[m: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-98, y=120, z=-1406}
+2025-01-19 17:32:09,027 [33mWARN [m [m[Server thread][m [mn.m.s.l.ServerPlayerGameMode.m_214168_(205)[m: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-98, y=120, z=-1406}
+2025-01-19 17:32:09,281 [33mWARN [m [m[Server thread][m [mn.m.s.l.ServerPlayerGameMode.m_214168_(205)[m: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-97, y=120, z=-1406}
+2025-01-19 17:32:12,129 [33mWARN [m [m[Server thread][m [mn.m.s.l.ServerPlayerGameMode.m_214168_(205)[m: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-93, y=120, z=-1397}
+2025-01-19 17:32:12,588 [33mWARN [m [m[Server thread][m [mn.m.s.l.ServerPlayerGameMode.m_214168_(205)[m: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-93, y=120, z=-1397}
+2025-01-19 17:32:18,727 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: UXD_50116 has made the advancement [Alex's Mobs]
+2025-01-19 17:32:31,063 [32mINFO [m [m[User Authenticator #12][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(378)[m: UUID of player SoySander is 2fdec197-58fd-3a92-a8c9-336e26aeae55
+2025-01-19 17:32:32,861 [33mWARN [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7185_(1165)[m: UXD_50116 moved too quickly! 11.07602196716337,1.6717356006687112,-16.05888346985421
+2025-01-19 17:32:35,403 [32mINFO [m [m[Server thread][m [mn.m.c.AdvancementLoadFix.loadVisibility(36)[m: Using new advancement loading for net.minecraft.server.PlayerAdvancements@38ac204a
+2025-01-19 17:32:35,439 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander joined the game
+2025-01-19 17:32:35,451 [32mINFO [m [m[Server thread][m [mn.m.s.p.PlayerList.m_11261_(323)[m: SoySander[/127.1.205.168:52987] logged in with entity id 33216 at (145.02729603709724, -12.580000013113022, -1818.4512262385772)
+2025-01-19 17:32:38,926 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7026_(1412)[m: SoySander lost connection: Disconnected
+2025-01-19 17:32:38,926 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander left the game
+2025-01-19 17:32:49,419 [32mINFO [m [m[User Authenticator #12][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(378)[m: UUID of player SoySander is 2fdec197-58fd-3a92-a8c9-336e26aeae55
+2025-01-19 17:32:51,992 [33mWARN [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7185_(1165)[m: UXD_50116 moved too quickly! 6.5483219829562245,-2.203264399331289,13.626809643240904
+2025-01-19 17:32:54,239 [32mINFO [m [m[Server thread][m [mn.m.c.AdvancementLoadFix.loadVisibility(36)[m: Using new advancement loading for net.minecraft.server.PlayerAdvancements@612b0fce
+2025-01-19 17:32:54,259 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander joined the game
+2025-01-19 17:32:54,267 [32mINFO [m [m[Server thread][m [mn.m.s.p.PlayerList.m_11261_(323)[m: SoySander[/127.188.239.164:49167] logged in with entity id 33707 at (145.02729603709724, -12.580000013113022, -1818.4512262385772)
+2025-01-19 17:33:21,825 [33mWARN [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7185_(1165)[m: UXD_50116 moved too quickly! 13.084814815932532,1.0,16.407675196932587
+2025-01-19 17:33:26,856 [32mINFO [m [m[Async Chat Thread - #22][m [mn.m.s.MinecraftServer.m_241158_(2088)[m: <UXD_50116> apreten el tab
+2025-01-19 17:33:29,529 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: Jeiker45 has made the advancement [Flexible Schedule]
+2025-01-19 17:33:32,778 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:tombstone.undead_killed, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x00007055d4a54140@372ddd66}
+2025-01-19 17:33:56,915 [32mINFO [m [m[Async Chat Thread - #22][m [mn.m.s.MinecraftServer.m_241158_(2088)[m: <Jeiker45> SoySander me podes dar el libro de alex mods
+2025-01-19 17:34:55,127 [33mWARN [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7185_(1165)[m: UXD_50116 moved too quickly! 8.829408502709697,0.0,8.011984760550149
+2025-01-19 17:35:24,203 [32mINFO [m [m[Async Chat Thread - #24][m [mn.m.s.MinecraftServer.m_241158_(2088)[m: <UXD_50116> den comida
+2025-01-19 17:35:29,186 [32mINFO [m [m[Async Chat Thread - #24][m [mn.m.s.MinecraftServer.m_241158_(2088)[m: <Jeiker45> XD
+2025-01-19 17:36:13,966 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:tombstone.undead_killed, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x00007055d4a54140@372ddd66}
+2025-01-19 17:36:19,473 [32mINFO [m [m[Async Chat Thread - #24][m [mn.m.s.MinecraftServer.m_241158_(2088)[m: <UXD_50116> si
+2025-01-19 17:36:24,952 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: [SoySander: Gave 32 [Bread] to 4]
+2025-01-19 17:36:37,779 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: UXD_50116 has made the advancement [Amateur Archaeologist]
+2025-01-19 17:36:53,738 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:tombstone.undead_killed, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x00007055d4a54140@372ddd66}
+2025-01-19 17:37:04,086 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:tombstone.undead_killed, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x00007055d4a54140@372ddd66}
+2025-01-19 17:37:27,696 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:tombstone.undead_killed, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x00007055d4a54140@372ddd66}
+2025-01-19 17:37:30,345 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:tombstone.undead_killed, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x00007055d4a54140@372ddd66}
+2025-01-19 17:37:33,395 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:tombstone.undead_killed, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x00007055d4a54140@372ddd66}
+2025-01-19 17:37:33,397 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: Jeiker45 has made the advancement [Ashes 'n Bones]
+2025-01-19 17:37:36,113 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:tombstone.undead_killed, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x00007055d4a54140@372ddd66}
+2025-01-19 17:37:41,382 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:tombstone.undead_killed, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x00007055d4a54140@372ddd66}
+2025-01-19 17:37:57,807 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:tombstone.undead_killed, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x00007055d4a54140@372ddd66}
+2025-01-19 17:38:28,332 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7026_(1412)[m: UXD_50116 lost connection: Timed out
+2025-01-19 17:38:28,333 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: UXD_50116 left the game
+2025-01-19 17:38:31,584 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander has made the advancement [Chest Slayer]
+2025-01-19 17:39:00,592 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: [SoySander: Set own game mode to Spectator Mode]
+2025-01-19 17:39:24,242 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:minecraft.waystone_activated, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x00007055d4a54140@372ddd66}
+2025-01-19 17:40:15,081 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7026_(1412)[m: SoySander lost connection: Disconnected
+2025-01-19 17:40:15,081 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander left the game
+2025-01-19 17:40:20,429 [32mINFO [m [m[User Authenticator #13][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(378)[m: UUID of player SoySander is 2fdec197-58fd-3a92-a8c9-336e26aeae55
+2025-01-19 17:40:23,888 [32mINFO [m [m[Server thread][m [mn.m.c.AdvancementLoadFix.loadVisibility(36)[m: Using new advancement loading for net.minecraft.server.PlayerAdvancements@49e1ff82
+2025-01-19 17:40:23,912 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander joined the game
+2025-01-19 17:40:23,955 [32mINFO [m [m[Server thread][m [mn.m.s.p.PlayerList.m_11261_(323)[m: SoySander[/127.1.205.168:34769] logged in with entity id 39879 at (-230.89966218743564, -54.0, -2092.150768664449)
+2025-01-19 17:41:44,755 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:minecraft.waystone_activated, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x00007055d4a54140@372ddd66}
+2025-01-19 17:41:50,579 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7026_(1412)[m: SoySander lost connection: Disconnected
+2025-01-19 17:41:50,579 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander left the game
+2025-01-19 17:41:56,663 [32mINFO [m [m[User Authenticator #14][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(378)[m: UUID of player SoySander is 2fdec197-58fd-3a92-a8c9-336e26aeae55
+2025-01-19 17:42:00,045 [32mINFO [m [m[Server thread][m [mn.m.c.AdvancementLoadFix.loadVisibility(36)[m: Using new advancement loading for net.minecraft.server.PlayerAdvancements@31991ee
+2025-01-19 17:42:00,072 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander joined the game
+2025-01-19 17:42:00,121 [32mINFO [m [m[Server thread][m [mn.m.s.p.PlayerList.m_11261_(323)[m: SoySander[/127.188.239.164:57211] logged in with entity id 41233 at (298.50149286756806, 98.97509361765277, -658.7948213184995)
+2025-01-19 17:42:16,332 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7026_(1412)[m: SoySander lost connection: Disconnected
+2025-01-19 17:42:16,332 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander left the game
+2025-01-19 17:42:20,773 [32mINFO [m [m[User Authenticator #14][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(378)[m: UUID of player SoySander is 2fdec197-58fd-3a92-a8c9-336e26aeae55
+2025-01-19 17:42:24,129 [32mINFO [m [m[Server thread][m [mn.m.c.AdvancementLoadFix.loadVisibility(36)[m: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6154d317
+2025-01-19 17:42:24,147 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander joined the game
+2025-01-19 17:42:24,156 [32mINFO [m [m[Server thread][m [mn.m.s.p.PlayerList.m_11261_(323)[m: SoySander[/127.188.239.164:53303] logged in with entity id 41675 at (264.97569615029374, 106.84442671087137, -719.1246921836175)
+2025-01-19 17:42:45,078 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7026_(1412)[m: SoySander lost connection: Disconnected
+2025-01-19 17:42:45,078 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander left the game
+2025-01-19 17:42:52,374 [32mINFO [m [m[User Authenticator #14][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(378)[m: UUID of player SoySander is 2fdec197-58fd-3a92-a8c9-336e26aeae55
+2025-01-19 17:43:01,402 [32mINFO [m [m[User Authenticator #14][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(378)[m: UUID of player SoySander is 2fdec197-58fd-3a92-a8c9-336e26aeae55
+2025-01-19 17:43:04,729 [32mINFO [m [m[Server thread][m [mn.m.c.AdvancementLoadFix.loadVisibility(36)[m: Using new advancement loading for net.minecraft.server.PlayerAdvancements@7b943335
+2025-01-19 17:43:04,747 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander joined the game
+2025-01-19 17:43:04,755 [32mINFO [m [m[Server thread][m [mn.m.s.p.PlayerList.m_11261_(323)[m: SoySander[/127.1.205.168:43283] logged in with entity id 42322 at (201.85149082821914, 114.31818396737404, -821.1006015362391)
+2025-01-19 17:43:08,932 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7026_(1412)[m: SoySander lost connection: Disconnected
+2025-01-19 17:43:08,932 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander left the game
+2025-01-19 17:43:22,377 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerLoginPacketListenerImpl.m_10053_(100)[m: Disconnecting com.mojang.authlib.GameProfile@4041b6a[id=2fdec197-58fd-3a92-a8c9-336e26aeae55,name=SoySander,properties={},legacy=false] (/127.188.239.164:40953): Took too long to log in
+2025-01-19 17:43:22,378 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerLoginPacketListenerImpl.m_7026_(185)[m: com.mojang.authlib.GameProfile@4041b6a[id=2fdec197-58fd-3a92-a8c9-336e26aeae55,name=SoySander,properties={},legacy=false] (/127.188.239.164:40953) lost connection: Took too long to log in
+2025-01-19 17:43:22,426 [33mWARN [m [m[Server thread][m [mn.m.n.Connection.m_129541_(398)[m: handleDisconnection() called twice
+2025-01-19 17:43:32,426 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Could not pass event InventoryCloseEvent to ChunkLoader v3.2.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.handleInventoryCloseEvent(CraftEventFactory.java:1360) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7951_(ServerGamePacketListenerImpl.java:2006) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:15) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:6) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.InventoryView.getPlayer()" because "this.transaction" is null
+	at org.bukkit.event.inventory.InventoryCloseEvent.getPlayer(InventoryCloseEvent.java:26) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.kayteam.inventoryapi.listeners.InventoryCloseListener.onInventoryClose(InventoryCloseListener.java:25) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor38.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	... 21 more
+2025-01-19 17:47:46,772 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: Jeiker45 has reached the goal [Half a flight]
+2025-01-19 17:49:04,292 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: Jeiker45 has made the advancement [Magic Writing]
+2025-01-19 17:49:10,227 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:tombstone.cast_on_ally, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x00007055d4a54140@372ddd66}
+2025-01-19 17:49:10,228 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: Jeiker45 has reached the goal [A little cleaning is necessary]
+2025-01-19 17:49:41,026 [1;31mERROR[m [m[Server thread][m [mc.s.w.u.e.EventBus.dispatch(195)[m: Could not dispatch event: com.sk89q.worldedit.event.platform.PlayerInputEvent@20cb816c to handler EventHandler{priority=NORMAL}
+java.lang.reflect.InvocationTargetException: null
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:75) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.dispatch(EventBus.java:193) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.post(EventBus.java:181) ~[?:?]
+	at com.sk89q.worldedit.WorldEdit.handleArmSwing(WorldEdit.java:633) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditListener.onPlayerInteract(WorldEditListener.java:128) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor43.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:490) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:457) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:453) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7953_(ServerGamePacketListenerImpl.java:1762) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:7) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:889) ~[guava-31.1-jre.jar%23102!/:?]
+	at com.sk89q.worldedit.blocks.BaseItem.<init>(BaseItem.java:48) ~[?:?]
+	at com.sk89q.worldedit.blocks.BaseItemStack.<init>(BaseItemStack.java:53) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitAdapter.adapt(BukkitAdapter.java:531) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitPlayer.getItemInHand(BukkitPlayer.java:82) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.PlayerProxy.getItemInHand(PlayerProxy.java:69) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.PlatformManager.handlePlayerInput(PlatformManager.java:424) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.MethodHandleEventHandler.dispatch(MethodHandleEventHandler.java:51) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:73) ~[?:?]
+	... 31 more
+2025-01-19 17:49:41,028 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Could not pass event PlayerInteractEvent to WorldGuard v7.0.8+33cdb4a
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:490) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:457) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:453) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7953_(ServerGamePacketListenerImpl.java:1762) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:7) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "com.sk89q.worldedit.world.item.ItemType.getId()" because "this.type" is null
+	at com.sk89q.worldguard.blacklist.target.ItemTarget.getTypeId(ItemTarget.java:34) ~[?:?]
+	at com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:48) ~[?:?]
+	at com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:76) ~[?:?]
+	at com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerInteract(EventAbstractionListener.java:551) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor44.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	... 23 more
+2025-01-19 17:49:49,128 [1;31mERROR[m [m[Server thread][m [mc.s.w.u.e.EventBus.dispatch(195)[m: Could not dispatch event: com.sk89q.worldedit.event.platform.PlayerInputEvent@252a89d5 to handler EventHandler{priority=NORMAL}
+java.lang.reflect.InvocationTargetException: null
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:75) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.dispatch(EventBus.java:193) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.post(EventBus.java:181) ~[?:?]
+	at com.sk89q.worldedit.WorldEdit.handleArmSwing(WorldEdit.java:633) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditListener.onPlayerInteract(WorldEditListener.java:128) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor43.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:490) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:457) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:453) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7953_(ServerGamePacketListenerImpl.java:1762) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:7) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:889) ~[guava-31.1-jre.jar%23102!/:?]
+	at com.sk89q.worldedit.blocks.BaseItem.<init>(BaseItem.java:48) ~[?:?]
+	at com.sk89q.worldedit.blocks.BaseItemStack.<init>(BaseItemStack.java:53) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitAdapter.adapt(BukkitAdapter.java:531) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitPlayer.getItemInHand(BukkitPlayer.java:82) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.PlayerProxy.getItemInHand(PlayerProxy.java:69) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.PlatformManager.handlePlayerInput(PlatformManager.java:424) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.MethodHandleEventHandler.dispatch(MethodHandleEventHandler.java:51) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:73) ~[?:?]
+	... 31 more
+2025-01-19 17:49:49,129 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Could not pass event PlayerInteractEvent to WorldGuard v7.0.8+33cdb4a
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:490) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:457) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:453) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7953_(ServerGamePacketListenerImpl.java:1762) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:7) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "com.sk89q.worldedit.world.item.ItemType.getId()" because "this.type" is null
+	at com.sk89q.worldguard.blacklist.target.ItemTarget.getTypeId(ItemTarget.java:34) ~[?:?]
+	at com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:48) ~[?:?]
+	at com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:76) ~[?:?]
+	at com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerInteract(EventAbstractionListener.java:551) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor44.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	... 23 more
+2025-01-19 17:51:06,701 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:tombstone.undead_killed, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x00007055d4a54140@372ddd66}
