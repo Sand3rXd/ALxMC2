@@ -365,6 +365,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_beef": "2025-01-19 17:21:42 +0000"
+    },
+    "done": false
+  },
   "tombstone:recipes/from_grave_key": {
     "criteria": {
       "has_ingredient": "2025-01-18 18:38:14 +0000"
@@ -428,6 +434,12 @@
   "biomesoplenty:recipes/transportation/magic_boat": {
     "criteria": {
       "in_water": "2025-01-18 19:05:05 +0000"
+    },
+    "done": true
+  },
+  "paraglider:recipes/paraglider/cosmetic/rito_goddess_statue": {
+    "criteria": {
+      "has_goddess_statue": "2025-01-19 17:21:22 +0000"
     },
     "done": true
   },
@@ -660,6 +672,7 @@
       "rocky_shrubland": "2025-01-19 17:14:36 +0000",
       "highland": "2025-01-18 18:24:16 +0000",
       "mystic_grove": "2025-01-19 16:58:31 +0000",
+      "maple_woods": "2025-01-19 17:18:42 +0000",
       "field": "2025-01-18 18:45:32 +0000",
       "orchard": "2025-01-18 19:09:04 +0000",
       "lavender_forest": "2025-01-19 16:55:47 +0000",
@@ -667,6 +680,8 @@
       "spider_nest": "2025-01-18 19:15:52 +0000",
       "redwood_forest": "2025-01-18 19:10:02 +0000",
       "cherry_blossom_grove": "2025-01-18 19:09:39 +0000",
+      "dead_forest": "2025-01-19 17:23:22 +0000",
+      "snowy_maple_woods": "2025-01-19 17:23:28 +0000",
       "ominous_woods": "2025-01-18 19:03:36 +0000"
     },
     "done": false
@@ -764,6 +779,12 @@
   "minecraft:recipes/building_blocks/cobbled_deepslate_stairs": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-19 16:53:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-01-19 17:21:42 +0000"
     },
     "done": true
   },
@@ -1026,6 +1047,12 @@
   "mcwbridges:recipes/balustrade_cobblestone_bridge": {
     "criteria": {
       "has_planks": "2025-01-18 18:49:54 +0000"
+    },
+    "done": true
+  },
+  "paraglider:recipes/paraglider/cosmetic/goddess_statue": {
+    "criteria": {
+      "has_goddess_statue": "2025-01-19 17:21:22 +0000"
     },
     "done": true
   },
@@ -1598,6 +1625,12 @@
     },
     "done": true
   },
+  "paraglider:recipes/paraglider/cosmetic/goron_goddess_statue": {
+    "criteria": {
+      "has_goddess_statue": "2025-01-19 17:21:22 +0000"
+    },
+    "done": true
+  },
   "mcwbridges:recipes/balustrade_andesite_bridge": {
     "criteria": {
       "has_planks": "2025-01-18 19:16:06 +0000"
@@ -1607,6 +1640,12 @@
   "minecraft:recipes/misc/iron_nugget_from_blasting": {
     "criteria": {
       "has_iron_pickaxe": "2025-01-18 19:16:27 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/crocodile": {
+    "criteria": {
+      "killed_by": "2025-01-19 17:24:06 +0000"
     },
     "done": true
   },
@@ -1741,8 +1780,10 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:taiga": "2025-01-18 18:45:46 +0000",
+      "minecraft:frozen_river": "2025-01-19 17:23:14 +0000",
       "minecraft:beach": "2025-01-18 19:05:44 +0000",
       "minecraft:river": "2025-01-18 19:05:05 +0000",
+      "minecraft:snowy_taiga": "2025-01-19 17:23:56 +0000",
       "minecraft:forest": "2025-01-18 18:38:50 +0000",
       "minecraft:meadow": "2025-01-18 18:25:14 +0000",
       "minecraft:plains": "2025-01-18 19:07:30 +0000"
@@ -1869,6 +1910,12 @@
     },
     "done": true
   },
+  "paraglider:recipes/paraglider/cosmetic/kakariko_goddess_statue": {
+    "criteria": {
+      "has_goddess_statue": "2025-01-19 17:21:22 +0000"
+    },
+    "done": true
+  },
   "aquaculture:recipes/misc/gold_nugget_from_blasting": {
     "criteria": {
       "has_fishing_rod": "2025-01-18 18:24:15 +0000",
@@ -1939,6 +1986,12 @@
   "aquaculture:recipes/aquaculture/double_hook": {
     "criteria": {
       "has_items": "2025-01-18 18:24:16 +0000"
+    },
+    "done": true
+  },
+  "paraglider:pray_to_the_goddess": {
+    "criteria": {
+      "bargain": "2025-01-19 17:18:55 +0000"
     },
     "done": true
   },

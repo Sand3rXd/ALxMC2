@@ -534,6 +534,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/first_grave": {
+    "criteria": {
+      "coded_trigger": "2025-01-19 17:21:52 +0000"
+    },
+    "done": true
+  },
   "aquaculture:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
       "has_fishing_rod": "2025-01-18 03:24:30 +0000",
@@ -586,6 +592,12 @@
   "biomesoplenty:recipes/transportation/fir_boat": {
     "criteria": {
       "in_water": "2025-01-18 04:04:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-01-19 17:30:35 +0000"
     },
     "done": true
   },
@@ -708,6 +720,7 @@
       "coniferous_forest": "2025-01-18 16:04:32 +0000",
       "spider_nest": "2025-01-18 16:11:16 +0000",
       "auroral_garden": "2025-01-18 03:26:03 +0000",
+      "fir_clearing": "2025-01-19 17:30:55 +0000",
       "grassland": "2025-01-18 03:25:16 +0000",
       "snowy_maple_woods": "2025-01-18 03:26:11 +0000",
       "ominous_woods": "2025-01-19 17:18:43 +0000"
@@ -753,6 +766,12 @@
   "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
       "has_diamond": "2025-01-18 19:10:56 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/strong_or_careful": {
+    "criteria": {
+      "coded_trigger": "2025-01-19 17:21:52 +0000"
     },
     "done": true
   },
@@ -819,6 +838,12 @@
   "paraglider:paraglider": {
     "criteria": {
       "paraglider": "2025-01-18 19:03:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-01-19 17:30:35 +0000"
     },
     "done": true
   },
@@ -1532,6 +1557,18 @@
   "minecraft:recipes/redstone/oak_pressure_plate": {
     "criteria": {
       "has_planks": "2025-01-18 16:27:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2025-01-19 17:19:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2025-01-19 17:30:35 +0000"
     },
     "done": true
   },
