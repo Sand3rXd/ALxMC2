@@ -143,6 +143,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-19 17:48:56 +0000"
+    },
+    "done": true
+  },
   "mcwbridges:recipes/asian_red_bridge": {
     "criteria": {
       "has_planks": "2025-01-18 18:44:42 +0000"
@@ -152,6 +158,12 @@
   "biomesoplenty:recipes/transportation/mahogany_boat": {
     "criteria": {
       "in_water": "2025-01-18 18:53:21 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/gold_backpack": {
+    "criteria": {
+      "has_iron_backpack": "2025-01-19 17:53:14 +0000"
     },
     "done": true
   },
@@ -179,6 +191,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-19 17:48:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobbled_deepslate_slab": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-18 19:09:53 +0000"
@@ -194,6 +212,12 @@
   "minecraft:recipes/redstone/spruce_button": {
     "criteria": {
       "has_planks": "2025-01-18 18:48:18 +0000"
+    },
+    "done": true
+  },
+  "paraglider:recipes/paraglider/cosmetic/paraglider": {
+    "criteria": {
+      "has_paragliders": "2025-01-19 17:47:46 +0000"
     },
     "done": true
   },
@@ -341,6 +365,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-19 17:48:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/sugar_from_sugar_cane": {
     "criteria": {
       "has_sugar_cane": "2025-01-19 16:49:12 +0000"
@@ -422,6 +452,12 @@
   "minecraft:recipes/redstone/hopper": {
     "criteria": {
       "has_iron_ingot": "2025-01-18 19:33:11 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/gold_fillet_knife": {
+    "criteria": {
+      "has_items": "2025-01-19 17:48:56 +0000"
     },
     "done": true
   },
@@ -576,6 +612,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-19 17:48:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/spyglass": {
     "criteria": {
       "has_amethyst_shard": "2025-01-19 17:45:41 +0000"
@@ -654,6 +696,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-19 17:48:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_chestplate": "2025-01-19 17:13:54 +0000"
@@ -714,6 +762,12 @@
   "minecraft:recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-18 19:09:52 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_magic_scroll": {
+    "criteria": {
+      "has_magic_scroll": "2025-01-19 17:49:04 +0000"
     },
     "done": true
   },
@@ -792,6 +846,18 @@
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
       "in_water": "2025-01-18 18:53:21 +0000"
+    },
+    "done": true
+  },
+  "paraglider:paraglider": {
+    "criteria": {
+      "paraglider": "2025-01-19 17:47:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-19 17:48:56 +0000"
     },
     "done": true
   },
@@ -909,6 +975,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/netherite_backpack": {
+    "criteria": {
+      "has_diamond_backpack": "2025-01-19 17:54:18 +0000"
+    },
+    "done": true
+  },
   "aquaculture:recipes/misc/brown_mushroom_from_fish": {
     "criteria": {
       "has_items": "2025-01-18 17:45:38 +0000"
@@ -982,6 +1054,12 @@
   "aquaculture:recipes/building_blocks/planks_from_driftwood": {
     "criteria": {
       "has_items": "2025-01-18 17:45:38 +0000"
+    },
+    "done": true
+  },
+  "paraglider:recipes/paraglider/cosmetic/deku_leaf": {
+    "criteria": {
+      "has_paragliders": "2025-01-19 17:47:46 +0000"
     },
     "done": true
   },
@@ -1152,6 +1230,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-19 17:48:56 +0000"
+    },
+    "done": true
+  },
   "comforts:hammock_white": {
     "criteria": {
       "has_white_wool": "2025-01-19 16:54:28 +0000"
@@ -1212,6 +1296,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-19 17:48:56 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/umbran_boat": {
     "criteria": {
       "in_water": "2025-01-18 18:53:21 +0000"
@@ -1263,6 +1353,12 @@
   "biomesoplenty:recipes/redstone/fir_pressure_plate": {
     "criteria": {
       "has_planks": "2025-01-18 18:52:19 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/iron_backpack": {
+    "criteria": {
+      "has_backpack": "2025-01-19 17:52:11 +0000"
     },
     "done": true
   },
@@ -1344,6 +1440,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/copper_backpack": {
+    "criteria": {
+      "has_backpack": "2025-01-19 17:52:11 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/sc_manual": {
     "criteria": {
       "has_wood": "2025-01-18 18:44:15 +0000"
@@ -1383,6 +1485,12 @@
   "aquaculture:recipes/aquaculture/gold_hook": {
     "criteria": {
       "has_items": "2025-01-18 17:45:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-19 17:48:56 +0000"
     },
     "done": true
   },
@@ -1440,6 +1548,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-19 17:48:56 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/block_change_detector": {
     "criteria": {
       "has_iron": "2025-01-18 19:33:11 +0000"
@@ -1449,6 +1563,12 @@
   "minecraft:recipes/tools/iron_axe": {
     "criteria": {
       "has_iron_ingot": "2025-01-18 19:33:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-19 17:48:56 +0000"
     },
     "done": true
   },
@@ -1693,6 +1813,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-19 17:48:56 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/limited_use_keycard": {
     "criteria": {
       "has_iron": "2025-01-18 19:33:11 +0000"
@@ -1854,6 +1980,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/diamond_backpack": {
+    "criteria": {
+      "has_gold_backpack": "2025-01-19 17:54:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_boots": {
     "criteria": {
       "has_leather": "2025-01-19 16:50:33 +0000"
@@ -1963,6 +2095,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-19 17:48:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lantern": {
     "criteria": {
       "has_iron_ingot": "2025-01-18 19:33:11 +0000"
@@ -2062,6 +2200,12 @@
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2025-01-18 18:44:55 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_purification": {
+    "criteria": {
+      "has_magic_scroll": "2025-01-19 17:49:10 +0000"
     },
     "done": true
   },

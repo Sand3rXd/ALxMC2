@@ -1496,3 +1496,151 @@ Caused by: java.lang.NullPointerException: Cannot invoke "com.sk89q.worldedit.wo
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
 	... 23 more
 2025-01-19 17:51:06,701 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:tombstone.undead_killed, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x00007055d4a54140@372ddd66}
+2025-01-19 17:53:31,615 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Could not pass event InventoryCloseEvent to ChunkLoader v3.2.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.handleInventoryCloseEvent(CraftEventFactory.java:1360) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7951_(ServerGamePacketListenerImpl.java:2006) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:15) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:6) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.InventoryView.getPlayer()" because "this.transaction" is null
+	at org.bukkit.event.inventory.InventoryCloseEvent.getPlayer(InventoryCloseEvent.java:26) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.kayteam.inventoryapi.listeners.InventoryCloseListener.onInventoryClose(InventoryCloseListener.java:25) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor38.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	... 21 more
+2025-01-19 17:54:46,131 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Could not pass event InventoryCloseEvent to ChunkLoader v3.2.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.handleInventoryCloseEvent(CraftEventFactory.java:1360) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7951_(ServerGamePacketListenerImpl.java:2006) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:15) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:6) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.InventoryView.getPlayer()" because "this.transaction" is null
+	at org.bukkit.event.inventory.InventoryCloseEvent.getPlayer(InventoryCloseEvent.java:26) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.kayteam.inventoryapi.listeners.InventoryCloseListener.onInventoryClose(InventoryCloseListener.java:25) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor38.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	... 21 more
+2025-01-19 17:55:03,095 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Could not pass event InventoryCloseEvent to ChunkLoader v3.2.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.handleInventoryCloseEvent(CraftEventFactory.java:1360) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7951_(ServerGamePacketListenerImpl.java:2006) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:15) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:6) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.InventoryView.getPlayer()" because "this.transaction" is null
+	at org.bukkit.event.inventory.InventoryCloseEvent.getPlayer(InventoryCloseEvent.java:26) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.kayteam.inventoryapi.listeners.InventoryCloseListener.onInventoryClose(InventoryCloseListener.java:25) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor38.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	... 21 more
+2025-01-19 17:55:10,606 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Could not pass event InventoryCloseEvent to ChunkLoader v3.2.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.handleInventoryCloseEvent(CraftEventFactory.java:1360) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7951_(ServerGamePacketListenerImpl.java:2006) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:15) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:6) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.InventoryView.getPlayer()" because "this.transaction" is null
+	at org.bukkit.event.inventory.InventoryCloseEvent.getPlayer(InventoryCloseEvent.java:26) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.kayteam.inventoryapi.listeners.InventoryCloseListener.onInventoryClose(InventoryCloseListener.java:25) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor38.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	... 21 more
+2025-01-19 17:58:30,151 [32mINFO [m [m[User Authenticator #15][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(378)[m: UUID of player SoySander is 2fdec197-58fd-3a92-a8c9-336e26aeae55
+2025-01-19 17:58:43,578 [32mINFO [m [m[Server thread][m [mn.m.c.AdvancementLoadFix.loadVisibility(36)[m: Using new advancement loading for net.minecraft.server.PlayerAdvancements@75fb6ea1
+2025-01-19 17:58:43,596 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander joined the game
+2025-01-19 17:58:43,604 [32mINFO [m [m[Server thread][m [mn.m.s.p.PlayerList.m_11261_(323)[m: SoySander[/127.1.205.168:44629] logged in with entity id 46618 at (201.85149082821914, 114.31818396737404, -821.1006015362391)
+2025-01-19 17:59:13,525 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7026_(1412)[m: SoySander lost connection: Timed out
+2025-01-19 17:59:13,525 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander left the game
+2025-01-19 17:59:50,682 [32mINFO [m [m[User Authenticator #16][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(378)[m: UUID of player SoySander is 2fdec197-58fd-3a92-a8c9-336e26aeae55
+2025-01-19 17:59:54,026 [32mINFO [m [m[Server thread][m [mn.m.c.AdvancementLoadFix.loadVisibility(36)[m: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4a188742
+2025-01-19 17:59:54,044 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander joined the game
+2025-01-19 17:59:54,052 [32mINFO [m [m[Server thread][m [mn.m.s.p.PlayerList.m_11261_(323)[m: SoySander[/127.188.239.164:36903] logged in with entity id 47024 at (201.85149082821914, 114.31818396737404, -821.1006015362391)
+2025-01-19 18:00:26,366 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: [SoySander: Set own game mode to Survival Mode]
+2025-01-19 18:00:39,484 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: [SoySander: Teleported SoySander to 15.000000, 119.000000, -1300.000000]
+2025-01-19 18:00:40,269 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7026_(1412)[m: SoySander lost connection: Disconnected
+2025-01-19 18:00:40,269 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander left the game
+2025-01-19 18:00:50,301 [32mINFO [m [m[User Authenticator #16][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(378)[m: UUID of player SoySander is 2fdec197-58fd-3a92-a8c9-336e26aeae55
+2025-01-19 18:00:53,830 [32mINFO [m [m[Server thread][m [mn.m.c.AdvancementLoadFix.loadVisibility(36)[m: Using new advancement loading for net.minecraft.server.PlayerAdvancements@d324799
+2025-01-19 18:00:53,851 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander joined the game
+2025-01-19 18:00:53,885 [32mINFO [m [m[Server thread][m [mn.m.s.p.PlayerList.m_11261_(323)[m: SoySander[/127.133.193.248:43111] logged in with entity id 47584 at (15.0, 119.0, -1300.0)
+2025-01-19 18:02:02,478 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7026_(1412)[m: SoySander lost connection: Timed out
+2025-01-19 18:02:02,479 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander left the game
