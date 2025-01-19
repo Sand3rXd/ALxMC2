@@ -18063,3 +18063,840 @@ Caused by: java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.I
 2025-01-19 18:02:02,479 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander left the game
 2025-01-19 18:02:13,594 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1408)[m: Gathering id map for writing to world save world
 2025-01-19 18:02:13,606 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1414)[m: ID Map collection complete world
+2025-01-19 18:05:05,875 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7026_(1412)[m: Jeiker45 lost connection: Disconnected
+2025-01-19 18:05:05,875 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: Jeiker45 left the game
+2025-01-19 18:05:29,968 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.<init>(132)[m: Starting new modded impl connection. Found 30 messages to dispatch.
+2025-01-19 18:05:29,968 [32mINFO [m [m[User Authenticator #17][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(378)[m: UUID of player un_randompro is 4f2ddd44-221e-3406-80eb-bdd38f185eca
+2025-01-19 18:05:29,971 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModData' to 'fml:handshake' sequence 0
+2025-01-19 18:05:30,021 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModList' to 'fml:handshake' sequence 1
+2025-01-19 18:05:30,071 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:command_argument_type' to 'fml:handshake' sequence 2
+2025-01-19 18:05:30,123 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:recipe_serializer' to 'fml:handshake' sequence 3
+2025-01-19 18:05:30,171 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:sound_event' to 'fml:handshake' sequence 4
+2025-01-19 18:05:30,224 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:particle_type' to 'fml:handshake' sequence 5
+2025-01-19 18:05:30,272 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:villager_profession' to 'fml:handshake' sequence 6
+2025-01-19 18:05:30,322 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:item' to 'fml:handshake' sequence 7
+2025-01-19 18:05:30,349 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 1
+2025-01-19 18:05:30,349 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 1 of type net.minecraftforge.network.HandshakeMessages$C2SModListReply
+2025-01-19 18:05:30,349 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientModListOnServer(241)[m: Received client connection with modlist [minecraft, mcwbridges, betterdungeons, terrablender, biomesoplenty, connectiblechains, playeranimator, creativecore, jei, spectrelib, bendylib, sophisticatedcore, curios, waystones, camera, journeymap, comforts, citadel, alexsmobs, securitycraft, artifacts, yungsapi, plasmovoice, cpm, mixinextras, inventoryhud, tombstone, sophisticatedbackpacks, mcwdoors, balm, carryon, chat_heads, usefulslime, paraglider, cloth_config, forge, aquaculture, cosmeticarmorreworked, expandability, tlskincape, playerrevive, emotecraft, decocraft]
+2025-01-19 18:05:30,350 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'comforts:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:05:30,350 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'carryon:carryonpackets' : Version test of '1.0' from client : ACCEPTED
+2025-01-19 18:05:30,350 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'minecraft:unregister' : Version test of 'FML3' from client : ACCEPTED
+2025-01-19 18:05:30,350 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'sophisticatedbackpacks:channel' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:05:30,350 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'citadel:main_channel' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:05:30,350 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'securitycraft:securitycraft' : Version test of 'v1.9.6.1' from client : ACCEPTED
+2025-01-19 18:05:30,350 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'curios:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:05:30,350 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'plasmo:voice/v2' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+2025-01-19 18:05:30,350 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'fml:loginwrapper' : Version test of 'FML3' from client : ACCEPTED
+2025-01-19 18:05:30,350 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'forge:tier_sorting' : Version test of '1.0' from client : ACCEPTED
+2025-01-19 18:05:30,350 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'spectrelib:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:05:30,350 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'connectiblechains:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:05:30,350 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'alexsmobs:main_channel' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:05:30,350 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'tombstone:tombstone_channel' : Version test of 'tombstone-8.3.7' from client : ACCEPTED
+2025-01-19 18:05:30,350 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'playerrevive:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:05:30,351 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'decocraft:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:05:30,351 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'cosmeticarmorreworked:main' : Version test of '2' from client : ACCEPTED
+2025-01-19 18:05:30,351 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'paraglider:master' : Version test of '1.0' from client : ACCEPTED
+2025-01-19 18:05:30,351 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'fml:play' : Version test of 'FML3' from client : ACCEPTED
+2025-01-19 18:05:30,351 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'plasmo:voice/v2/installed' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+2025-01-19 18:05:30,351 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'creativecore:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:05:30,351 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'camera:default' : Version test of '1.0.0' from client : ACCEPTED
+2025-01-19 18:05:30,351 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'sophisticatedcore:channel' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:05:30,351 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'geyser:emote' : Version test of '0' from client : ACCEPTED
+2025-01-19 18:05:30,351 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'artifacts:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:05:30,351 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'fml:handshake' : Version test of 'FML3' from client : ACCEPTED
+2025-01-19 18:05:30,351 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'plasmo:voice/v2/service' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+2025-01-19 18:05:30,351 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'minecraft:register' : Version test of 'FML3' from client : ACCEPTED
+2025-01-19 18:05:30,351 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'forge:split' : Version test of '1.1' from client : ACCEPTED
+2025-01-19 18:05:30,351 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'waystones:network' : Version test of '1.0' from client : ACCEPTED
+2025-01-19 18:05:30,352 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'emotecraft:emote' : Version test of '8' from client : ACCEPTED
+2025-01-19 18:05:30,352 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.NetworkRegistry.validateChannels(244)[m: Accepting channel list from client
+2025-01-19 18:05:30,352 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientModListOnServer(252)[m: Accepted client connection mod list
+2025-01-19 18:05:30,352 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 2
+2025-01-19 18:05:30,352 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 2 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:30,352 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:30,352 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 3
+2025-01-19 18:05:30,352 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 3 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:30,352 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:30,371 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:potion' to 'fml:handshake' sequence 8
+2025-01-19 18:05:30,422 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:painting_variant' to 'fml:handshake' sequence 9
+2025-01-19 18:05:30,474 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry forge:fluid_type' to 'fml:handshake' sequence 10
+2025-01-19 18:05:30,524 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:block_entity_type' to 'fml:handshake' sequence 11
+2025-01-19 18:05:30,535 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 4
+2025-01-19 18:05:30,535 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 4 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:30,535 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:30,571 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:block' to 'fml:handshake' sequence 12
+2025-01-19 18:05:30,578 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 5
+2025-01-19 18:05:30,578 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 5 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:30,578 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:30,621 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 6
+2025-01-19 18:05:30,621 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 6 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:30,621 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:30,621 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry forge:entity_data_serializers' to 'fml:handshake' sequence 13
+2025-01-19 18:05:30,673 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:mob_effect' to 'fml:handshake' sequence 14
+2025-01-19 18:05:30,721 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:stat_type' to 'fml:handshake' sequence 15
+2025-01-19 18:05:30,760 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 7
+2025-01-19 18:05:30,760 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 7 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:30,760 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:30,770 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry tombstone:perks' to 'fml:handshake' sequence 16
+2025-01-19 18:05:30,800 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 8
+2025-01-19 18:05:30,800 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 8 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:30,800 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:30,821 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:menu' to 'fml:handshake' sequence 17
+2025-01-19 18:05:30,822 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 9
+2025-01-19 18:05:30,822 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 9 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:30,822 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:30,822 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 10
+2025-01-19 18:05:30,822 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 10 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:30,822 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:30,822 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 11
+2025-01-19 18:05:30,822 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 11 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:30,822 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:30,871 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:enchantment' to 'fml:handshake' sequence 18
+2025-01-19 18:05:30,921 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry connectiblechains:iron_chain' to 'fml:handshake' sequence 19
+2025-01-19 18:05:30,971 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:fluid' to 'fml:handshake' sequence 20
+2025-01-19 18:05:30,986 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 12
+2025-01-19 18:05:30,986 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 12 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:30,986 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:30,986 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 13
+2025-01-19 18:05:30,986 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 13 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:30,987 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:30,987 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 14
+2025-01-19 18:05:30,987 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 14 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:30,987 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:30,987 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 15
+2025-01-19 18:05:30,987 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 15 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:30,987 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:30,987 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 16
+2025-01-19 18:05:30,987 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 16 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:30,987 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:30,987 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 17
+2025-01-19 18:05:30,987 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 17 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:30,987 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:31,023 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:entity_type' to 'fml:handshake' sequence 21
+2025-01-19 18:05:31,072 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config camera-server.toml' to 'fml:handshake' sequence 22
+2025-01-19 18:05:31,105 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 18
+2025-01-19 18:05:31,105 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 18 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:31,105 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:31,123 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config securitycraft-server.toml' to 'fml:handshake' sequence 23
+2025-01-19 18:05:31,123 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 19
+2025-01-19 18:05:31,123 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 19 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:31,123 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:31,123 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 20
+2025-01-19 18:05:31,123 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 20 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:31,123 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:31,171 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config curios-server.toml' to 'fml:handshake' sequence 24
+2025-01-19 18:05:31,224 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config paraglider-server.toml' to 'fml:handshake' sequence 25
+2025-01-19 18:05:31,272 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config artifacts-server.toml' to 'fml:handshake' sequence 26
+2025-01-19 18:05:31,322 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config tombstone-server.toml' to 'fml:handshake' sequence 27
+2025-01-19 18:05:31,371 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config sophisticatedbackpacks-server.toml' to 'fml:handshake' sequence 28
+2025-01-19 18:05:31,420 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 29
+2025-01-19 18:05:32,724 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 21
+2025-01-19 18:05:32,725 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 21 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:32,725 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:32,725 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 22
+2025-01-19 18:05:32,725 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 22 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:32,725 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:32,728 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 23
+2025-01-19 18:05:32,728 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 23 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:32,728 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:32,728 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 24
+2025-01-19 18:05:32,728 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 24 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:32,728 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:32,728 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 25
+2025-01-19 18:05:32,728 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 25 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:32,728 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:32,730 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 26
+2025-01-19 18:05:32,730 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 26 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:32,730 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:32,732 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 27
+2025-01-19 18:05:32,732 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 27 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:32,732 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:32,735 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 28
+2025-01-19 18:05:32,735 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 28 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:32,736 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:32,736 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 29
+2025-01-19 18:05:32,736 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 29 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:05:32,736 [36mDEBUG[m [m[Netty Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:05:32,770 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(382)[m: Handshake complete!
+2025-01-19 18:05:32,825 [32mINFO [m [m[Server thread][m [mn.m.c.AdvancementLoadFix.loadVisibility(36)[m: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5d917900
+2025-01-19 18:05:32,834 [36mDEBUG[m [m[Server thread][m [mn.m.n.f.NetworkFilters.lambda$injectIfNecessary$1(40)[m: Injected net.minecraftforge.network.filters.ForgeConnectionNetworkFilter@263b54cb into net.minecraft.network.Connection@46a0108c
+2025-01-19 18:05:32,840 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: un_randompro joined the game
+2025-01-19 18:05:32,853 [32mINFO [m [m[Server thread][m [mn.m.s.p.PlayerList.m_11261_(323)[m: un_randompro[/127.224.235.140:43143] logged in with entity id 48548 at (481.4137894082141, -34.0, -1352.8466180803177)
+2025-01-19 18:05:35,439 [36mDEBUG[m [m[Server thread][m [memotecraft.log(62)[m: [emotes server] Received data from: 4f2ddd44-221e-3406-80eb-bdd38f185eca data: NetData{purpose=CONFIG, threshold=8.0, stopEmoteID=null, emoteData=null, startingAt=0, player=null}
+2025-01-19 18:05:35,441 [33mWARN [m [m[Server thread][m [mn.m.s.MinecraftServer.m_130011_(860)[m: Can't keep up! Is the server overloaded? Running 2524ms or 50 ticks behind
+2025-01-19 18:06:08,424 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.<init>(132)[m: Starting new modded impl connection. Found 30 messages to dispatch.
+2025-01-19 18:06:08,519 [32mINFO [m [m[User Authenticator #17][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(378)[m: UUID of player Jeiker45 is bc83c48d-239b-3c9d-8ef1-19b53d610ac4
+2025-01-19 18:06:08,523 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModData' to 'fml:handshake' sequence 0
+2025-01-19 18:06:08,575 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModList' to 'fml:handshake' sequence 1
+2025-01-19 18:06:08,625 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:command_argument_type' to 'fml:handshake' sequence 2
+2025-01-19 18:06:08,678 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:recipe_serializer' to 'fml:handshake' sequence 3
+2025-01-19 18:06:08,729 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:sound_event' to 'fml:handshake' sequence 4
+2025-01-19 18:06:08,774 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:particle_type' to 'fml:handshake' sequence 5
+2025-01-19 18:06:08,825 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:villager_profession' to 'fml:handshake' sequence 6
+2025-01-19 18:06:08,825 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 1
+2025-01-19 18:06:08,826 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 1 of type net.minecraftforge.network.HandshakeMessages$C2SModListReply
+2025-01-19 18:06:08,826 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientModListOnServer(241)[m: Received client connection with modlist [minecraft, mcwbridges, betterdungeons, terrablender, biomesoplenty, connectiblechains, playeranimator, creativecore, jei, spectrelib, bendylib, sophisticatedcore, curios, waystones, camera, journeymap, comforts, citadel, alexsmobs, securitycraft, artifacts, yungsapi, plasmovoice, cpm, mixinextras, inventoryhud, tombstone, sophisticatedbackpacks, mcwdoors, balm, carryon, chat_heads, usefulslime, skinlayers3d, paraglider, cloth_config, forge, aquaculture, cosmeticarmorreworked, expandability, tlskincape, playerrevive, emotecraft, decocraft]
+2025-01-19 18:06:08,826 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'comforts:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:06:08,826 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'carryon:carryonpackets' : Version test of '1.0' from client : ACCEPTED
+2025-01-19 18:06:08,826 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'minecraft:unregister' : Version test of 'FML3' from client : ACCEPTED
+2025-01-19 18:06:08,826 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'sophisticatedbackpacks:channel' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:06:08,826 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'citadel:main_channel' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:06:08,826 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'securitycraft:securitycraft' : Version test of 'v1.9.6.1' from client : ACCEPTED
+2025-01-19 18:06:08,826 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'curios:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:06:08,826 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'plasmo:voice/v2' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+2025-01-19 18:06:08,826 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'fml:loginwrapper' : Version test of 'FML3' from client : ACCEPTED
+2025-01-19 18:06:08,826 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'forge:tier_sorting' : Version test of '1.0' from client : ACCEPTED
+2025-01-19 18:06:08,826 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'spectrelib:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:06:08,827 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'connectiblechains:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:06:08,827 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'alexsmobs:main_channel' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:06:08,827 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'tombstone:tombstone_channel' : Version test of 'tombstone-8.3.7' from client : ACCEPTED
+2025-01-19 18:06:08,827 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'playerrevive:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:06:08,827 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'decocraft:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:06:08,827 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'cosmeticarmorreworked:main' : Version test of '2' from client : ACCEPTED
+2025-01-19 18:06:08,827 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'paraglider:master' : Version test of '1.0' from client : ACCEPTED
+2025-01-19 18:06:08,827 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'fml:play' : Version test of 'FML3' from client : ACCEPTED
+2025-01-19 18:06:08,827 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'plasmo:voice/v2/installed' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+2025-01-19 18:06:08,827 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'creativecore:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:06:08,827 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'camera:default' : Version test of '1.0.0' from client : ACCEPTED
+2025-01-19 18:06:08,827 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'sophisticatedcore:channel' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:06:08,827 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'geyser:emote' : Version test of '0' from client : ACCEPTED
+2025-01-19 18:06:08,827 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'artifacts:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:06:08,827 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'fml:handshake' : Version test of 'FML3' from client : ACCEPTED
+2025-01-19 18:06:08,827 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'plasmo:voice/v2/service' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+2025-01-19 18:06:08,827 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'minecraft:register' : Version test of 'FML3' from client : ACCEPTED
+2025-01-19 18:06:08,827 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'forge:split' : Version test of '1.1' from client : ACCEPTED
+2025-01-19 18:06:08,827 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'waystones:network' : Version test of '1.0' from client : ACCEPTED
+2025-01-19 18:06:08,828 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'emotecraft:emote' : Version test of '8' from client : ACCEPTED
+2025-01-19 18:06:08,828 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.NetworkRegistry.validateChannels(244)[m: Accepting channel list from client
+2025-01-19 18:06:08,828 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientModListOnServer(252)[m: Accepted client connection mod list
+2025-01-19 18:06:08,828 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 2
+2025-01-19 18:06:08,828 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 2 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:08,828 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:08,869 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 3
+2025-01-19 18:06:08,869 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 3 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:08,869 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:08,873 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:item' to 'fml:handshake' sequence 7
+2025-01-19 18:06:08,926 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:potion' to 'fml:handshake' sequence 8
+2025-01-19 18:06:08,974 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:painting_variant' to 'fml:handshake' sequence 9
+2025-01-19 18:06:09,025 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry forge:fluid_type' to 'fml:handshake' sequence 10
+2025-01-19 18:06:09,073 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:block_entity_type' to 'fml:handshake' sequence 11
+2025-01-19 18:06:09,096 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 4
+2025-01-19 18:06:09,096 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 4 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:09,097 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:09,127 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:block' to 'fml:handshake' sequence 12
+2025-01-19 18:06:09,127 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 5
+2025-01-19 18:06:09,127 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 5 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:09,127 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:09,127 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 6
+2025-01-19 18:06:09,128 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 6 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:09,128 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:09,176 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry forge:entity_data_serializers' to 'fml:handshake' sequence 13
+2025-01-19 18:06:09,227 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:mob_effect' to 'fml:handshake' sequence 14
+2025-01-19 18:06:09,293 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:stat_type' to 'fml:handshake' sequence 15
+2025-01-19 18:06:09,339 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry tombstone:perks' to 'fml:handshake' sequence 16
+2025-01-19 18:06:09,365 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 7
+2025-01-19 18:06:09,365 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 7 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:09,365 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:09,380 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:menu' to 'fml:handshake' sequence 17
+2025-01-19 18:06:09,380 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 8
+2025-01-19 18:06:09,380 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 8 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:09,380 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:09,380 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 9
+2025-01-19 18:06:09,380 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 9 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:09,380 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:09,380 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 10
+2025-01-19 18:06:09,381 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 10 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:09,381 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:09,381 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 11
+2025-01-19 18:06:09,381 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 11 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:09,381 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:09,425 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:enchantment' to 'fml:handshake' sequence 18
+2025-01-19 18:06:09,454 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 12
+2025-01-19 18:06:09,454 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 12 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:09,454 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:09,456 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 13
+2025-01-19 18:06:09,456 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 13 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:09,456 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:09,465 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 14
+2025-01-19 18:06:09,465 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 14 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:09,465 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:09,466 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 15
+2025-01-19 18:06:09,466 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 15 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:09,466 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:09,473 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry connectiblechains:iron_chain' to 'fml:handshake' sequence 19
+2025-01-19 18:06:09,482 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 16
+2025-01-19 18:06:09,482 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 16 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:09,482 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:09,523 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:fluid' to 'fml:handshake' sequence 20
+2025-01-19 18:06:09,527 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 17
+2025-01-19 18:06:09,527 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 17 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:09,527 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:09,569 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 18
+2025-01-19 18:06:09,569 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 18 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:09,569 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:09,574 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:entity_type' to 'fml:handshake' sequence 21
+2025-01-19 18:06:09,625 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config camera-server.toml' to 'fml:handshake' sequence 22
+2025-01-19 18:06:09,662 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 19
+2025-01-19 18:06:09,663 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 19 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:09,663 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:09,673 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config securitycraft-server.toml' to 'fml:handshake' sequence 23
+2025-01-19 18:06:09,673 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 20
+2025-01-19 18:06:09,674 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 20 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:09,674 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:09,730 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config curios-server.toml' to 'fml:handshake' sequence 24
+2025-01-19 18:06:09,778 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config paraglider-server.toml' to 'fml:handshake' sequence 25
+2025-01-19 18:06:09,826 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config artifacts-server.toml' to 'fml:handshake' sequence 26
+2025-01-19 18:06:09,875 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config tombstone-server.toml' to 'fml:handshake' sequence 27
+2025-01-19 18:06:09,925 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config sophisticatedbackpacks-server.toml' to 'fml:handshake' sequence 28
+2025-01-19 18:06:09,973 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 29
+2025-01-19 18:06:18,628 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7026_(1412)[m: un_randompro lost connection: Disconnected
+2025-01-19 18:06:18,629 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: un_randompro left the game
+2025-01-19 18:06:25,711 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 21
+2025-01-19 18:06:25,711 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 21 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:25,711 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:26,001 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 22
+2025-01-19 18:06:26,001 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 22 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:26,001 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:26,053 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 23
+2025-01-19 18:06:26,053 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 23 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:26,054 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:26,058 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 24
+2025-01-19 18:06:26,058 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 24 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:26,059 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:26,123 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 25
+2025-01-19 18:06:26,124 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 25 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:26,124 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:26,145 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 26
+2025-01-19 18:06:26,145 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 26 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:26,145 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:26,165 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 27
+2025-01-19 18:06:26,165 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 27 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:26,166 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:26,195 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 28
+2025-01-19 18:06:26,195 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 28 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:26,195 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:26,294 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 29
+2025-01-19 18:06:26,294 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 29 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:06:26,294 [36mDEBUG[m [m[Netty Server IO #0][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:06:26,321 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(382)[m: Handshake complete!
+2025-01-19 18:06:26,375 [32mINFO [m [m[Server thread][m [mn.m.c.AdvancementLoadFix.loadVisibility(36)[m: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5a4738e2
+2025-01-19 18:06:26,381 [36mDEBUG[m [m[Server thread][m [mn.m.n.f.NetworkFilters.lambda$injectIfNecessary$1(40)[m: Injected net.minecraftforge.network.filters.ForgeConnectionNetworkFilter@503fb315 into net.minecraft.network.Connection@1ce41ca
+2025-01-19 18:06:26,385 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: Jeiker45 joined the game
+2025-01-19 18:06:26,393 [32mINFO [m [m[Server thread][m [mn.m.s.p.PlayerList.m_11261_(323)[m: Jeiker45[/127.139.153.150:42435] logged in with entity id 48930 at (-71.43857029429412, -39.0, -2146.5717120001596)
+2025-01-19 18:06:28,384 [36mDEBUG[m [m[Server thread][m [memotecraft.log(62)[m: [emotes server] Received data from: bc83c48d-239b-3c9d-8ef1-19b53d610ac4 data: NetData{purpose=CONFIG, threshold=8.0, stopEmoteID=null, emoteData=null, startingAt=0, player=null}
+2025-01-19 18:07:04,202 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Could not pass event InventoryCloseEvent to ChunkLoader v3.2.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.handleInventoryCloseEvent(CraftEventFactory.java:1360) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7951_(ServerGamePacketListenerImpl.java:2006) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:15) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:6) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.InventoryView.getPlayer()" because "this.transaction" is null
+	at org.bukkit.event.inventory.InventoryCloseEvent.getPlayer(InventoryCloseEvent.java:26) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.kayteam.inventoryapi.listeners.InventoryCloseListener.onInventoryClose(InventoryCloseListener.java:25) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor38.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	... 21 more
+2025-01-19 18:07:10,974 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Could not pass event InventoryCloseEvent to ChunkLoader v3.2.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.handleInventoryCloseEvent(CraftEventFactory.java:1360) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7951_(ServerGamePacketListenerImpl.java:2006) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:15) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:6) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.InventoryView.getPlayer()" because "this.transaction" is null
+	at org.bukkit.event.inventory.InventoryCloseEvent.getPlayer(InventoryCloseEvent.java:26) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.kayteam.inventoryapi.listeners.InventoryCloseListener.onInventoryClose(InventoryCloseListener.java:25) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor38.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	... 21 more
+2025-01-19 18:07:15,175 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Could not pass event InventoryCloseEvent to ChunkLoader v3.2.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.handleInventoryCloseEvent(CraftEventFactory.java:1360) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7951_(ServerGamePacketListenerImpl.java:2006) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:15) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:6) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:973) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.InventoryView.getPlayer()" because "this.transaction" is null
+	at org.bukkit.event.inventory.InventoryCloseEvent.getPlayer(InventoryCloseEvent.java:26) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.kayteam.inventoryapi.listeners.InventoryCloseListener.onInventoryClose(InventoryCloseListener.java:25) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor38.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	... 21 more
+2025-01-19 18:07:16,096 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1408)[m: Gathering id map for writing to world save world
+2025-01-19 18:07:16,109 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1414)[m: ID Map collection complete world
+2025-01-19 18:08:09,323 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.<init>(132)[m: Starting new modded impl connection. Found 30 messages to dispatch.
+2025-01-19 18:08:09,324 [32mINFO [m [m[User Authenticator #18][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(378)[m: UUID of player un_randompro is 4f2ddd44-221e-3406-80eb-bdd38f185eca
+2025-01-19 18:08:09,327 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModData' to 'fml:handshake' sequence 0
+2025-01-19 18:08:09,376 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModList' to 'fml:handshake' sequence 1
+2025-01-19 18:08:09,425 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:command_argument_type' to 'fml:handshake' sequence 2
+2025-01-19 18:08:09,475 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:recipe_serializer' to 'fml:handshake' sequence 3
+2025-01-19 18:08:09,525 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:sound_event' to 'fml:handshake' sequence 4
+2025-01-19 18:08:09,576 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:particle_type' to 'fml:handshake' sequence 5
+2025-01-19 18:08:09,624 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:villager_profession' to 'fml:handshake' sequence 6
+2025-01-19 18:08:09,672 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:item' to 'fml:handshake' sequence 7
+2025-01-19 18:08:09,701 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 1
+2025-01-19 18:08:09,701 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 1 of type net.minecraftforge.network.HandshakeMessages$C2SModListReply
+2025-01-19 18:08:09,701 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientModListOnServer(241)[m: Received client connection with modlist [minecraft, mcwbridges, betterdungeons, terrablender, biomesoplenty, connectiblechains, playeranimator, creativecore, jei, spectrelib, bendylib, sophisticatedcore, curios, waystones, camera, journeymap, comforts, citadel, alexsmobs, securitycraft, artifacts, yungsapi, plasmovoice, cpm, mixinextras, inventoryhud, tombstone, sophisticatedbackpacks, mcwdoors, balm, carryon, chat_heads, usefulslime, paraglider, cloth_config, forge, aquaculture, cosmeticarmorreworked, expandability, tlskincape, playerrevive, emotecraft, decocraft]
+2025-01-19 18:08:09,701 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'comforts:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:08:09,702 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'carryon:carryonpackets' : Version test of '1.0' from client : ACCEPTED
+2025-01-19 18:08:09,702 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'minecraft:unregister' : Version test of 'FML3' from client : ACCEPTED
+2025-01-19 18:08:09,702 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'sophisticatedbackpacks:channel' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:08:09,702 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'citadel:main_channel' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:08:09,702 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'securitycraft:securitycraft' : Version test of 'v1.9.6.1' from client : ACCEPTED
+2025-01-19 18:08:09,702 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'curios:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:08:09,702 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'plasmo:voice/v2' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+2025-01-19 18:08:09,702 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'fml:loginwrapper' : Version test of 'FML3' from client : ACCEPTED
+2025-01-19 18:08:09,702 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'forge:tier_sorting' : Version test of '1.0' from client : ACCEPTED
+2025-01-19 18:08:09,702 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'spectrelib:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:08:09,702 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'connectiblechains:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:08:09,702 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'alexsmobs:main_channel' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:08:09,702 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'tombstone:tombstone_channel' : Version test of 'tombstone-8.3.7' from client : ACCEPTED
+2025-01-19 18:08:09,702 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'playerrevive:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:08:09,702 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'decocraft:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:08:09,702 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'cosmeticarmorreworked:main' : Version test of '2' from client : ACCEPTED
+2025-01-19 18:08:09,702 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'paraglider:master' : Version test of '1.0' from client : ACCEPTED
+2025-01-19 18:08:09,703 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'fml:play' : Version test of 'FML3' from client : ACCEPTED
+2025-01-19 18:08:09,703 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'plasmo:voice/v2/installed' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+2025-01-19 18:08:09,703 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'creativecore:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:08:09,703 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'camera:default' : Version test of '1.0.0' from client : ACCEPTED
+2025-01-19 18:08:09,703 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'sophisticatedcore:channel' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:08:09,703 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'geyser:emote' : Version test of '0' from client : ACCEPTED
+2025-01-19 18:08:09,703 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'artifacts:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:08:09,703 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'fml:handshake' : Version test of 'FML3' from client : ACCEPTED
+2025-01-19 18:08:09,703 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'plasmo:voice/v2/service' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+2025-01-19 18:08:09,703 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'minecraft:register' : Version test of 'FML3' from client : ACCEPTED
+2025-01-19 18:08:09,703 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'forge:split' : Version test of '1.1' from client : ACCEPTED
+2025-01-19 18:08:09,703 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'waystones:network' : Version test of '1.0' from client : ACCEPTED
+2025-01-19 18:08:09,703 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'emotecraft:emote' : Version test of '8' from client : ACCEPTED
+2025-01-19 18:08:09,703 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.NetworkRegistry.validateChannels(244)[m: Accepting channel list from client
+2025-01-19 18:08:09,703 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientModListOnServer(252)[m: Accepted client connection mod list
+2025-01-19 18:08:09,704 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 2
+2025-01-19 18:08:09,704 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 2 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:09,704 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:09,704 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 3
+2025-01-19 18:08:09,704 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 3 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:09,704 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:09,726 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:potion' to 'fml:handshake' sequence 8
+2025-01-19 18:08:09,778 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:painting_variant' to 'fml:handshake' sequence 9
+2025-01-19 18:08:09,824 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry forge:fluid_type' to 'fml:handshake' sequence 10
+2025-01-19 18:08:09,872 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:block_entity_type' to 'fml:handshake' sequence 11
+2025-01-19 18:08:09,879 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 4
+2025-01-19 18:08:09,879 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 4 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:09,879 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:09,924 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:block' to 'fml:handshake' sequence 12
+2025-01-19 18:08:09,931 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 5
+2025-01-19 18:08:09,931 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 5 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:09,931 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:09,932 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 6
+2025-01-19 18:08:09,932 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 6 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:09,932 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:09,982 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry forge:entity_data_serializers' to 'fml:handshake' sequence 13
+2025-01-19 18:08:10,026 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:mob_effect' to 'fml:handshake' sequence 14
+2025-01-19 18:08:10,080 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:stat_type' to 'fml:handshake' sequence 15
+2025-01-19 18:08:10,109 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 7
+2025-01-19 18:08:10,109 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 7 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:10,109 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:10,127 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry tombstone:perks' to 'fml:handshake' sequence 16
+2025-01-19 18:08:10,147 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 8
+2025-01-19 18:08:10,147 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 8 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:10,147 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:10,174 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:menu' to 'fml:handshake' sequence 17
+2025-01-19 18:08:10,174 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 9
+2025-01-19 18:08:10,174 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 9 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:10,174 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:10,174 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 10
+2025-01-19 18:08:10,175 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 10 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:10,175 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:10,175 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 11
+2025-01-19 18:08:10,175 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 11 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:10,175 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:10,225 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:enchantment' to 'fml:handshake' sequence 18
+2025-01-19 18:08:10,273 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry connectiblechains:iron_chain' to 'fml:handshake' sequence 19
+2025-01-19 18:08:10,325 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:fluid' to 'fml:handshake' sequence 20
+2025-01-19 18:08:10,347 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 12
+2025-01-19 18:08:10,347 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 12 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:10,347 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:10,347 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 13
+2025-01-19 18:08:10,347 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 13 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:10,347 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:10,348 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 14
+2025-01-19 18:08:10,348 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 14 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:10,348 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:10,348 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 15
+2025-01-19 18:08:10,348 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 15 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:10,348 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:10,348 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 16
+2025-01-19 18:08:10,348 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 16 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:10,348 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:10,350 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 17
+2025-01-19 18:08:10,350 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 17 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:10,350 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:10,376 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:entity_type' to 'fml:handshake' sequence 21
+2025-01-19 18:08:10,425 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config camera-server.toml' to 'fml:handshake' sequence 22
+2025-01-19 18:08:10,461 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 18
+2025-01-19 18:08:10,461 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 18 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:10,461 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:10,461 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 19
+2025-01-19 18:08:10,461 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 19 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:10,461 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:10,477 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config securitycraft-server.toml' to 'fml:handshake' sequence 23
+2025-01-19 18:08:10,485 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 20
+2025-01-19 18:08:10,485 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 20 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:10,485 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:10,523 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config curios-server.toml' to 'fml:handshake' sequence 24
+2025-01-19 18:08:10,573 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config paraglider-server.toml' to 'fml:handshake' sequence 25
+2025-01-19 18:08:10,623 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config artifacts-server.toml' to 'fml:handshake' sequence 26
+2025-01-19 18:08:10,673 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config tombstone-server.toml' to 'fml:handshake' sequence 27
+2025-01-19 18:08:10,729 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config sophisticatedbackpacks-server.toml' to 'fml:handshake' sequence 28
+2025-01-19 18:08:10,774 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 29
+2025-01-19 18:08:12,326 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 21
+2025-01-19 18:08:12,326 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 21 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:12,326 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:12,326 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 22
+2025-01-19 18:08:12,326 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 22 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:12,326 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:12,369 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 23
+2025-01-19 18:08:12,369 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 23 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:12,369 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:12,369 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 24
+2025-01-19 18:08:12,369 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 24 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:12,370 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:12,370 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 25
+2025-01-19 18:08:12,370 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 25 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:12,370 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:12,370 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 26
+2025-01-19 18:08:12,370 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 26 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:12,370 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:12,370 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 27
+2025-01-19 18:08:12,370 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 27 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:12,370 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:12,370 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 28
+2025-01-19 18:08:12,370 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 28 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:12,370 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:12,370 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 29
+2025-01-19 18:08:12,370 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 29 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:08:12,371 [36mDEBUG[m [m[Netty Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:08:12,373 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(382)[m: Handshake complete!
+2025-01-19 18:08:12,427 [32mINFO [m [m[Server thread][m [mn.m.c.AdvancementLoadFix.loadVisibility(36)[m: Using new advancement loading for net.minecraft.server.PlayerAdvancements@68fec0a9
+2025-01-19 18:08:12,431 [36mDEBUG[m [m[Server thread][m [mn.m.n.f.NetworkFilters.lambda$injectIfNecessary$1(40)[m: Injected net.minecraftforge.network.filters.ForgeConnectionNetworkFilter@52cb282 into net.minecraft.network.Connection@11b63c00
+2025-01-19 18:08:12,436 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: un_randompro joined the game
+2025-01-19 18:08:12,447 [32mINFO [m [m[Server thread][m [mn.m.s.p.PlayerList.m_11261_(323)[m: un_randompro[/127.224.235.140:36107] logged in with entity id 49475 at (473.69999998807907, -55.0, -1400.3676941230178)
+2025-01-19 18:08:14,946 [36mDEBUG[m [m[Server thread][m [memotecraft.log(62)[m: [emotes server] Received data from: 4f2ddd44-221e-3406-80eb-bdd38f185eca data: NetData{purpose=CONFIG, threshold=8.0, stopEmoteID=null, emoteData=null, startingAt=0, player=null}
+2025-01-19 18:08:14,967 [33mWARN [m [m[Server thread][m [mn.m.s.MinecraftServer.m_130011_(860)[m: Can't keep up! Is the server overloaded? Running 2450ms or 49 ticks behind
+2025-01-19 18:08:36,777 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Could not pass event InventoryCloseEvent to ChunkLoader v3.2.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.handleInventoryCloseEvent(CraftEventFactory.java:1360) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7951_(ServerGamePacketListenerImpl.java:2006) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:15) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:6) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.InventoryView.getPlayer()" because "this.transaction" is null
+	at org.bukkit.event.inventory.InventoryCloseEvent.getPlayer(InventoryCloseEvent.java:26) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.kayteam.inventoryapi.listeners.InventoryCloseListener.onInventoryClose(InventoryCloseListener.java:25) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor38.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	... 21 more
+2025-01-19 18:10:00,965 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Could not pass event InventoryCloseEvent to ChunkLoader v3.2.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.handleInventoryCloseEvent(CraftEventFactory.java:1360) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7951_(ServerGamePacketListenerImpl.java:2006) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:15) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:6) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.InventoryView.getPlayer()" because "this.transaction" is null
+	at org.bukkit.event.inventory.InventoryCloseEvent.getPlayer(InventoryCloseEvent.java:26) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.kayteam.inventoryapi.listeners.InventoryCloseListener.onInventoryClose(InventoryCloseListener.java:25) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor38.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	... 21 more
+2025-01-19 18:10:10,186 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7026_(1412)[m: un_randompro lost connection: Disconnected
+2025-01-19 18:10:10,186 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: un_randompro left the game
+2025-01-19 18:11:58,383 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Could not pass event InventoryCloseEvent to ChunkLoader v3.2.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.handleInventoryCloseEvent(CraftEventFactory.java:1360) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7951_(ServerGamePacketListenerImpl.java:2006) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:15) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:6) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.InventoryView.getPlayer()" because "this.transaction" is null
+	at org.bukkit.event.inventory.InventoryCloseEvent.getPlayer(InventoryCloseEvent.java:26) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	at org.kayteam.inventoryapi.listeners.InventoryCloseListener.onInventoryClose(InventoryCloseListener.java:25) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor38.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
+	... 21 more
+2025-01-19 18:12:01,572 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.<init>(132)[m: Starting new modded impl connection. Found 30 messages to dispatch.
+2025-01-19 18:12:01,573 [32mINFO [m [m[User Authenticator #19][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(378)[m: UUID of player un_randompro is 4f2ddd44-221e-3406-80eb-bdd38f185eca
+2025-01-19 18:12:01,575 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModData' to 'fml:handshake' sequence 0
+2025-01-19 18:12:01,624 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModList' to 'fml:handshake' sequence 1
+2025-01-19 18:12:01,673 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:command_argument_type' to 'fml:handshake' sequence 2
+2025-01-19 18:12:01,722 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:recipe_serializer' to 'fml:handshake' sequence 3
+2025-01-19 18:12:01,773 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:sound_event' to 'fml:handshake' sequence 4
+2025-01-19 18:12:01,823 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:particle_type' to 'fml:handshake' sequence 5
+2025-01-19 18:12:01,873 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:villager_profession' to 'fml:handshake' sequence 6
+2025-01-19 18:12:01,923 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:item' to 'fml:handshake' sequence 7
+2025-01-19 18:12:01,977 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:potion' to 'fml:handshake' sequence 8
+2025-01-19 18:12:01,989 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 1
+2025-01-19 18:12:01,989 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 1 of type net.minecraftforge.network.HandshakeMessages$C2SModListReply
+2025-01-19 18:12:01,989 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientModListOnServer(241)[m: Received client connection with modlist [minecraft, mcwbridges, betterdungeons, terrablender, biomesoplenty, connectiblechains, playeranimator, creativecore, jei, spectrelib, bendylib, sophisticatedcore, curios, waystones, camera, journeymap, comforts, citadel, alexsmobs, securitycraft, artifacts, yungsapi, plasmovoice, cpm, mixinextras, inventoryhud, tombstone, sophisticatedbackpacks, mcwdoors, balm, carryon, chat_heads, usefulslime, paraglider, cloth_config, forge, aquaculture, cosmeticarmorreworked, expandability, tlskincape, playerrevive, emotecraft, decocraft]
+2025-01-19 18:12:01,989 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'comforts:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:12:01,990 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'carryon:carryonpackets' : Version test of '1.0' from client : ACCEPTED
+2025-01-19 18:12:01,990 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'minecraft:unregister' : Version test of 'FML3' from client : ACCEPTED
+2025-01-19 18:12:01,990 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'sophisticatedbackpacks:channel' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:12:01,990 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'citadel:main_channel' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:12:01,990 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'securitycraft:securitycraft' : Version test of 'v1.9.6.1' from client : ACCEPTED
+2025-01-19 18:12:01,990 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'curios:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:12:01,990 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'plasmo:voice/v2' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+2025-01-19 18:12:01,990 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'fml:loginwrapper' : Version test of 'FML3' from client : ACCEPTED
+2025-01-19 18:12:01,990 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'forge:tier_sorting' : Version test of '1.0' from client : ACCEPTED
+2025-01-19 18:12:01,990 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'spectrelib:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:12:01,990 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'connectiblechains:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:12:01,990 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'alexsmobs:main_channel' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:12:01,990 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'tombstone:tombstone_channel' : Version test of 'tombstone-8.3.7' from client : ACCEPTED
+2025-01-19 18:12:01,990 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'playerrevive:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:12:01,990 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'decocraft:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:12:01,990 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'cosmeticarmorreworked:main' : Version test of '2' from client : ACCEPTED
+2025-01-19 18:12:01,990 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'paraglider:master' : Version test of '1.0' from client : ACCEPTED
+2025-01-19 18:12:01,991 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'fml:play' : Version test of 'FML3' from client : ACCEPTED
+2025-01-19 18:12:01,991 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'plasmo:voice/v2/installed' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+2025-01-19 18:12:01,991 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'creativecore:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:12:01,991 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'camera:default' : Version test of '1.0.0' from client : ACCEPTED
+2025-01-19 18:12:01,991 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'sophisticatedcore:channel' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:12:01,991 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'geyser:emote' : Version test of '0' from client : ACCEPTED
+2025-01-19 18:12:01,991 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'artifacts:main' : Version test of '1' from client : ACCEPTED
+2025-01-19 18:12:01,991 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'fml:handshake' : Version test of 'FML3' from client : ACCEPTED
+2025-01-19 18:12:01,991 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'plasmo:voice/v2/service' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+2025-01-19 18:12:01,991 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'minecraft:register' : Version test of 'FML3' from client : ACCEPTED
+2025-01-19 18:12:01,991 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'forge:split' : Version test of '1.1' from client : ACCEPTED
+2025-01-19 18:12:01,991 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'waystones:network' : Version test of '1.0' from client : ACCEPTED
+2025-01-19 18:12:01,991 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'emotecraft:emote' : Version test of '8' from client : ACCEPTED
+2025-01-19 18:12:01,991 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.NetworkRegistry.validateChannels(244)[m: Accepting channel list from client
+2025-01-19 18:12:01,991 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientModListOnServer(252)[m: Accepted client connection mod list
+2025-01-19 18:12:01,992 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 2
+2025-01-19 18:12:01,992 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 2 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:01,992 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:01,992 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 3
+2025-01-19 18:12:01,992 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 3 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:01,992 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:02,025 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:painting_variant' to 'fml:handshake' sequence 9
+2025-01-19 18:12:02,074 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry forge:fluid_type' to 'fml:handshake' sequence 10
+2025-01-19 18:12:02,128 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:block_entity_type' to 'fml:handshake' sequence 11
+2025-01-19 18:12:02,128 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 4
+2025-01-19 18:12:02,128 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 4 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:02,128 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:02,179 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:block' to 'fml:handshake' sequence 12
+2025-01-19 18:12:02,180 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 5
+2025-01-19 18:12:02,180 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 5 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:02,180 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:02,221 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 6
+2025-01-19 18:12:02,221 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 6 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:02,221 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:02,230 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry forge:entity_data_serializers' to 'fml:handshake' sequence 13
+2025-01-19 18:12:02,275 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:mob_effect' to 'fml:handshake' sequence 14
+2025-01-19 18:12:02,324 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:stat_type' to 'fml:handshake' sequence 15
+2025-01-19 18:12:02,354 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 7
+2025-01-19 18:12:02,354 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 7 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:02,354 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:02,373 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry tombstone:perks' to 'fml:handshake' sequence 16
+2025-01-19 18:12:02,397 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 8
+2025-01-19 18:12:02,397 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 8 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:02,398 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:02,398 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 9
+2025-01-19 18:12:02,398 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 9 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:02,398 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:02,398 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 10
+2025-01-19 18:12:02,398 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 10 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:02,398 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:02,428 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:menu' to 'fml:handshake' sequence 17
+2025-01-19 18:12:02,428 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 11
+2025-01-19 18:12:02,428 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 11 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:02,428 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:02,477 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:enchantment' to 'fml:handshake' sequence 18
+2025-01-19 18:12:02,529 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry connectiblechains:iron_chain' to 'fml:handshake' sequence 19
+2025-01-19 18:12:02,575 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:fluid' to 'fml:handshake' sequence 20
+2025-01-19 18:12:02,589 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 12
+2025-01-19 18:12:02,589 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 12 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:02,589 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:02,589 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 13
+2025-01-19 18:12:02,589 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 13 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:02,590 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:02,590 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 14
+2025-01-19 18:12:02,590 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 14 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:02,590 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:02,590 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 15
+2025-01-19 18:12:02,590 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 15 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:02,590 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:02,590 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 16
+2025-01-19 18:12:02,590 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 16 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:02,590 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:02,590 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 17
+2025-01-19 18:12:02,590 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 17 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:02,590 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:02,624 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Registry minecraft:entity_type' to 'fml:handshake' sequence 21
+2025-01-19 18:12:02,674 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config camera-server.toml' to 'fml:handshake' sequence 22
+2025-01-19 18:12:02,711 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 18
+2025-01-19 18:12:02,711 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 18 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:02,711 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:02,711 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 19
+2025-01-19 18:12:02,711 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 19 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:02,711 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:02,723 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config securitycraft-server.toml' to 'fml:handshake' sequence 23
+2025-01-19 18:12:02,723 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 20
+2025-01-19 18:12:02,723 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 20 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:02,723 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:02,774 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config curios-server.toml' to 'fml:handshake' sequence 24
+2025-01-19 18:12:02,823 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config paraglider-server.toml' to 'fml:handshake' sequence 25
+2025-01-19 18:12:02,872 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config artifacts-server.toml' to 'fml:handshake' sequence 26
+2025-01-19 18:12:02,929 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config tombstone-server.toml' to 'fml:handshake' sequence 27
+2025-01-19 18:12:02,975 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config sophisticatedbackpacks-server.toml' to 'fml:handshake' sequence 28
+2025-01-19 18:12:03,024 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(355)[m: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 29
+2025-01-19 18:12:04,488 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 21
+2025-01-19 18:12:04,489 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 21 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:04,489 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:04,489 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 22
+2025-01-19 18:12:04,489 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 22 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:04,489 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:04,490 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 23
+2025-01-19 18:12:04,490 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 23 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:04,491 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:04,491 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 24
+2025-01-19 18:12:04,491 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 24 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:04,491 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:04,492 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 25
+2025-01-19 18:12:04,492 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 25 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:04,492 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:04,492 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 26
+2025-01-19 18:12:04,493 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 26 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:04,493 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:04,494 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 27
+2025-01-19 18:12:04,495 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 27 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:04,495 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:04,495 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 28
+2025-01-19 18:12:04,495 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 28 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:04,495 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:04,495 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.LoginWrapper.wrapperReceived(51)[m: Recieved login wrapper packet event for channel fml:handshake with index 29
+2025-01-19 18:12:04,495 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleIndexedMessage(232)[m: Received client indexed reply 29 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-19 18:12:04,495 [36mDEBUG[m [m[Netty Server IO #3][m [mn.m.n.HandshakeHandler.handleClientAck(322)[m: Received acknowledgement from client
+2025-01-19 18:12:04,523 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(382)[m: Handshake complete!
+2025-01-19 18:12:04,574 [32mINFO [m [m[Server thread][m [mn.m.c.AdvancementLoadFix.loadVisibility(36)[m: Using new advancement loading for net.minecraft.server.PlayerAdvancements@27d3374e
+2025-01-19 18:12:04,579 [36mDEBUG[m [m[Server thread][m [mn.m.n.f.NetworkFilters.lambda$injectIfNecessary$1(40)[m: Injected net.minecraftforge.network.filters.ForgeConnectionNetworkFilter@3a1a25a into net.minecraft.network.Connection@1c6c5d5f
+2025-01-19 18:12:04,584 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: un_randompro joined the game
+2025-01-19 18:12:04,591 [32mINFO [m [m[Server thread][m [mn.m.s.p.PlayerList.m_11261_(323)[m: un_randompro[/127.224.235.140:60483] logged in with entity id 50746 at (538.7076291098381, -32.0, -1313.5058815577793)
+2025-01-19 18:12:07,291 [36mDEBUG[m [m[Server thread][m [memotecraft.log(62)[m: [emotes server] Received data from: 4f2ddd44-221e-3406-80eb-bdd38f185eca data: NetData{purpose=CONFIG, threshold=8.0, stopEmoteID=null, emoteData=null, startingAt=0, player=null}
+2025-01-19 18:12:07,299 [33mWARN [m [m[Server thread][m [mn.m.s.MinecraftServer.m_130011_(860)[m: Can't keep up! Is the server overloaded? Running 2633ms or 52 ticks behind
+2025-01-19 18:12:21,156 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1408)[m: Gathering id map for writing to world save world
+2025-01-19 18:12:21,168 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1414)[m: ID Map collection complete world
