@@ -265,3 +265,7 @@ java.lang.AbstractMethodError: Method su/plo/voice/paper/PaperVoiceServer.getMin
 2025-01-19 22:08:29,326 [32mINFO [m [m[Server thread][m [mn.m.c.AdvancementLoadFix.loadVisibility(36)[m: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5a92e7d1
 2025-01-19 22:08:29,371 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander joined the game
 2025-01-19 22:08:29,436 [32mINFO [m [m[Server thread][m [mn.m.s.p.PlayerList.m_11261_(323)[m: SoySander[/127.132.108.172:40627] logged in with entity id 1026 at (-90.815419183616, 120.17675927506424, -1405.3444919709657)
+2025-01-19 22:18:17,322 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: [SoySander: Set own game mode to Creative Mode]
+2025-01-19 22:22:07,948 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: [SoySander: Set own game mode to Survival Mode]
+2025-01-19 22:25:28,511 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7026_(1412)[m: SoySander lost connection: Disconnected
+2025-01-19 22:25:28,512 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander left the game
