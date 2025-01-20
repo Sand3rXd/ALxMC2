@@ -35118,3 +35118,127 @@ Caused by: java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.I
 2025-01-20 20:04:28,479 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: [SoySander: Set own game mode to Creative Mode]
 2025-01-20 20:04:30,348 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:minecraft.waystone_activated, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x000076e838a54140@7fe70ffb}
 2025-01-20 20:04:40,745 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: [SoySander: Set own game mode to Survival Mode]
+2025-01-20 20:05:29,714 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Could not pass event InventoryCloseEvent to ChunkLoader v3.2.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.handleInventoryCloseEvent(CraftEventFactory.java:1360) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7951_(ServerGamePacketListenerImpl.java:2006) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:15) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:6) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.InventoryView.getPlayer()" because "this.transaction" is null
+	at org.bukkit.event.inventory.InventoryCloseEvent.getPlayer(InventoryCloseEvent.java:26) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.kayteam.inventoryapi.listeners.InventoryCloseListener.onInventoryClose(InventoryCloseListener.java:25) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor42.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	... 21 more
+2025-01-20 20:06:03,835 [32mINFO [m [m[Async Chat Thread - #53][m [mn.m.s.MinecraftServer.m_241158_(2088)[m: <farnan777xd> XD
+2025-01-20 20:06:10,870 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: [SoySander: Teleported SoySander to DarienZ45]
+2025-01-20 20:06:31,634 [32mINFO [m [m[Async Chat Thread - #53][m [mn.m.s.MinecraftServer.m_241158_(2088)[m: <farnan777xd> muchachos me voy a tragar un buen pito
+2025-01-20 20:06:32,982 [32mINFO [m [m[Async Chat Thread - #53][m [mn.m.s.MinecraftServer.m_241158_(2088)[m: <farnan777xd> chau}
+2025-01-20 20:06:39,764 [32mINFO [m [m[Async Chat Thread - #53][m [mn.m.s.MinecraftServer.m_241158_(2088)[m: <DarienZ45> chau
+2025-01-20 20:07:49,634 [32mINFO [m [m[Async Chat Thread - #55][m [mn.m.s.MinecraftServer.m_241158_(2088)[m: <farnan777xd> se vinieron rapidamente en mi boca
+2025-01-20 20:07:51,169 [32mINFO [m [m[Async Chat Thread - #55][m [mn.m.s.MinecraftServer.m_241158_(2088)[m: <farnan777xd> ya vine
+2025-01-20 20:07:52,439 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:minecraft.waystone_activated, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x000076e838a54140@7fe70ffb}
+2025-01-20 20:07:53,993 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Could not pass event InventoryCloseEvent to ChunkLoader v3.2.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.handleInventoryCloseEvent(CraftEventFactory.java:1360) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7951_(ServerGamePacketListenerImpl.java:2006) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:15) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:6) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.InventoryView.getPlayer()" because "this.transaction" is null
+	at org.bukkit.event.inventory.InventoryCloseEvent.getPlayer(InventoryCloseEvent.java:26) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.kayteam.inventoryapi.listeners.InventoryCloseListener.onInventoryClose(InventoryCloseListener.java:25) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor42.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	... 21 more
+2025-01-20 20:08:02,681 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Could not pass event InventoryCloseEvent to ChunkLoader v3.2.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.handleInventoryCloseEvent(CraftEventFactory.java:1360) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7951_(ServerGamePacketListenerImpl.java:2006) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:15) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:6) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.InventoryView.getPlayer()" because "this.transaction" is null
+	at org.bukkit.event.inventory.InventoryCloseEvent.getPlayer(InventoryCloseEvent.java:26) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.kayteam.inventoryapi.listeners.InventoryCloseListener.onInventoryClose(InventoryCloseListener.java:25) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor42.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	... 21 more
+2025-01-20 20:08:10,801 [32mINFO [m [m[Async Chat Thread - #55][m [mn.m.s.MinecraftServer.m_241158_(2088)[m: <farnan777xd> denme modo survival
+2025-01-20 20:08:26,338 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: [SoySander: Set farnan777xd's game mode to Survival Mode]
+2025-01-20 20:08:46,490 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7026_(1412)[m: farnan777xd lost connection: Disconnected
+2025-01-20 20:08:46,490 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: farnan777xd left the game
+2025-01-20 20:08:50,308 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: [SoySander: Set DarienZ45's game mode to Survival Mode]
+2025-01-20 20:09:12,013 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:tombstone.undead_killed, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x000076e838a54140@7fe70ffb}
+2025-01-20 20:09:18,140 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:tombstone.undead_killed, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x000076e838a54140@7fe70ffb}
+2025-01-20 20:09:25,778 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:minecraft.waystone_activated, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x000076e838a54140@7fe70ffb}
+2025-01-20 20:09:35,988 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:tombstone.undead_killed, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x000076e838a54140@7fe70ffb}
+2025-01-20 20:10:01,087 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7026_(1412)[m: DarienZ45 lost connection: Disconnected
+2025-01-20 20:10:01,088 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: DarienZ45 left the game
+2025-01-20 20:10:26,004 [33mWARN [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_6371_(1355)[m: Rejecting UseItemOnPacket from SoySander: Location (-533.6595405936241, 67.74175012111664, -1650.2367496490479) too far away from hit block BlockPos{x=-534, y=66, z=-1651}.
+2025-01-20 20:10:26,267 [33mWARN [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_6371_(1355)[m: Rejecting UseItemOnPacket from SoySander: Location (-533.5630583763123, 67.74175012111664, -1650.1950348615646) too far away from hit block BlockPos{x=-534, y=66, z=-1651}.
+2025-01-20 20:10:27,044 [33mWARN [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_6371_(1355)[m: Rejecting UseItemOnPacket from SoySander: Location (-533.4796746969223, 67.74175012111664, -1650.195890903473) too far away from hit block BlockPos{x=-534, y=66, z=-1651}.
+2025-01-20 20:10:27,045 [33mWARN [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_6371_(1355)[m: Rejecting UseItemOnPacket from SoySander: Location (-533.43394947052, 67.74175012111664, -1650.3253538012505) too far away from hit block BlockPos{x=-534, y=66, z=-1651}.
+2025-01-20 20:10:38,331 [33mWARN [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_6371_(1355)[m: Rejecting UseItemOnPacket from SoySander: Location (-533.4378561377525, 67.61578154563904, -1651.3984987735748) too far away from hit block BlockPos{x=-534, y=66, z=-1652}.
+2025-01-20 20:11:14,393 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: [SoySander: Set own game mode to Creative Mode]
+2025-01-20 20:13:25,263 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: [SoySander: Set own game mode to Survival Mode]
+2025-01-20 20:13:37,504 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: [SoySander: Set own game mode to Creative Mode]
+2025-01-20 20:13:43,780 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: [SoySander: Set own game mode to Survival Mode]

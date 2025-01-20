@@ -1352,6 +1352,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/securitycraft/reinforced_light_gray_glazed_terracotta": {
+    "criteria": {
+      "has_item": "2025-01-20 20:08:06 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/reinforced_diorite": {
     "criteria": {
       "has_cobblestone": "2025-01-18 19:04:14 +0000"
