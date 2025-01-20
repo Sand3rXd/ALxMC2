@@ -1607,6 +1607,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2025-01-20 19:22:00 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/universal_owner_changer": {
     "criteria": {
       "has_name_tag": "2025-01-19 23:33:31 +0000"

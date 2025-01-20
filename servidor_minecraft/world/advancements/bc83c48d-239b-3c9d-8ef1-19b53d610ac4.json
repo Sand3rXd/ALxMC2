@@ -251,6 +251,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-01-20 19:25:00 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/electrified_iron_fence": {
     "criteria": {
       "has_iron": "2025-01-18 19:33:11 +0000"
@@ -2126,6 +2132,12 @@
   "securitycraft:recipes/securitycraft/harming_module": {
     "criteria": {
       "has_iron": "2025-01-18 19:33:11 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/bone_crusher": {
+    "criteria": {
+      "coded_trigger": "2025-01-20 19:30:34 +0000"
     },
     "done": true
   },
