@@ -161,6 +161,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/gold_backpack": {
+    "criteria": {
+      "has_iron_backpack": "2025-01-20 18:59:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2025-01-18 19:10:45 +0000"
@@ -516,6 +522,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
+    "criteria": {
+      "has_prismarine_bricks": "2025-01-20 18:46:52 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/door_indestructible_iron_item": {
     "criteria": {
       "has_iron": "2025-01-18 19:11:10 +0000"
@@ -826,7 +838,8 @@
       "minecraft:cave_spider": "2025-01-20 00:37:57 +0000",
       "minecraft:piglin": "2025-01-20 02:13:17 +0000",
       "minecraft:enderman": "2025-01-20 00:21:50 +0000",
-      "minecraft:zombie": "2025-01-20 00:26:05 +0000"
+      "minecraft:zombie": "2025-01-20 00:26:05 +0000",
+      "minecraft:drowned": "2025-01-20 19:09:30 +0000"
     },
     "done": false
   },
@@ -1322,6 +1335,12 @@
     },
     "done": true
   },
+  "mcwbridges:recipes/prismarine_bricks_bridge": {
+    "criteria": {
+      "has_planks": "2025-01-20 18:46:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2025-01-19 23:19:49 +0000"
@@ -1404,6 +1423,12 @@
   "comforts:sleeping_bag_brown": {
     "criteria": {
       "has_brown_wool": "2025-01-20 01:57:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2025-01-20 18:46:52 +0000"
     },
     "done": true
   },
@@ -1518,6 +1543,12 @@
   "securitycraft:recipes/securitycraft/end_stone_mine": {
     "criteria": {
       "has_mine": "2025-01-19 23:40:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2025-01-20 18:46:52 +0000"
     },
     "done": true
   },
@@ -1784,6 +1815,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/diamond_backpack": {
+    "criteria": {
+      "has_gold_backpack": "2025-01-20 18:59:12 +0000"
+    },
+    "done": true
+  },
   "aquaculture:recipes/misc/bonemeal_from_fish_bones": {
     "criteria": {
       "has_items": "2025-01-18 18:58:55 +0000"
@@ -1842,6 +1879,12 @@
   "comforts:sleeping_bag_yellow_from_white": {
     "criteria": {
       "has_sleeping_bag": "2025-01-20 01:16:42 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/balustrade_prismarine_bricks_bridge": {
+    "criteria": {
+      "has_planks": "2025-01-20 18:46:52 +0000"
     },
     "done": true
   },
@@ -2607,6 +2650,12 @@
   "aquaculture:recipes/food/cooked_fish_fillet_from_smoking": {
     "criteria": {
       "has_items": "2025-01-18 18:58:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab": {
+    "criteria": {
+      "has_prismarine_bricks": "2025-01-20 18:46:52 +0000"
     },
     "done": true
   },
@@ -3678,6 +3727,12 @@
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/crocodile": {
+    "criteria": {
+      "killed_by": "2025-01-20 19:03:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2025-01-19 23:29:42 +0000"
@@ -3699,6 +3754,12 @@
   "comforts:sleeping_bag_red_from_white": {
     "criteria": {
       "has_sleeping_bag": "2025-01-20 01:16:42 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/purple_dye_from_lavender": {
+    "criteria": {
+      "has_flower": "2025-01-20 19:13:32 +0000"
     },
     "done": true
   },
@@ -3811,6 +3872,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2025-01-20 19:02:40 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/reinforced_pink_stained_glass_pane_from_dye": {
     "criteria": {
       "has_glass": "2025-01-20 01:38:40 +0000"
@@ -3868,6 +3935,12 @@
   "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
       "has_iron_block": "2025-01-20 02:13:52 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/prismarine_bricks_bridge_pier": {
+    "criteria": {
+      "has_planks": "2025-01-20 18:46:52 +0000"
     },
     "done": true
   },
@@ -4000,6 +4073,12 @@
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2025-01-19 04:01:32 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/prismarine_bricks_bridge_stair": {
+    "criteria": {
+      "has_planks": "2025-01-20 18:46:52 +0000"
     },
     "done": true
   },
