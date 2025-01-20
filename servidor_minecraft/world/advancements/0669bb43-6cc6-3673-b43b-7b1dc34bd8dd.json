@@ -849,6 +849,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-01-20 19:56:29 +0000",
       "minecraft:skeleton": "2025-01-19 04:00:21 +0000",
       "minecraft:spider": "2025-01-19 23:19:47 +0000",
       "minecraft:piglin_brute": "2025-01-20 02:13:11 +0000",
@@ -2890,6 +2891,12 @@
   "securitycraft:recipes/securitycraft/reinforced_gray_stained_glass_pane_from_glass": {
     "criteria": {
       "has_glass": "2025-01-20 01:38:40 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/strong_or_careful": {
+    "criteria": {
+      "coded_trigger": "2025-01-20 19:55:41 +0000"
     },
     "done": true
   },

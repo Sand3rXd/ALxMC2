@@ -400,6 +400,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2025-01-20 19:58:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2025-01-20 18:35:29 +0000"
@@ -445,6 +451,12 @@
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2025-01-20 02:44:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-01-20 19:58:19 +0000"
     },
     "done": true
   },
@@ -523,6 +535,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-01-20 02:58:36 +0000",
+      "minecraft:creeper": "2025-01-20 19:59:09 +0000",
       "minecraft:zombie": "2025-01-20 02:59:31 +0000"
     },
     "done": false
@@ -668,6 +681,12 @@
   "biomesoplenty:recipes/redstone/umbran_button": {
     "criteria": {
       "has_planks": "2025-01-20 18:13:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2025-01-20 19:58:19 +0000"
     },
     "done": true
   },
@@ -1306,6 +1325,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/ambush": {
+    "criteria": {
+      "coded_trigger": "2025-01-20 19:56:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_pillar": {
     "criteria": {
       "has_chiseled_quartz_block": "2025-01-20 18:57:42 +0000"
@@ -1661,6 +1686,12 @@
   "minecraft:recipes/misc/leather_horse_armor": {
     "criteria": {
       "has_leather": "2025-01-20 19:20:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_sand": "2025-01-20 19:58:08 +0000"
     },
     "done": true
   },
@@ -2385,9 +2416,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-01-20 20:02:22 +0000"
+    },
+    "done": true
+  },
   "mcwbridges:recipes/oak_rail_bridge": {
     "criteria": {
       "has_planks": "2025-01-20 18:05:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-01-20 19:58:19 +0000"
     },
     "done": true
   },
