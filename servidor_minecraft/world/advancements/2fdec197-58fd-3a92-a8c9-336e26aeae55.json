@@ -1721,6 +1721,12 @@
     },
     "done": true
   },
+  "mcwbridges:recipes/iron_bridge_stair": {
+    "criteria": {
+      "has_planks": "2025-01-20 20:41:37 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/alarm": {
     "criteria": {
       "has_redstone": "2025-01-19 17:36:48 +0000"
