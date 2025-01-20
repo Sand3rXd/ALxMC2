@@ -1,4 +1,10 @@
 {
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-01-20 21:15:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
     "criteria": {
       "has_mutton": "2025-01-20 21:06:04 +0000"
@@ -32,6 +38,12 @@
   "biomesoplenty:recipes/transportation/willow_boat": {
     "criteria": {
       "in_water": "2025-01-20 20:27:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2025-01-20 21:15:10 +0000"
     },
     "done": true
   },
@@ -86,6 +98,12 @@
   "securitycraft:recipes/securitycraft/reinforced_lever": {
     "criteria": {
       "has_cobble": "2025-01-20 20:29:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2025-01-20 21:15:10 +0000"
     },
     "done": true
   },
@@ -259,6 +277,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-01-20 21:15:10 +0000"
+    },
+    "done": true
+  },
   "aquaculture:recipes/aquaculture/diamond_hook": {
     "criteria": {
       "has_items": "2025-01-20 02:19:55 +0000"
@@ -320,6 +344,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_string": "2025-01-20 21:15:10 +0000"
+    },
+    "done": true
+  },
   "aquaculture:recipes/aquaculture/worm_farm": {
     "criteria": {
       "has_items": "2025-01-20 02:19:55 +0000"
@@ -341,6 +371,12 @@
   "biomesoplenty:recipes/transportation/fir_boat": {
     "criteria": {
       "in_water": "2025-01-20 20:27:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-01-20 21:15:10 +0000"
     },
     "done": true
   },
@@ -458,8 +494,10 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:river": "2025-01-20 21:23:22 +0000",
       "minecraft:forest": "2025-01-20 20:23:59 +0000",
-      "minecraft:meadow": "2025-01-20 02:21:50 +0000"
+      "minecraft:meadow": "2025-01-20 02:21:50 +0000",
+      "minecraft:plains": "2025-01-20 21:23:32 +0000"
     },
     "done": false
   },
@@ -599,6 +637,12 @@
   "aquaculture:recipes/aquaculture/iron_hook": {
     "criteria": {
       "has_items": "2025-01-20 02:19:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-01-20 21:15:10 +0000"
     },
     "done": true
   },
