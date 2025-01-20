@@ -1,66 +1,78 @@
-2025-01-19 21:57:52,315 [32mINFO [m [m[main][m [mc.m.m.Launcher.main(76)[m: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
-2025-01-19 21:57:52,322 [32mINFO [m [m[main][m [mc.m.m.Launcher.<init>(51)[m: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
-2025-01-19 21:57:53,118 [32mINFO [m [m[main][m [mmixin.info(97)[m: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/ALxMC2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2382!/ Service=ModLauncher Env=SERVER
-2025-01-19 21:57:53,756 [32mINFO [m [m[main][m [mn.m.f.l.m.JarInJarDependencyLocator.scanMods(58)[m: Found 7 dependencies adding them to mods collection
-2025-01-19 21:57:56,154 [32mINFO [m [m[main][m [mmixin.info(97)[m: Compatibility level set to JAVA_17
-2025-01-19 21:57:56,185 [1;31mERROR[m [m[main][m [mmixin.error(77)[m: Mixin config bendylib.mixins.json does not specify "minVersion" property
-2025-01-19 21:57:56,327 [32mINFO [m [m[main][m [mmixin.info(97)[m: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
-2025-01-19 21:57:56,330 [32mINFO [m [m[main][m [mmixin.info(97)[m: Successfully loaded Mixin Connector [tictim.paraglider.MixinConnector]
-2025-01-19 21:57:56,335 [32mINFO [m [m[main][m [mc.m.m.LaunchServiceHandler.launch(52)[m: Launching target 'forgeserver' with arguments [nogui]
-2025-01-19 21:58:03,637 [32mINFO [m [m[main][m [mn.m.u.d.DataFixers.m_14529_(272)[m: Building unoptimized datafixer
-2025-01-19 21:58:07,486 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.ForgeMod.<init>(428)[m: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
-2025-01-19 21:58:07,488 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.MinecraftForge.initialize(49)[m: MinecraftForge v43.4.2 Initialized
-2025-01-19 21:58:07,569 [32mINFO [m [m[modloading-worker-0][m [mb.f.e.ExpandAbility.init(12)[m: ExpandAbility here, who dis?
-2025-01-19 21:58:07,707 [32mINFO [m [m[modloading-worker-0][m [mc.m.MohistMC.init(39)[m: EventDispatcherRegistry initialized
-2025-01-19 21:58:22,752 [32mINFO [m [m[modloading-worker-0][m [mCPM.setup(55)[m: Customizable Player Models Initialized
-2025-01-19 21:58:22,877 [32mINFO [m [m[main][m [mterrablender.register(47)[m: Registered region minecraft:overworld to index 0 for type OVERWORLD
-2025-01-19 21:58:22,877 [32mINFO [m [m[main][m [mterrablender.register(47)[m: Registered region minecraft:nether to index 0 for type NETHER
-2025-01-19 21:58:22,878 [32mINFO [m [m[main][m [mterrablender.register(47)[m: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-2025-01-19 21:58:22,878 [32mINFO [m [m[main][m [mterrablender.register(47)[m: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-2025-01-19 21:58:22,878 [32mINFO [m [m[main][m [mterrablender.register(47)[m: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-2025-01-19 21:58:22,878 [32mINFO [m [m[main][m [mterrablender.register(47)[m: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-2025-01-19 21:58:22,879 [32mINFO [m [m[main][m [mterrablender.register(47)[m: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-2025-01-19 21:58:22,924 [32mINFO [m [m[modloading-worker-0][m [mCPM.apiInit(37)[m: Customizable Player Models API initialized: Loaded plugins: (0)
+2025-01-20 17:01:15,481 [32mINFO [m [m[main][m [mc.m.m.Launcher.main(76)[m: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
+2025-01-20 17:01:15,488 [32mINFO [m [m[main][m [mc.m.m.Launcher.<init>(51)[m: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+2025-01-20 17:01:16,458 [32mINFO [m [m[main][m [mmixin.info(97)[m: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/ALxMC2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2382!/ Service=ModLauncher Env=SERVER
+2025-01-20 17:01:17,000 [32mINFO [m [m[main][m [mn.m.f.l.m.JarInJarDependencyLocator.scanMods(58)[m: Found 4 dependencies adding them to mods collection
+2025-01-20 17:01:19,031 [32mINFO [m [m[main][m [mmixin.info(97)[m: Compatibility level set to JAVA_17
+2025-01-20 17:01:19,067 [1;31mERROR[m [m[main][m [mmixin.error(77)[m: Mixin config bendylib.mixins.json does not specify "minVersion" property
+2025-01-20 17:01:19,184 [32mINFO [m [m[main][m [mmixin.info(97)[m: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
+2025-01-20 17:01:19,188 [32mINFO [m [m[main][m [mmixin.info(97)[m: Successfully loaded Mixin Connector [tictim.paraglider.MixinConnector]
+2025-01-20 17:01:19,192 [32mINFO [m [m[main][m [mc.m.m.LaunchServiceHandler.launch(52)[m: Launching target 'forgeserver' with arguments [nogui]
+2025-01-20 17:01:26,482 [32mINFO [m [m[main][m [mn.m.u.d.DataFixers.m_14529_(272)[m: Building unoptimized datafixer
+2025-01-20 17:01:29,876 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.ForgeMod.<init>(428)[m: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
+2025-01-20 17:01:29,882 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.MinecraftForge.initialize(49)[m: MinecraftForge v43.4.2 Initialized
+2025-01-20 17:01:29,930 [32mINFO [m [m[modloading-worker-0][m [mb.f.e.ExpandAbility.init(12)[m: ExpandAbility here, who dis?
+2025-01-20 17:01:30,106 [32mINFO [m [m[modloading-worker-0][m [mc.m.MohistMC.init(39)[m: EventDispatcherRegistry initialized
+2025-01-20 17:01:46,036 [32mINFO [m [m[modloading-worker-0][m [mCPM.setup(55)[m: Customizable Player Models Initialized
+2025-01-20 17:01:46,092 [32mINFO [m [m[main][m [mterrablender.register(47)[m: Registered region minecraft:overworld to index 0 for type OVERWORLD
+2025-01-20 17:01:46,093 [32mINFO [m [m[main][m [mterrablender.register(47)[m: Registered region minecraft:nether to index 0 for type NETHER
+2025-01-20 17:01:46,093 [32mINFO [m [m[main][m [mterrablender.register(47)[m: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+2025-01-20 17:01:46,094 [32mINFO [m [m[main][m [mterrablender.register(47)[m: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+2025-01-20 17:01:46,095 [32mINFO [m [m[main][m [mterrablender.register(47)[m: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+2025-01-20 17:01:46,095 [32mINFO [m [m[main][m [mterrablender.register(47)[m: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+2025-01-20 17:01:46,095 [32mINFO [m [m[main][m [mterrablender.register(47)[m: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+2025-01-20 17:01:46,133 [32mINFO [m [m[modloading-worker-0][m [mCPM.apiInit(37)[m: Customizable Player Models API initialized: Loaded plugins: (0)
 
-2025-01-19 21:58:26,642 [32mINFO [m [m[main][m [mc.m.a.y.YggdrasilAuthenticationService.<init>(74)[m: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-2025-01-19 21:58:28,979 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/ALxMC2/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23199!/assets/.mcassetsroot' uses unexpected schema
-2025-01-19 21:58:28,979 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/ALxMC2/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23199!/data/.mcassetsroot' uses unexpected schema
-2025-01-19 21:58:31,612 [32mINFO [m [m[main][m [mc.g.a.a.AlexsMobs.onAddReloadListener(785)[m: Adding datapack listener capsid_recipes
-2025-01-19 21:58:33,021 [32mINFO [m [m[main][m [mn.m.w.i.c.RecipeManager.m_5787_(97)[m: Loaded 8 recipes
-2025-01-19 21:58:34,066 [32mINFO [m [m[main][m [mn.m.a.AdvancementList.m_139333_(94)[m: Loaded 2692 advancements
-2025-01-19 21:58:36,247 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(128)[m: Starting minecraft server version 1.19.2
-2025-01-19 21:58:36,248 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(133)[m: Loading properties
-2025-01-19 21:58:36,248 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(149)[m: Default game type: SURVIVAL
-2025-01-19 21:58:36,248 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129793_(1298)[m: Generating keypair
-2025-01-19 21:58:36,425 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(160)[m: Starting Minecraft server on *:25565
-2025-01-19 21:58:36,454 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerConnectionListener.m_9711_(83)[m: Using default channel type
-2025-01-19 21:58:36,561 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(172)[m: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-2025-01-19 21:58:36,562 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(173)[m: The server will make no attempt to authenticate usernames. Beware.
-2025-01-19 21:58:36,562 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(174)[m: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-2025-01-19 21:58:36,562 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(175)[m: To change this, set "online-mode" to "true" in the server.properties file.
-2025-01-19 21:58:36,695 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: This server is running Mohist version 1.19.2-139 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT, Forge version 43.4.2)
-2025-01-19 21:58:39,801 [32mINFO [m [m[Server thread][m [m.playerSample(271)[m: Server Ping Player Sample Count: 12
-2025-01-19 21:58:39,806 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Using 4 threads for Netty based IO
-2025-01-19 21:58:39,807 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Debug logging is enabled
-2025-01-19 21:58:42,295 [32mINFO [m [m[Server thread][m [mm.m.c.Clearlag.publish(36)[m: [ClearLag] Loading ClearLag v3.2.2
-2025-01-19 21:58:42,296 [32mINFO [m [m[Server thread][m [mp.a.PlayerTimeLimit.publish(36)[m: [PlayerTimeLimit] Loading PlayerTimeLimit v1.6.1
-2025-01-19 21:58:42,297 [32mINFO [m [m[Server thread][m [mn.s.b.SRBukkitBootstrap.publish(36)[m: [SkinsRestorer] Loading SkinsRestorer v15.5.1
-2025-01-19 21:58:42,297 [32mINFO [m [m[Server thread][m [mx.s.SimpleTimer.publish(36)[m: [SimpleTimer] Loading SimpleTimer v1.5.2
-2025-01-19 21:58:42,298 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit] Loading WorldEdit v7.2.15+6463-5ca4dff
-2025-01-19 21:58:44,108 [32mINFO [m [m[Server thread][m [mc.s.w.e.p.PlatformManager.register(100)[m: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2a96ea95]
-2025-01-19 21:58:44,195 [32mINFO [m [m[Server thread][m [ms.p.v.p.PaperVoiceLoader.publish(36)[m: [PlasmoVoice] Loading PlasmoVoice v2.1.2
-2025-01-19 21:58:44,196 [32mINFO [m [m[Server thread][m [mo.k.c.ChunkLoader.publish(36)[m: [ChunkLoader] Loading ChunkLoader v3.2.1
-2025-01-19 21:58:44,197 [32mINFO [m [m[Server thread][m [mc.l.b.l.LoginSecurity.publish(36)[m: [LoginSecurity] Loading LoginSecurity v3.3.0
-2025-01-19 21:58:44,198 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldGuardPlugin.publish(36)[m: [WorldGuard] Loading WorldGuard v7.0.8+33cdb4a
-2025-01-19 21:58:44,203 [32mINFO [m [m[Server thread][m [mn.s.b.SRBukkitBootstrap.publish(36)[m: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
-2025-01-19 21:58:46,098 [33mWARN [m [m[Server thread][m [mMinecraft.publish(34)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYou must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
-2025-01-19 21:58:47,633 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.19.2[32;1m.[0;39m[m
-2025-01-19 21:58:48,820 [33mWARN [m [m[Server thread][m [mMinecraft.publish(34)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mPlease update your Java runtime to at least Java 21 (your version is 17).[0;39m
-2025-01-19 21:58:48,821 [33mWARN [m [m[Server thread][m [mMinecraft.publish(34)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mAt some point in the future, SkinsRestorer will no longer be compatible with this version of Java.[0;39m
-2025-01-19 21:58:48,832 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
-2025-01-19 21:58:49,485 [32mINFO [m [m[Server thread][m [mc.s.w.e.p.PlatformCommandManager.registerCommandsWith(427)[m: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-2025-01-19 21:58:49,818 [32mINFO [m [m[Server thread][m [mc.s.w.PermissionsResolverManager.findResolver(126)[m: WEPIF: Using the Bukkit Permissions API.
-2025-01-19 21:59:09,166 [33mWARN [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.loadAdapter(303)[m: 
+2025-01-20 17:01:49,573 [32mINFO [m [m[main][m [mc.m.a.y.YggdrasilAuthenticationService.<init>(74)[m: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+2025-01-20 17:01:52,055 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/ALxMC2/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23197!/assets/.mcassetsroot' uses unexpected schema
+2025-01-20 17:01:52,056 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/ALxMC2/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23197!/data/.mcassetsroot' uses unexpected schema
+2025-01-20 17:01:54,755 [32mINFO [m [m[main][m [mc.g.a.a.AlexsMobs.onAddReloadListener(785)[m: Adding datapack listener capsid_recipes
+2025-01-20 17:01:55,739 [32mINFO [m [m[main][m [mn.m.w.i.c.RecipeManager.m_5787_(97)[m: Loaded 8 recipes
+2025-01-20 17:01:56,836 [32mINFO [m [m[main][m [mn.m.a.AdvancementList.m_139333_(94)[m: Loaded 2692 advancements
+2025-01-20 17:01:58,870 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(128)[m: Starting minecraft server version 1.19.2
+2025-01-20 17:01:58,870 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(133)[m: Loading properties
+2025-01-20 17:01:58,871 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(149)[m: Default game type: SURVIVAL
+2025-01-20 17:01:58,871 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129793_(1298)[m: Generating keypair
+2025-01-20 17:01:58,947 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(160)[m: Starting Minecraft server on *:25565
+2025-01-20 17:01:58,984 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerConnectionListener.m_9711_(83)[m: Using default channel type
+2025-01-20 17:01:59,110 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(172)[m: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2025-01-20 17:01:59,110 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(173)[m: The server will make no attempt to authenticate usernames. Beware.
+2025-01-20 17:01:59,111 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(174)[m: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2025-01-20 17:01:59,111 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(175)[m: To change this, set "online-mode" to "true" in the server.properties file.
+2025-01-20 17:01:59,248 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: This server is running Mohist version 1.19.2-139 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT, Forge version 43.4.2)
+2025-01-20 17:02:01,779 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Using 4 threads for Netty based IO
+2025-01-20 17:02:01,781 [32mINFO [m [m[Server thread][m [m.playerSample(271)[m: Server Ping Player Sample Count: 12
+2025-01-20 17:02:01,782 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Debug logging is enabled
+2025-01-20 17:02:01,845 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Could not load 'plugins/EssentialsX Compatibility.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:169) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:144) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.loadPlugins(CraftServer.java:391) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:7e29f765-296df566-9fb885e8]
+	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServer.java:191) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:839) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 7 more
+2025-01-20 17:02:03,390 [32mINFO [m [m[Server thread][m [mm.m.c.Clearlag.publish(36)[m: [ClearLag] Loading ClearLag v3.2.2
+2025-01-20 17:02:03,390 [32mINFO [m [m[Server thread][m [md.m.v.Voicechat.publish(36)[m: [voicechat] Loading voicechat v2.5.27
+2025-01-20 17:02:03,391 [32mINFO [m [m[Server thread][m [mp.a.PlayerTimeLimit.publish(36)[m: [PlayerTimeLimit] Loading PlayerTimeLimit v1.6.1
+2025-01-20 17:02:03,391 [32mINFO [m [m[Server thread][m [mn.s.b.SRBukkitBootstrap.publish(36)[m: [SkinsRestorer] Loading SkinsRestorer v15.5.1
+2025-01-20 17:02:03,391 [32mINFO [m [m[Server thread][m [mx.s.SimpleTimer.publish(36)[m: [SimpleTimer] Loading SimpleTimer v1.5.2
+2025-01-20 17:02:03,392 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit] Loading WorldEdit v7.2.15+6463-5ca4dff
+2025-01-20 17:02:05,018 [32mINFO [m [m[Server thread][m [mc.s.w.e.p.PlatformManager.register(100)[m: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3daaa91a]
+2025-01-20 17:02:05,095 [32mINFO [m [m[Server thread][m [mo.k.c.ChunkLoader.publish(36)[m: [ChunkLoader] Loading ChunkLoader v3.2.1
+2025-01-20 17:02:05,096 [32mINFO [m [m[Server thread][m [mc.l.b.l.LoginSecurity.publish(36)[m: [LoginSecurity] Loading LoginSecurity v3.3.0
+2025-01-20 17:02:05,097 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldGuardPlugin.publish(36)[m: [WorldGuard] Loading WorldGuard v7.0.8+33cdb4a
+2025-01-20 17:02:05,097 [32mINFO [m [m[Server thread][m [mn.c.CoreProtect.publish(36)[m: [CoreProtect] Loading CoreProtect v22.4
+2025-01-20 17:02:05,100 [32mINFO [m [m[Server thread][m [mn.s.b.SRBukkitBootstrap.publish(36)[m: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
+2025-01-20 17:02:06,568 [33mWARN [m [m[Server thread][m [mMinecraft.publish(34)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYou must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
+2025-01-20 17:02:07,983 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.19.2[32;1m.[0;39m[m
+2025-01-20 17:02:09,126 [33mWARN [m [m[Server thread][m [mMinecraft.publish(34)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mPlease update your Java runtime to at least Java 21 (your version is 17).[0;39m
+2025-01-20 17:02:09,127 [33mWARN [m [m[Server thread][m [mMinecraft.publish(34)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mAt some point in the future, SkinsRestorer will no longer be compatible with this version of Java.[0;39m
+2025-01-20 17:02:09,138 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
+2025-01-20 17:02:09,448 [32mINFO [m [m[Server thread][m [mc.s.w.e.p.PlatformCommandManager.registerCommandsWith(427)[m: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+2025-01-20 17:02:09,703 [32mINFO [m [m[Server thread][m [mc.s.w.PermissionsResolverManager.findResolver(126)[m: WEPIF: Using the Bukkit Permissions API.
+2025-01-20 17:02:26,555 [33mWARN [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.loadAdapter(303)[m: 
 **********************************************
 ** This WorldEdit version does not fully support your version of Bukkit.
 **
@@ -71,201 +83,865 @@
 ** Please see https://worldedit.enginehub.org/en/latest/faq/#bukkit-adapters
 **********************************************
 
-2025-01-19 21:59:09,728 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit] ====================================================
-2025-01-19 21:59:09,729 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]  WorldEdit works better if you use Paper 
-2025-01-19 21:59:09,729 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]  as your server software. 
-2025-01-19 21:59:09,730 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]   
-2025-01-19 21:59:09,730 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]  Paper offers significant performance improvements,
-2025-01-19 21:59:09,730 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]  bug fixes, security enhancements and optional
-2025-01-19 21:59:09,731 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]  features for server owners to enhance their server.
-2025-01-19 21:59:09,732 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]   
-2025-01-19 21:59:09,733 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]  Paper includes Timings v2, which is significantly
-2025-01-19 21:59:09,734 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]  better at diagnosing lag problems over v1.
-2025-01-19 21:59:09,735 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]   
-2025-01-19 21:59:09,736 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]  All of your plugins should still work, and the
-2025-01-19 21:59:09,736 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]  Paper community will gladly help you fix any issues.
-2025-01-19 21:59:09,737 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]   
-2025-01-19 21:59:09,737 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]  Join the Paper Community @ https://papermc.io
-2025-01-19 21:59:09,738 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit] ====================================================
-2025-01-19 21:59:09,739 [32mINFO [m [m[Server thread][m [ms.p.v.p.PaperVoiceLoader.publish(36)[m: [PlasmoVoice] Enabling PlasmoVoice v2.1.2
-2025-01-19 21:59:10,154 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Error occurred while enabling PlasmoVoice v2.1.2 (Is it up to date?)
-java.lang.AbstractMethodError: Method su/plo/voice/paper/PaperVoiceServer.getMinecraftServer()Lsu/plo/lib/api/server/MinecraftServerLib; is abstract
-	at su.plo.voice.paper.PaperVoiceServer.getMinecraftServer(PaperVoiceServer.kt) ~[?:?]
-	at su.plo.voice.server.BaseVoiceServer.onInitialize(BaseVoiceServer.java:117) ~[plasmovoice-forge-1.19.2-2.0.10.jar%23187!/:?]
-	at su.plo.voice.paper.PaperVoiceServer.onInitialize(PaperVoiceServer.kt:24) ~[?:?]
-	at su.plo.voice.paper.PaperVoiceLoader.onEnable(PaperVoiceLoader.kt:10) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:335) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:479) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:?]
-	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:490) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:7e29f765-296df566-9fb885e8]
-	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:416) ~[forge-1.19.2-43.4.2-universal.jar%23204!/:7e29f765-296df566-9fb885e8]
-	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServer.java:192) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:839) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23199!/:?]
+2025-01-20 17:02:27,235 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit] ====================================================
+2025-01-20 17:02:27,235 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]  WorldEdit works better if you use Paper 
+2025-01-20 17:02:27,235 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]  as your server software. 
+2025-01-20 17:02:27,236 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]   
+2025-01-20 17:02:27,236 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]  Paper offers significant performance improvements,
+2025-01-20 17:02:27,236 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]  bug fixes, security enhancements and optional
+2025-01-20 17:02:27,236 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]  features for server owners to enhance their server.
+2025-01-20 17:02:27,237 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]   
+2025-01-20 17:02:27,237 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]  Paper includes Timings v2, which is significantly
+2025-01-20 17:02:27,237 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]  better at diagnosing lag problems over v1.
+2025-01-20 17:02:27,237 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]   
+2025-01-20 17:02:27,238 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]  All of your plugins should still work, and the
+2025-01-20 17:02:27,238 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]  Paper community will gladly help you fix any issues.
+2025-01-20 17:02:27,238 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]   
+2025-01-20 17:02:27,238 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit]  Join the Paper Community @ https://papermc.io
+2025-01-20 17:02:27,238 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit] ====================================================
+2025-01-20 17:02:27,784 [32mINFO [m [m[Server thread][m [mterrablender.initializeBiomes(107)[m: Initialized TerraBlender biomes for level stem minecraft:overworld
+2025-01-20 17:02:27,785 [32mINFO [m [m[Server thread][m [mterrablender.initializeBiomes(107)[m: Initialized TerraBlender biomes for level stem minecraft:the_nether
+2025-01-20 17:02:27,786 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(198)[m: Preparing level "world"
+2025-01-20 17:02:28,623 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(561)[m: Preparing start region for dimension minecraft:overworld
+2025-01-20 17:02:36,736 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-20 17:02:36,738 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-20 17:02:36,740 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-20 17:02:36,768 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-20 17:02:36,776 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-20 17:02:36,785 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-20 17:02:36,910 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-20 17:02:36,920 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-20 17:02:36,939 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-20 17:02:36,968 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-20 17:02:37,001 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-20 17:02:37,517 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-20 17:02:37,545 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-20 17:02:37,578 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-20 17:02:37,607 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-20 17:02:37,616 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-20 17:02:37,646 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-20 17:02:37,675 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-20 17:02:37,729 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-20 17:02:38,127 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-20 17:02:38,975 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-20 17:02:39,126 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-20 17:02:39,626 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 5%
+2025-01-20 17:02:40,126 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 15%
+2025-01-20 17:02:40,649 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 37%
+2025-01-20 17:02:41,247 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 47%
+2025-01-20 17:02:41,983 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
+2025-01-20 17:02:42,622 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
+2025-01-20 17:02:42,893 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
+2025-01-20 17:02:43,356 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
+2025-01-20 17:02:43,715 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
+2025-01-20 17:02:48,385 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
+2025-01-20 17:02:48,471 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
+2025-01-20 17:02:48,473 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
+2025-01-20 17:02:48,473 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
+2025-01-20 17:02:48,474 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
+2025-01-20 17:02:48,478 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
+2025-01-20 17:02:48,483 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
+2025-01-20 17:02:48,488 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
+2025-01-20 17:02:48,489 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
+2025-01-20 17:02:48,629 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
+2025-01-20 17:02:49,127 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
+2025-01-20 17:02:49,632 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
+2025-01-20 17:02:50,131 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
+2025-01-20 17:02:50,650 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
+2025-01-20 17:02:51,136 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
+2025-01-20 17:02:51,635 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
+2025-01-20 17:02:51,691 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 23066 ms
+2025-01-20 17:02:51,877 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(561)[m: Preparing start region for dimension minecraft:the_end
+2025-01-20 17:02:53,574 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-20 17:02:53,575 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-20 17:02:53,576 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-20 17:02:53,576 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-20 17:02:53,881 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-20 17:02:54,380 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 54%
+2025-01-20 17:02:54,582 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 2703 ms
+2025-01-20 17:02:54,589 [32mINFO [m [m[Server thread][m [mm.m.c.Clearlag.publish(36)[m: [ClearLag] Enabling ClearLag v3.2.2
+2025-01-20 17:02:54,612 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: [ClearLag] Using version-adapter: LatestVersionAdapter
+2025-01-20 17:02:54,787 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: [ClearLag] Loading modules...
+2025-01-20 17:02:54,793 [33mWARN [m [m[Server thread][m [mMinecraft.publish(34)[m: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_19_R1.MinecraftServer)
+2025-01-20 17:02:54,795 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: [ClearLag] Modules enabed, loading config values
+2025-01-20 17:02:54,808 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: [ClearLag] Modules have been loaded!
+2025-01-20 17:02:54,819 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: [ClearLag] Clearlag is now enabled!
+2025-01-20 17:02:54,819 [32mINFO [m [m[Server thread][m [md.m.v.Voicechat.publish(36)[m: [voicechat] Enabling voicechat v2.5.27
+2025-01-20 17:02:54,822 [32mINFO [m [m[Thread-9][m [mMinecraft.publish(36)[m: [ClearLag] Checking for updates compatible with your bukkit version [1.19]...
+2025-01-20 17:02:54,850 [32mINFO [m [m[Server thread][m [md.m.v.Voicechat.publish(36)[m: [voicechat] Initializing compatibility for Bukkit version 1.19.2-R0.1
+2025-01-20 17:02:54,850 [32mINFO [m [m[Server thread][m [md.m.v.Voicechat.publish(36)[m: [voicechat] Compatibility version 18
+2025-01-20 17:02:54,949 [32mINFO [m [m[Thread-9][m [mMinecraft.publish(36)[m: [ClearLag] No updates found!
+2025-01-20 17:02:55,124 [33mWARN [m [m[Server thread][m [md.m.v.Voicechat.publish(34)[m: [voicechat] Commodore command completion is not supported
+2025-01-20 17:02:55,126 [32mINFO [m [m[Server thread][m [mp.a.PlayerTimeLimit.publish(36)[m: [PlayerTimeLimit] Enabling PlayerTimeLimit v1.6.1
+2025-01-20 17:02:55,165 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;30;1m[[0;36;1mPlayerTime[0;31;1mLimit[0;30;1m] [0;33;1mHas been enabled! [0;37;1mVersion: 1.6.1[m
+2025-01-20 17:02:55,166 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;30;1m[[0;36;1mPlayerTime[0;31;1mLimit[0;30;1m] [0;33;1mThanks for using my plugin!  [0;37;1m~Ajneb97[m
+2025-01-20 17:02:55,332 [32mINFO [m [m[Server thread][m [mx.s.SimpleTimer.publish(36)[m: [SimpleTimer] Enabling SimpleTimer v1.5.2
+2025-01-20 17:02:55,347 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;32;22m[SimpleTimer] [0;32;1mSuccessfully Enabled ([0;37;1mv1.5.2[0;32;1m)[m
+2025-01-20 17:02:55,347 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;32;22m[SimpleTimer] [0;37;1mXhasi [0;30;1m» [0;37;22mThanks for using my plugin[m
+2025-01-20 17:02:55,362 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;32;22m[SimpleTimer] [0;33;22mThere is a new version available. ([0;37;1mv1.6.0[0;33;22m)[m
+2025-01-20 17:02:55,362 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;32;22m[SimpleTimer] [0;32;22mYou can download it at: [0;37;22mhttps://www.spigotmc.org/resources/109565/[m
+2025-01-20 17:02:55,363 [32mINFO [m [m[Server thread][m [mo.k.c.ChunkLoader.publish(36)[m: [ChunkLoader] Enabling ChunkLoader v3.2.1
+2025-01-20 17:02:55,453 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;32;22mChunk[0;32;1mLoader [0;37;22m>> [0;37;1m[0;37;1mEnabled Spigot version.[m
+2025-01-20 17:02:55,497 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;32;22mChunk[0;32;1mLoader [0;37;22m>> [0;37;1m[0;37;22mmessages_en [0;32;1mfile was loaded successfully.[m
+2025-01-20 17:02:55,520 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;37;1m[m
+2025-01-20 17:02:55,521 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;37;1m [0;37;22mChunkLoader [0;33;22muse [0;37;22mInventoryAPI developed by KayTeam[m
+2025-01-20 17:02:55,521 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;37;1m[m
+2025-01-20 17:02:55,522 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;37;1m [0;33;22mWebsite: [0;37;22mhttps://kayteam.org[m
+2025-01-20 17:02:55,522 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;37;1m [0;33;22mGithub: [0;37;22mhttps://github.com/KayTeam-Studio/inventory-api[m
+2025-01-20 17:02:55,522 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;37;1m[m
+2025-01-20 17:02:55,523 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;37;22m[m
+2025-01-20 17:02:55,524 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;36;22m* ChunkLoader [0;32;1mEnabled[m
+2025-01-20 17:02:55,524 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;36;22m*[m
+2025-01-20 17:02:55,524 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;36;22m* [0;36;1mVersion: [0;37;1m3.2.1[m
+2025-01-20 17:02:55,525 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;36;22m* [0;36;1mAuthor: [0;37;1mKayTeam[m
+2025-01-20 17:02:55,525 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;36;22m* [0;36;1mWebsite: [0;37;1mhttps://kayteam.org[m
+2025-01-20 17:02:55,525 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;36;22m*[m
+2025-01-20 17:02:55,526 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;36;22m* [0;36;1mI like the bread![m
+2025-01-20 17:02:55,527 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;37;22m[m
+2025-01-20 17:02:55,527 [32mINFO [m [m[Server thread][m [mc.l.b.l.LoginSecurity.publish(36)[m: [LoginSecurity] Enabling LoginSecurity v3.3.0
+2025-01-20 17:02:55,581 [32mINFO [m [m[Server thread][m [mc.l.b.l.LoginSecurity.publish(36)[m: [LoginSecurity] Loading base translations from "en_us"
+2025-01-20 17:02:55,585 [32mINFO [m [m[Server thread][m [mc.l.b.l.LoginSecurity.publish(36)[m: [LoginSecurity] Loading specified translations from "en_us"
+2025-01-20 17:02:55,722 [32mINFO [m [m[Server thread][m [mc.l.b.l.LoginSecurity.publish(36)[m: [LoginSecurity] Registering commands...
+2025-01-20 17:02:55,739 [32mINFO [m [m[Server thread][m [mc.l.b.l.LoginSecurity.publish(36)[m: [LoginSecurity] Registering listeners...
+2025-01-20 17:02:55,826 [32mINFO [m [m[Server thread][m [mc.l.b.l.LoginSecurity.publish(36)[m: [LoginSecurity] Using 1.12+ map captcha renderer
+2025-01-20 17:02:55,828 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldGuardPlugin.publish(36)[m: [WorldGuard] Enabling WorldGuard v7.0.8+33cdb4a
+2025-01-20 17:02:56,099 [1;31mERROR[m [m[Server thread][m [mc.s.w.WorldEdit.<clinit>(282)[m: No TreeType mapping for TreeGenerator.TreeType.CHERRY
+2025-01-20 17:02:56,134 [32mINFO [m [m[Server thread][m [mc.s.w.c.WorldConfiguration.publish(36)[m: [WorldGuard] (world) TNT ignition is PERMITTED.
+2025-01-20 17:02:56,135 [32mINFO [m [m[Server thread][m [mc.s.w.c.WorldConfiguration.publish(36)[m: [WorldGuard] (world) Lighters are PERMITTED.
+2025-01-20 17:02:56,135 [32mINFO [m [m[Server thread][m [mc.s.w.c.WorldConfiguration.publish(36)[m: [WorldGuard] (world) Lava fire is PERMITTED.
+2025-01-20 17:02:56,135 [32mINFO [m [m[Server thread][m [mc.s.w.c.WorldConfiguration.publish(36)[m: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+2025-01-20 17:02:56,138 [32mINFO [m [m[Server thread][m [mc.s.w.c.WorldConfiguration.publish(36)[m: [WorldGuard] Loaded configuration for world 'world'
+2025-01-20 17:02:56,165 [32mINFO [m [m[Server thread][m [mc.s.w.WorldGuard.publish(36)[m: [WorldGuard] Loading region data...
+2025-01-20 17:02:56,562 [32mINFO [m [m[Server thread][m [mn.c.CoreProtect.publish(36)[m: [CoreProtect] Enabling CoreProtect v22.4
+2025-01-20 17:02:57,079 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;37;1m[0;37;1m[m[CoreProtect] CoreProtect has been successfully enabled![0;37;1m[0;37;1m [m
+2025-01-20 17:02:57,080 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: [CoreProtect] Using SQLite for data storage.
+2025-01-20 17:02:57,080 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: --------------------
+2025-01-20 17:02:57,080 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+2025-01-20 17:02:57,080 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: [CoreProtect] Discord: www.coreprotect.net/discord/
+2025-01-20 17:02:57,080 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: --------------------
+2025-01-20 17:02:57,104 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Server permissions file permissions.yml is empty, ignoring it
+2025-01-20 17:02:57,176 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(202)[m: Done (29.936s)! For help, type "help"
+2025-01-20 17:02:57,220 [32mINFO [m [m[Server thread][m [mn.m.s.p.PermissionAPI.initializePermissionAPI(130)[m: Successfully initialized permission handler forge:default_handler
+2025-01-20 17:02:57,287 [32mINFO [m [m[Server thread][m [md.m.v.Voicechat.publish(36)[m: [voicechat] Loading plugins
+2025-01-20 17:02:57,287 [32mINFO [m [m[Server thread][m [md.m.v.Voicechat.publish(36)[m: [voicechat] Loaded 0 plugin(s)
+2025-01-20 17:02:57,287 [32mINFO [m [m[Server thread][m [md.m.v.Voicechat.publish(36)[m: [voicechat] Initializing plugins
+2025-01-20 17:02:57,288 [32mINFO [m [m[Server thread][m [md.m.v.Voicechat.publish(36)[m: [voicechat] Initialized 0 plugin(s)
+2025-01-20 17:02:57,300 [33mWARN [m [m[Server thread][m [md.m.v.Voicechat.publish(34)[m: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+2025-01-20 17:02:57,354 [32mINFO [m [m[VoiceChatServerThread][m [md.m.v.Voicechat.publish(36)[m: [voicechat] Voice host is 'brands-services.gl.joinmc.link'
+2025-01-20 17:02:57,364 [32mINFO [m [m[VoiceChatServerThread][m [md.m.v.Voicechat.publish(36)[m: [voicechat] Voice chat server started at port 1870
+2025-01-20 17:02:57,366 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: [CoreProtect] WorldEdit logging successfully initialized.
+2025-01-20 17:02:57,376 [32mINFO [m [m[Craft Scheduler Thread - 1][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+2025-01-20 17:02:57,377 [32mINFO [m [m[Craft Scheduler Thread - 1][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+2025-01-20 17:02:57,377 [32mINFO [m [m[Craft Scheduler Thread - 1][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m[m
+2025-01-20 17:02:57,378 [32mINFO [m [m[Craft Scheduler Thread - 1][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m[m
+2025-01-20 17:02:57,378 [32mINFO [m [m[Craft Scheduler Thread - 1][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m[m
+2025-01-20 17:02:57,379 [32mINFO [m [m[Craft Scheduler Thread - 1][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+2025-01-20 17:02:57,379 [32mINFO [m [m[Craft Scheduler Thread - 1][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+2025-01-20 17:02:57,380 [32mINFO [m [m[Craft Scheduler Thread - 1][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.5.1[0;39m[m
+2025-01-20 17:02:57,380 [32mINFO [m [m[Craft Scheduler Thread - 1][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1md5d8613[0;39m[m
+2025-01-20 17:02:57,381 [32mINFO [m [m[Craft Scheduler Thread - 1][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m[m
+2025-01-20 17:02:57,382 [32mINFO [m [m[Craft Scheduler Thread - 1][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+2025-01-20 17:02:57,382 [32mINFO [m [m[Craft Scheduler Thread - 1][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m[m
+2025-01-20 17:02:57,384 [32mINFO [m [m[Craft Scheduler Thread - 1][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m[m
+2025-01-20 17:02:57,459 [32mINFO [m [m[User Authenticator #1][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(378)[m: UUID of player un_randompro is 4f2ddd44-221e-3406-80eb-bdd38f185eca
+2025-01-20 17:02:57,463 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerLoginPacketListenerImpl.m_7026_(185)[m: com.mojang.authlib.GameProfile@5945f093[id=4f2ddd44-221e-3406-80eb-bdd38f185eca,name=un_randompro,properties={},legacy=false] (/127.224.235.140:56027) lost connection: Disconnected
+2025-01-20 17:03:01,523 [32mINFO [m [m[User Authenticator #1][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(378)[m: UUID of player un_randompro is 4f2ddd44-221e-3406-80eb-bdd38f185eca
+2025-01-20 17:03:04,555 [32mINFO [m [m[Server thread][m [mn.m.c.AdvancementLoadFix.loadVisibility(36)[m: Using new advancement loading for net.minecraft.server.PlayerAdvancements@567575e0
+2025-01-20 17:03:04,806 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: un_randompro joined the game
+2025-01-20 17:03:05,289 [32mINFO [m [m[Server thread][m [mn.m.s.p.PlayerList.m_11261_(323)[m: un_randompro[/127.224.235.140:38989] logged in with entity id 805 at (-96.4355144767936, 119.1212968405392, -1391.6475372955574)
+2025-01-20 17:03:05,306 [32mINFO [m [m[Server thread][m [md.m.v.Voicechat.publish(36)[m: [voicechat] Received secret request of un_randompro (18)
+2025-01-20 17:03:05,309 [32mINFO [m [m[Server thread][m [md.m.v.Voicechat.publish(36)[m: [voicechat] Sent secret to un_randompro
+2025-01-20 17:03:29,656 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Could not pass event PlayerBucketEmptyEvent to WorldGuard v7.0.8+33cdb4a
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.getPlayerBucketEvent(CraftEventFactory.java:441) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerBucketEmptyEvent(CraftEventFactory.java:413) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at net.minecraft.world.item.BucketItem.emptyContents(BucketItem.java:171) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.world.item.BucketItem.m_7203_(BucketItem.java:113) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.world.item.ItemStack.m_41682_(ItemStack.java:315) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_6261_(ServerPlayerGameMode.java:286) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_5760_(ServerGamePacketListenerImpl.java:1368) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.m_5797_(ServerboundUseItemPacket.java:29) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.m_5797_(ServerboundUseItemPacket.java:7) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
 	at java.lang.Thread.run(Thread.java:840) [?:?]
-2025-01-19 21:59:10,789 [32mINFO [m [m[Server thread][m [mterrablender.initializeBiomes(107)[m: Initialized TerraBlender biomes for level stem minecraft:overworld
-2025-01-19 21:59:10,791 [32mINFO [m [m[Server thread][m [mterrablender.initializeBiomes(107)[m: Initialized TerraBlender biomes for level stem minecraft:the_nether
-2025-01-19 21:59:10,791 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(198)[m: Preparing level "world"
-2025-01-19 21:59:11,966 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(561)[m: Preparing start region for dimension minecraft:overworld
-2025-01-19 21:59:22,455 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:22,461 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:22,464 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:22,467 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:22,470 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:22,473 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:22,477 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:22,481 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:22,485 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:22,488 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:22,492 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:22,494 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:22,499 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:22,502 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:22,505 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:22,509 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:22,512 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:22,514 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:22,518 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:22,521 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:22,525 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:22,528 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:22,967 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:23,467 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 16%
-2025-01-19 21:59:23,968 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 47%
-2025-01-19 21:59:24,470 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 84%
-2025-01-19 21:59:25,962 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:25,963 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:25,967 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:26,861 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:27,013 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:27,538 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:28,161 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:28,484 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:28,990 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:29,473 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:29,973 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:30,468 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:30,970 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:31,664 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:32,154 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:32,484 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:32,970 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:33,477 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:33,968 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:34,467 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:34,968 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:35,468 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:35,971 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:36,696 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:37,548 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:37,549 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:38,032 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:38,469 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 100%
-2025-01-19 21:59:38,875 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 26908 ms
-2025-01-19 21:59:39,115 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(561)[m: Preparing start region for dimension minecraft:the_end
-2025-01-19 21:59:42,936 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:42,938 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:42,940 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:42,940 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:42,941 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:42,942 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:42,943 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:42,944 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:43,117 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:43,617 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 33%
-2025-01-19 21:59:44,117 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 95%
-2025-01-19 21:59:44,145 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 5029 ms
-2025-01-19 21:59:44,154 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(561)[m: Preparing start region for dimension minecraft:the_nether
-2025-01-19 21:59:45,932 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:45,940 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:45,941 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:45,942 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:46,156 [32mINFO [m [m[Worker-Main-1][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
-2025-01-19 21:59:46,655 [32mINFO [m [m[Worker-Main-2][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 4%
-2025-01-19 21:59:47,155 [32mINFO [m [m[Worker-Main-3][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 54%
-2025-01-19 21:59:47,535 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 3380 ms
-2025-01-19 21:59:47,542 [32mINFO [m [m[Server thread][m [mm.m.c.Clearlag.publish(36)[m: [ClearLag] Enabling ClearLag v3.2.2
-2025-01-19 21:59:47,559 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: [ClearLag] Using version-adapter: LatestVersionAdapter
-2025-01-19 21:59:47,693 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: [ClearLag] Loading modules...
-2025-01-19 21:59:47,699 [33mWARN [m [m[Server thread][m [mMinecraft.publish(34)[m: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_19_R1.MinecraftServer)
-2025-01-19 21:59:47,700 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: [ClearLag] Modules enabed, loading config values
-2025-01-19 21:59:47,711 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: [ClearLag] Modules have been loaded!
-2025-01-19 21:59:47,719 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: [ClearLag] Clearlag is now enabled!
-2025-01-19 21:59:47,720 [32mINFO [m [m[Server thread][m [mp.a.PlayerTimeLimit.publish(36)[m: [PlayerTimeLimit] Enabling PlayerTimeLimit v1.6.1
-2025-01-19 21:59:47,721 [32mINFO [m [m[Thread-9][m [mMinecraft.publish(36)[m: [ClearLag] Checking for updates compatible with your bukkit version [1.19]...
-2025-01-19 21:59:47,780 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;30;1m[[0;36;1mPlayerTime[0;31;1mLimit[0;30;1m] [0;33;1mHas been enabled! [0;37;1mVersion: 1.6.1[m
-2025-01-19 21:59:47,782 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;30;1m[[0;36;1mPlayerTime[0;31;1mLimit[0;30;1m] [0;33;1mThanks for using my plugin!  [0;37;1m~Ajneb97[m
-2025-01-19 21:59:47,840 [32mINFO [m [m[Thread-9][m [mMinecraft.publish(36)[m: [ClearLag] No updates found!
-2025-01-19 21:59:48,055 [32mINFO [m [m[Server thread][m [mx.s.SimpleTimer.publish(36)[m: [SimpleTimer] Enabling SimpleTimer v1.5.2
-2025-01-19 21:59:48,074 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;32;22m[SimpleTimer] [0;32;1mSuccessfully Enabled ([0;37;1mv1.5.2[0;32;1m)[m
-2025-01-19 21:59:48,075 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;32;22m[SimpleTimer] [0;37;1mXhasi [0;30;1m» [0;37;22mThanks for using my plugin[m
-2025-01-19 21:59:48,105 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;32;22m[SimpleTimer] [0;33;22mThere is a new version available. ([0;37;1mv1.6.0[0;33;22m)[m
-2025-01-19 21:59:48,105 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;32;22m[SimpleTimer] [0;32;22mYou can download it at: [0;37;22mhttps://www.spigotmc.org/resources/109565/[m
-2025-01-19 21:59:48,106 [32mINFO [m [m[Server thread][m [mo.k.c.ChunkLoader.publish(36)[m: [ChunkLoader] Enabling ChunkLoader v3.2.1
-2025-01-19 21:59:48,211 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;32;22mChunk[0;32;1mLoader [0;37;22m>> [0;37;1m[0;37;1mEnabled Spigot version.[m
-2025-01-19 21:59:48,254 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;32;22mChunk[0;32;1mLoader [0;37;22m>> [0;37;1m[0;37;22mmessages_en [0;32;1mfile was loaded successfully.[m
-2025-01-19 21:59:48,280 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;37;1m[m
-2025-01-19 21:59:48,281 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;37;1m [0;37;22mChunkLoader [0;33;22muse [0;37;22mInventoryAPI developed by KayTeam[m
-2025-01-19 21:59:48,282 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;37;1m[m
-2025-01-19 21:59:48,282 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;37;1m [0;33;22mWebsite: [0;37;22mhttps://kayteam.org[m
-2025-01-19 21:59:48,282 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;37;1m [0;33;22mGithub: [0;37;22mhttps://github.com/KayTeam-Studio/inventory-api[m
-2025-01-19 21:59:48,283 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;37;1m[m
-2025-01-19 21:59:48,284 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;37;22m[m
-2025-01-19 21:59:48,284 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;36;22m* ChunkLoader [0;32;1mEnabled[m
-2025-01-19 21:59:48,285 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;36;22m*[m
-2025-01-19 21:59:48,285 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;36;22m* [0;36;1mVersion: [0;37;1m3.2.1[m
-2025-01-19 21:59:48,285 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;36;22m* [0;36;1mAuthor: [0;37;1mKayTeam[m
-2025-01-19 21:59:48,286 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;36;22m* [0;36;1mWebsite: [0;37;1mhttps://kayteam.org[m
-2025-01-19 21:59:48,286 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;36;22m*[m
-2025-01-19 21:59:48,286 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;36;22m* [0;36;1mI like the bread![m
-2025-01-19 21:59:48,287 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;37;22m[m
-2025-01-19 21:59:48,288 [32mINFO [m [m[Server thread][m [mc.l.b.l.LoginSecurity.publish(36)[m: [LoginSecurity] Enabling LoginSecurity v3.3.0
-2025-01-19 21:59:48,367 [32mINFO [m [m[Server thread][m [mc.l.b.l.LoginSecurity.publish(36)[m: [LoginSecurity] Loading base translations from "en_us"
-2025-01-19 21:59:48,370 [32mINFO [m [m[Server thread][m [mc.l.b.l.LoginSecurity.publish(36)[m: [LoginSecurity] Loading specified translations from "en_us"
-2025-01-19 21:59:48,511 [32mINFO [m [m[Server thread][m [mc.l.b.l.LoginSecurity.publish(36)[m: [LoginSecurity] Registering commands...
-2025-01-19 21:59:48,531 [32mINFO [m [m[Server thread][m [mc.l.b.l.LoginSecurity.publish(36)[m: [LoginSecurity] Registering listeners...
-2025-01-19 21:59:48,616 [32mINFO [m [m[Server thread][m [mc.l.b.l.LoginSecurity.publish(36)[m: [LoginSecurity] Using 1.12+ map captcha renderer
-2025-01-19 21:59:48,618 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldGuardPlugin.publish(36)[m: [WorldGuard] Enabling WorldGuard v7.0.8+33cdb4a
-2025-01-19 21:59:48,914 [1;31mERROR[m [m[Server thread][m [mc.s.w.WorldEdit.<clinit>(282)[m: No TreeType mapping for TreeGenerator.TreeType.CHERRY
-2025-01-19 21:59:48,947 [32mINFO [m [m[Server thread][m [mc.s.w.c.WorldConfiguration.publish(36)[m: [WorldGuard] (world) TNT ignition is PERMITTED.
-2025-01-19 21:59:48,947 [32mINFO [m [m[Server thread][m [mc.s.w.c.WorldConfiguration.publish(36)[m: [WorldGuard] (world) Lighters are PERMITTED.
-2025-01-19 21:59:48,948 [32mINFO [m [m[Server thread][m [mc.s.w.c.WorldConfiguration.publish(36)[m: [WorldGuard] (world) Lava fire is PERMITTED.
-2025-01-19 21:59:48,948 [32mINFO [m [m[Server thread][m [mc.s.w.c.WorldConfiguration.publish(36)[m: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-2025-01-19 21:59:48,960 [32mINFO [m [m[Server thread][m [mc.s.w.c.WorldConfiguration.publish(36)[m: [WorldGuard] Loaded configuration for world 'world'
-2025-01-19 21:59:49,010 [32mINFO [m [m[Server thread][m [mc.s.w.WorldGuard.publish(36)[m: [WorldGuard] Loading region data...
-2025-01-19 21:59:49,858 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Server permissions file permissions.yml is empty, ignoring it
-2025-01-19 21:59:49,955 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(202)[m: Done (39.800s)! For help, type "help"
-2025-01-19 21:59:50,056 [32mINFO [m [m[Server thread][m [mn.m.s.p.PermissionAPI.initializePermissionAPI(130)[m: Successfully initialized permission handler forge:default_handler
-2025-01-19 21:59:50,256 [32mINFO [m [m[Server thread][m [mPlasmoVoice.start(67)[m: UDP server is started on /[0:0:0:0:0:0:0:0]:25565
-2025-01-19 21:59:50,411 [32mINFO [m [m[Craft Scheduler Thread - 1][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
-2025-01-19 21:59:50,414 [32mINFO [m [m[Craft Scheduler Thread - 1][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
-2025-01-19 21:59:50,415 [32mINFO [m [m[Craft Scheduler Thread - 1][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m[m
-2025-01-19 21:59:50,415 [32mINFO [m [m[Craft Scheduler Thread - 1][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m[m
-2025-01-19 21:59:50,416 [32mINFO [m [m[Craft Scheduler Thread - 1][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m[m
-2025-01-19 21:59:50,417 [32mINFO [m [m[Craft Scheduler Thread - 1][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
-2025-01-19 21:59:50,417 [32mINFO [m [m[Craft Scheduler Thread - 1][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
-2025-01-19 21:59:50,418 [32mINFO [m [m[Craft Scheduler Thread - 1][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.5.1[0;39m[m
-2025-01-19 21:59:50,419 [32mINFO [m [m[Craft Scheduler Thread - 1][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1md5d8613[0;39m[m
-2025-01-19 21:59:50,419 [32mINFO [m [m[Craft Scheduler Thread - 1][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m[m
-2025-01-19 21:59:50,420 [32mINFO [m [m[Craft Scheduler Thread - 1][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
-2025-01-19 21:59:50,421 [32mINFO [m [m[Craft Scheduler Thread - 1][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m[m
-2025-01-19 21:59:50,421 [32mINFO [m [m[Craft Scheduler Thread - 1][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m[m
-2025-01-19 22:04:27,365 [32mINFO [m [m[User Authenticator #1][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(378)[m: UUID of player SoySander is 2fdec197-58fd-3a92-a8c9-336e26aeae55
-2025-01-19 22:04:32,036 [32mINFO [m [m[Server thread][m [mn.m.c.AdvancementLoadFix.loadVisibility(36)[m: Using new advancement loading for net.minecraft.server.PlayerAdvancements@56a2d6e2
-2025-01-19 22:04:32,352 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander joined the game
-2025-01-19 22:04:32,577 [32mINFO [m [m[Server thread][m [mn.m.s.p.PlayerList.m_11261_(323)[m: SoySander[/127.132.108.172:50763] logged in with entity id 703 at (-4.622924488032423, 120.0, -1322.3364728442125)
-2025-01-19 22:06:19,282 [32mINFO [m [m[Async Chat Thread - #0][m [mn.m.s.MinecraftServer.m_241158_(2088)[m: <SoySander> semen
-2025-01-19 22:06:48,118 [33mWARN [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_9933_(351)[m: SoySander was kicked for floating too long!
-2025-01-19 22:06:48,129 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7026_(1412)[m: SoySander lost connection: Flying is not enabled on this server
-2025-01-19 22:06:48,130 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander left the game
-2025-01-19 22:06:48,147 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7026_(1412)[m: SoySander lost connection: Flying is not enabled on this server
-2025-01-19 22:06:48,147 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander left the game
-2025-01-19 22:06:48,173 [33mWARN [m [m[Server thread][m [mn.m.n.Connection.m_129541_(398)[m: handleDisconnection() called twice
-2025-01-19 22:08:24,578 [32mINFO [m [m[User Authenticator #2][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(378)[m: UUID of player SoySander is 2fdec197-58fd-3a92-a8c9-336e26aeae55
-2025-01-19 22:08:29,326 [32mINFO [m [m[Server thread][m [mn.m.c.AdvancementLoadFix.loadVisibility(36)[m: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5a92e7d1
-2025-01-19 22:08:29,371 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander joined the game
-2025-01-19 22:08:29,436 [32mINFO [m [m[Server thread][m [mn.m.s.p.PlayerList.m_11261_(323)[m: SoySander[/127.132.108.172:40627] logged in with entity id 1026 at (-90.815419183616, 120.17675927506424, -1405.3444919709657)
-2025-01-19 22:18:17,322 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: [SoySander: Set own game mode to Creative Mode]
-2025-01-19 22:22:07,948 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: [SoySander: Set own game mode to Survival Mode]
-2025-01-19 22:25:28,511 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7026_(1412)[m: SoySander lost connection: Disconnected
-2025-01-19 22:25:28,512 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: SoySander left the game
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 2197 out of bounds for length 1281
+	at com.sk89q.worldguard.bukkit.util.Materials.getBucketBlockMaterial(Materials.java:970) ~[?:?]
+	at com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerBucketEmpty(EventAbstractionListener.java:635) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	... 26 more
+2025-01-20 17:03:31,847 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Could not pass event PlayerBucketEmptyEvent to WorldGuard v7.0.8+33cdb4a
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.getPlayerBucketEvent(CraftEventFactory.java:441) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerBucketEmptyEvent(CraftEventFactory.java:413) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at net.minecraft.world.item.BucketItem.emptyContents(BucketItem.java:171) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.world.item.BucketItem.m_7203_(BucketItem.java:113) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.world.item.ItemStack.m_41682_(ItemStack.java:315) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_6261_(ServerPlayerGameMode.java:286) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_5760_(ServerGamePacketListenerImpl.java:1368) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.m_5797_(ServerboundUseItemPacket.java:29) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.m_5797_(ServerboundUseItemPacket.java:7) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:973) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 2197 out of bounds for length 1281
+	at com.sk89q.worldguard.bukkit.util.Materials.getBucketBlockMaterial(Materials.java:970) ~[?:?]
+	at com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerBucketEmpty(EventAbstractionListener.java:635) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	... 26 more
+2025-01-20 17:03:50,884 [1;31mERROR[m [m[Server thread][m [mc.s.w.u.e.EventBus.dispatch(195)[m: Could not dispatch event: com.sk89q.worldedit.event.platform.PlayerInputEvent@3372686 to handler EventHandler{priority=NORMAL}
+java.lang.reflect.InvocationTargetException: null
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:75) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.dispatch(EventBus.java:193) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.post(EventBus.java:181) ~[?:?]
+	at com.sk89q.worldedit.WorldEdit.handleArmSwing(WorldEdit.java:633) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditListener.onPlayerInteract(WorldEditListener.java:128) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:490) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:457) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:453) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7953_(ServerGamePacketListenerImpl.java:1762) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:7) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:973) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:889) ~[guava-31.1-jre.jar%23102!/:?]
+	at com.sk89q.worldedit.blocks.BaseItem.<init>(BaseItem.java:48) ~[?:?]
+	at com.sk89q.worldedit.blocks.BaseItemStack.<init>(BaseItemStack.java:53) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitAdapter.adapt(BukkitAdapter.java:531) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitPlayer.getItemInHand(BukkitPlayer.java:82) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.PlayerProxy.getItemInHand(PlayerProxy.java:69) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.PlatformManager.handlePlayerInput(PlatformManager.java:424) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.MethodHandleEventHandler.dispatch(MethodHandleEventHandler.java:51) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:73) ~[?:?]
+	... 32 more
+2025-01-20 17:03:50,887 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Could not pass event PlayerInteractEvent to WorldGuard v7.0.8+33cdb4a
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:490) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:457) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:453) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7953_(ServerGamePacketListenerImpl.java:1762) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:7) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:973) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "com.sk89q.worldedit.world.item.ItemType.getId()" because "this.type" is null
+	at com.sk89q.worldguard.blacklist.target.ItemTarget.getTypeId(ItemTarget.java:34) ~[?:?]
+	at com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:48) ~[?:?]
+	at com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:76) ~[?:?]
+	at com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerInteract(EventAbstractionListener.java:551) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	... 23 more
+2025-01-20 17:03:51,100 [1;31mERROR[m [m[Server thread][m [mc.s.w.u.e.EventBus.dispatch(195)[m: Could not dispatch event: com.sk89q.worldedit.event.platform.PlayerInputEvent@20825b9 to handler EventHandler{priority=NORMAL}
+java.lang.reflect.InvocationTargetException: null
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:75) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.dispatch(EventBus.java:193) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.post(EventBus.java:181) ~[?:?]
+	at com.sk89q.worldedit.WorldEdit.handleArmSwing(WorldEdit.java:633) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditListener.onPlayerInteract(WorldEditListener.java:128) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:490) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:457) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:453) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7953_(ServerGamePacketListenerImpl.java:1762) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:7) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:889) ~[guava-31.1-jre.jar%23102!/:?]
+	at com.sk89q.worldedit.blocks.BaseItem.<init>(BaseItem.java:48) ~[?:?]
+	at com.sk89q.worldedit.blocks.BaseItemStack.<init>(BaseItemStack.java:53) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitAdapter.adapt(BukkitAdapter.java:531) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitPlayer.getItemInHand(BukkitPlayer.java:82) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.PlayerProxy.getItemInHand(PlayerProxy.java:69) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.PlatformManager.handlePlayerInput(PlatformManager.java:424) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.MethodHandleEventHandler.dispatch(MethodHandleEventHandler.java:51) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:73) ~[?:?]
+	... 32 more
+2025-01-20 17:03:51,108 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Could not pass event PlayerInteractEvent to WorldGuard v7.0.8+33cdb4a
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:490) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:457) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:453) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7953_(ServerGamePacketListenerImpl.java:1762) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:7) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "com.sk89q.worldedit.world.item.ItemType.getId()" because "this.type" is null
+	at com.sk89q.worldguard.blacklist.target.ItemTarget.getTypeId(ItemTarget.java:34) ~[?:?]
+	at com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:48) ~[?:?]
+	at com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:76) ~[?:?]
+	at com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerInteract(EventAbstractionListener.java:551) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	... 23 more
+2025-01-20 17:03:52,763 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Could not pass event InventoryCloseEvent to ChunkLoader v3.2.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.handleInventoryCloseEvent(CraftEventFactory.java:1360) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7951_(ServerGamePacketListenerImpl.java:2006) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:15) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClosePacket.m_5797_(ServerboundContainerClosePacket.java:6) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.InventoryView.getPlayer()" because "this.transaction" is null
+	at org.bukkit.event.inventory.InventoryCloseEvent.getPlayer(InventoryCloseEvent.java:26) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.kayteam.inventoryapi.listeners.InventoryCloseListener.onInventoryClose(InventoryCloseListener.java:25) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	... 21 more
+2025-01-20 17:03:55,095 [1;31mERROR[m [m[Server thread][m [mc.s.w.u.e.EventBus.dispatch(195)[m: Could not dispatch event: com.sk89q.worldedit.event.platform.PlayerInputEvent@46fe9547 to handler EventHandler{priority=NORMAL}
+java.lang.reflect.InvocationTargetException: null
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:75) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.dispatch(EventBus.java:193) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.post(EventBus.java:181) ~[?:?]
+	at com.sk89q.worldedit.WorldEdit.handleArmSwing(WorldEdit.java:633) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditListener.onPlayerInteract(WorldEditListener.java:128) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:490) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:457) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:453) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7953_(ServerGamePacketListenerImpl.java:1762) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:7) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:889) ~[guava-31.1-jre.jar%23102!/:?]
+	at com.sk89q.worldedit.blocks.BaseItem.<init>(BaseItem.java:48) ~[?:?]
+	at com.sk89q.worldedit.blocks.BaseItemStack.<init>(BaseItemStack.java:53) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitAdapter.adapt(BukkitAdapter.java:531) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitPlayer.getItemInHand(BukkitPlayer.java:82) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.PlayerProxy.getItemInHand(PlayerProxy.java:69) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.PlatformManager.handlePlayerInput(PlatformManager.java:424) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.MethodHandleEventHandler.dispatch(MethodHandleEventHandler.java:51) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:73) ~[?:?]
+	... 32 more
+2025-01-20 17:03:55,097 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Could not pass event PlayerInteractEvent to WorldGuard v7.0.8+33cdb4a
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:490) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:457) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:453) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7953_(ServerGamePacketListenerImpl.java:1762) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:7) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "com.sk89q.worldedit.world.item.ItemType.getId()" because "this.type" is null
+	at com.sk89q.worldguard.blacklist.target.ItemTarget.getTypeId(ItemTarget.java:34) ~[?:?]
+	at com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:48) ~[?:?]
+	at com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:76) ~[?:?]
+	at com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerInteract(EventAbstractionListener.java:551) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	... 23 more
+2025-01-20 17:03:55,421 [1;31mERROR[m [m[Server thread][m [mc.s.w.u.e.EventBus.dispatch(195)[m: Could not dispatch event: com.sk89q.worldedit.event.platform.PlayerInputEvent@238bfbab to handler EventHandler{priority=NORMAL}
+java.lang.reflect.InvocationTargetException: null
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:75) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.dispatch(EventBus.java:193) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.post(EventBus.java:181) ~[?:?]
+	at com.sk89q.worldedit.WorldEdit.handleArmSwing(WorldEdit.java:633) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditListener.onPlayerInteract(WorldEditListener.java:128) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:490) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:457) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:453) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7953_(ServerGamePacketListenerImpl.java:1762) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:7) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:889) ~[guava-31.1-jre.jar%23102!/:?]
+	at com.sk89q.worldedit.blocks.BaseItem.<init>(BaseItem.java:48) ~[?:?]
+	at com.sk89q.worldedit.blocks.BaseItemStack.<init>(BaseItemStack.java:53) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitAdapter.adapt(BukkitAdapter.java:531) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitPlayer.getItemInHand(BukkitPlayer.java:82) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.PlayerProxy.getItemInHand(PlayerProxy.java:69) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.PlatformManager.handlePlayerInput(PlatformManager.java:424) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.MethodHandleEventHandler.dispatch(MethodHandleEventHandler.java:51) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:73) ~[?:?]
+	... 32 more
+2025-01-20 17:03:55,423 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Could not pass event PlayerInteractEvent to WorldGuard v7.0.8+33cdb4a
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:490) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:457) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:453) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7953_(ServerGamePacketListenerImpl.java:1762) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:7) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "com.sk89q.worldedit.world.item.ItemType.getId()" because "this.type" is null
+	at com.sk89q.worldguard.blacklist.target.ItemTarget.getTypeId(ItemTarget.java:34) ~[?:?]
+	at com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:48) ~[?:?]
+	at com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:76) ~[?:?]
+	at com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerInteract(EventAbstractionListener.java:551) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	... 23 more
+2025-01-20 17:03:59,438 [1;31mERROR[m [m[Server thread][m [mc.s.w.u.e.EventBus.dispatch(195)[m: Could not dispatch event: com.sk89q.worldedit.event.platform.PlayerInputEvent@6653a75f to handler EventHandler{priority=NORMAL}
+java.lang.reflect.InvocationTargetException: null
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:75) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.dispatch(EventBus.java:193) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.post(EventBus.java:181) ~[?:?]
+	at com.sk89q.worldedit.WorldEdit.handleArmSwing(WorldEdit.java:633) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditListener.onPlayerInteract(WorldEditListener.java:128) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:490) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:457) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:453) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7953_(ServerGamePacketListenerImpl.java:1762) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:7) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:889) ~[guava-31.1-jre.jar%23102!/:?]
+	at com.sk89q.worldedit.blocks.BaseItem.<init>(BaseItem.java:48) ~[?:?]
+	at com.sk89q.worldedit.blocks.BaseItemStack.<init>(BaseItemStack.java:53) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitAdapter.adapt(BukkitAdapter.java:531) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitPlayer.getItemInHand(BukkitPlayer.java:82) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.PlayerProxy.getItemInHand(PlayerProxy.java:69) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.PlatformManager.handlePlayerInput(PlatformManager.java:424) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.MethodHandleEventHandler.dispatch(MethodHandleEventHandler.java:51) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:73) ~[?:?]
+	... 32 more
+2025-01-20 17:03:59,440 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Could not pass event PlayerInteractEvent to WorldGuard v7.0.8+33cdb4a
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:490) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:457) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:453) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7953_(ServerGamePacketListenerImpl.java:1762) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:7) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "com.sk89q.worldedit.world.item.ItemType.getId()" because "this.type" is null
+	at com.sk89q.worldguard.blacklist.target.ItemTarget.getTypeId(ItemTarget.java:34) ~[?:?]
+	at com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:48) ~[?:?]
+	at com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:76) ~[?:?]
+	at com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerInteract(EventAbstractionListener.java:551) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	... 23 more
+2025-01-20 17:03:59,752 [1;31mERROR[m [m[Server thread][m [mc.s.w.u.e.EventBus.dispatch(195)[m: Could not dispatch event: com.sk89q.worldedit.event.platform.PlayerInputEvent@39762ffd to handler EventHandler{priority=NORMAL}
+java.lang.reflect.InvocationTargetException: null
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:75) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.dispatch(EventBus.java:193) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.post(EventBus.java:181) ~[?:?]
+	at com.sk89q.worldedit.WorldEdit.handleArmSwing(WorldEdit.java:633) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditListener.onPlayerInteract(WorldEditListener.java:128) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:490) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:457) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:453) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7953_(ServerGamePacketListenerImpl.java:1762) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:7) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:889) ~[guava-31.1-jre.jar%23102!/:?]
+	at com.sk89q.worldedit.blocks.BaseItem.<init>(BaseItem.java:48) ~[?:?]
+	at com.sk89q.worldedit.blocks.BaseItemStack.<init>(BaseItemStack.java:53) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitAdapter.adapt(BukkitAdapter.java:531) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitPlayer.getItemInHand(BukkitPlayer.java:82) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.PlayerProxy.getItemInHand(PlayerProxy.java:69) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.PlatformManager.handlePlayerInput(PlatformManager.java:424) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.MethodHandleEventHandler.dispatch(MethodHandleEventHandler.java:51) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:73) ~[?:?]
+	... 32 more
+2025-01-20 17:03:59,753 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Could not pass event PlayerInteractEvent to WorldGuard v7.0.8+33cdb4a
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:490) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:457) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:453) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7953_(ServerGamePacketListenerImpl.java:1762) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:7) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:974) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "com.sk89q.worldedit.world.item.ItemType.getId()" because "this.type" is null
+	at com.sk89q.worldguard.blacklist.target.ItemTarget.getTypeId(ItemTarget.java:34) ~[?:?]
+	at com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:48) ~[?:?]
+	at com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:76) ~[?:?]
+	at com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerInteract(EventAbstractionListener.java:551) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	... 23 more
+2025-01-20 17:04:03,445 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: un_randompro has reached the goal [Great minds think alike]
+2025-01-20 17:06:59,817 [33mWARN [m [m[Server thread][m [mn.m.s.MinecraftServer.m_130011_(860)[m: Can't keep up! Is the server overloaded? Running 2085ms or 41 ticks behind
+2025-01-20 17:07:44,189 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:tombstone.undead_killed, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x000076e838a54140@7fe70ffb}
+2025-01-20 17:08:06,337 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: Plugins (10): [0;32;1mClearLag[0;37;1m, [0;32;1mvoicechat[0;37;1m, [0;32;1mPlayerTimeLimit[0;37;1m, [0;32;1mSkinsRestorer[0;37;1m, [0;32;1mSimpleTimer[0;37;1m, [0;32;1mWorldEdit[0;37;1m, [0;32;1mChunkLoader[0;37;1m, [0;32;1mLoginSecurity[0;37;1m, [0;32;1mWorldGuard[0;37;1m, [0;32;1mCoreProtect[m
+2025-01-20 17:08:12,687 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:tombstone.undead_killed, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x000076e838a54140@7fe70ffb}
+2025-01-20 17:09:27,891 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:minecraft.waystone_activated, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x000076e838a54140@7fe70ffb}
+2025-01-20 17:10:07,688 [1;31mERROR[m [m[Server thread][m [mc.s.w.u.e.EventBus.dispatch(195)[m: Could not dispatch event: com.sk89q.worldedit.event.platform.PlayerInputEvent@a7d23c9 to handler EventHandler{priority=NORMAL}
+java.lang.reflect.InvocationTargetException: null
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:75) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.dispatch(EventBus.java:193) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.post(EventBus.java:181) ~[?:?]
+	at com.sk89q.worldedit.WorldEdit.handleArmSwing(WorldEdit.java:633) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditListener.onPlayerInteract(WorldEditListener.java:128) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor32.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:490) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:457) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:453) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7953_(ServerGamePacketListenerImpl.java:1762) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:7) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:973) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:889) ~[guava-31.1-jre.jar%23102!/:?]
+	at com.sk89q.worldedit.blocks.BaseItem.<init>(BaseItem.java:48) ~[?:?]
+	at com.sk89q.worldedit.blocks.BaseItemStack.<init>(BaseItemStack.java:53) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitAdapter.adapt(BukkitAdapter.java:531) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitPlayer.getItemInHand(BukkitPlayer.java:82) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.PlayerProxy.getItemInHand(PlayerProxy.java:69) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.PlatformManager.handlePlayerInput(PlatformManager.java:424) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.MethodHandleEventHandler.dispatch(MethodHandleEventHandler.java:51) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:73) ~[?:?]
+	... 31 more
+2025-01-20 17:10:07,691 [1;31mERROR[m [m[Server thread][m [mMinecraft.publish(32)[m: Could not pass event PlayerInteractEvent to WorldGuard v7.0.8+33cdb4a
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:490) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:457) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at org.bukkit.craftbukkit.v1_19_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:453) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7953_(ServerGamePacketListenerImpl.java:1762) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.m_5797_(ServerboundSwingPacket.java:7) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:25) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1011) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:994) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:988) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:973) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:898) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "com.sk89q.worldedit.world.item.ItemType.getId()" because "this.type" is null
+	at com.sk89q.worldguard.blacklist.target.ItemTarget.getTypeId(ItemTarget.java:34) ~[?:?]
+	at com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:48) ~[?:?]
+	at com.sk89q.worldguard.bukkit.internal.TargetMatcherSet.test(TargetMatcherSet.java:76) ~[?:?]
+	at com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onPlayerInteract(EventAbstractionListener.java:551) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor33.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
+	... 23 more
