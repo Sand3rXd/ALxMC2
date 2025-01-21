@@ -839,6 +839,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2025-01-21 00:47:04 +0000",
       "minecraft:spider": "2025-01-18 19:21:39 +0000",
       "minecraft:piglin_brute": "2025-01-20 02:13:58 +0000",
       "minecraft:creeper": "2025-01-18 18:46:26 +0000",
@@ -2195,6 +2196,12 @@
   "minecraft:recipes/misc/sugar_from_sugar_cane": {
     "criteria": {
       "has_sugar_cane": "2025-01-19 23:31:14 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/find_grave_dust": {
+    "criteria": {
+      "from_undead": "2025-01-21 00:47:04 +0000"
     },
     "done": true
   },
