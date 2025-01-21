@@ -305,6 +305,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-01-21 00:35:09 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/deepslate_diamond_mine": {
     "criteria": {
       "has_mine": "2025-01-19 23:40:45 +0000"
@@ -907,6 +913,12 @@
   "minecraft:recipes/decorations/stone_brick_wall": {
     "criteria": {
       "has_stone_bricks": "2025-01-20 19:38:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2025-01-21 00:38:21 +0000"
     },
     "done": true
   },
