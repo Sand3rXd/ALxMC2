@@ -468,6 +468,12 @@
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/murmur": {
+    "criteria": {
+      "killed_by": "2025-01-21 21:47:44 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/reinforced_red_stained_glass": {
     "criteria": {
       "has_glass": "2025-01-20 01:38:40 +0000"
@@ -920,7 +926,8 @@
       "minecraft:piglin": "2025-01-20 02:13:17 +0000",
       "minecraft:enderman": "2025-01-20 00:21:50 +0000",
       "minecraft:zombie": "2025-01-20 00:26:05 +0000",
-      "minecraft:drowned": "2025-01-20 19:09:30 +0000"
+      "minecraft:drowned": "2025-01-20 19:09:30 +0000",
+      "minecraft:zombie_villager": "2025-01-21 21:48:11 +0000"
     },
     "done": false
   },
@@ -2742,6 +2749,12 @@
   "securitycraft:recipes/securitycraft/reinforced_light_blue_stained_glass_pane_from_glass": {
     "criteria": {
       "has_glass": "2025-01-20 01:38:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_gold": {
+    "criteria": {
+      "has_raw_gold_block": "2025-01-21 21:46:58 +0000"
     },
     "done": true
   },

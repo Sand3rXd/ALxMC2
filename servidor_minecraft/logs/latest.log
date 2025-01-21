@@ -20535,3 +20535,646 @@ Caused by: java.lang.NullPointerException: Cannot invoke "com.sk89q.worldedit.wo
 2025-01-21 21:48:11,935 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:tombstone.undead_killed, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x00007dc9d8a54140@6be467f1}
 2025-01-21 21:48:15,484 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:tombstone.undead_killed, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x00007dc9d8a54140@6be467f1}
 2025-01-21 21:48:33,987 [33mWARN [m [m[Server thread][m [m.handleStatisticsIncrease(1419)[m: Unhandled statistic: Stat{name=minecraft.custom:tombstone.undead_killed, formatter=net.minecraft.stats.StatFormatter$$Lambda$3682/0x00007dc9d8a54140@6be467f1}
+2025-01-21 21:49:14,971 [32mINFO [m [m[Async Chat Thread - #35][m [mn.m.s.MinecraftServer.m_241158_(2088)[m: <Jeiker45> acepta soli de dc
+2025-01-21 21:49:17,595 [32mINFO [m [m[Async Chat Thread - #35][m [mn.m.s.MinecraftServer.m_241158_(2088)[m: <Jeiker45> DarienZ45
+2025-01-21 21:50:04,513 [32mINFO [m [m[Async Chat Thread - #35][m [mn.m.s.MinecraftServer.m_241158_(2088)[m: <Jeiker45> ya
+2025-01-21 21:50:40,535 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: Stopping the server
+2025-01-21 21:50:40,580 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_7041_(684)[m: Stopping server
+2025-01-21 21:50:40,581 [32mINFO [m [m[Server thread][m [mn.c.CoreProtect.publish(36)[m: [CoreProtect] Disabling CoreProtect v22.4
+2025-01-21 21:50:40,581 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: [CoreProtect] Finishing up data logging. Please wait...
+2025-01-21 21:50:41,182 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: [CoreProtect] Success! Disabled CoreProtect v22.4
+2025-01-21 21:50:41,184 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldGuardPlugin.publish(36)[m: [WorldGuard] Disabling WorldGuard v7.0.8+33cdb4a
+2025-01-21 21:50:41,184 [32mINFO [m [m[Server thread][m [mc.s.w.WorldGuard.publish(36)[m: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+2025-01-21 21:50:41,185 [32mINFO [m [m[Server thread][m [mc.l.b.l.LoginSecurity.publish(36)[m: [LoginSecurity] Disabling LoginSecurity v3.3.0
+2025-01-21 21:50:41,186 [32mINFO [m [m[Server thread][m [mc.l.b.l.LoginSecurity.publish(36)[m: [LoginSecurity] Waiting for queued tasks...
+2025-01-21 21:50:41,187 [32mINFO [m [m[Server thread][m [mc.l.b.l.LoginSecurity.publish(36)[m: [LoginSecurity] ExecutorService shut down, ready to disable.
+2025-01-21 21:50:41,188 [32mINFO [m [m[Server thread][m [mo.k.c.ChunkLoader.publish(36)[m: [ChunkLoader] Disabling ChunkLoader v3.2.1
+2025-01-21 21:50:41,188 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;37;22m[m
+2025-01-21 21:50:41,189 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;36;22m* ChunkLoader [0;31;1mDisabled[m
+2025-01-21 21:50:41,189 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;36;22m*[m
+2025-01-21 21:50:41,189 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;36;22m* [0;36;1mVersion: [0;37;1m3.2.1[m
+2025-01-21 21:50:41,189 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;36;22m* [0;36;1mAuthor: [0;37;1mKayTeam[m
+2025-01-21 21:50:41,189 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;36;22m* [0;36;1mWebsite: [0;37;1mhttps://kayteam.org[m
+2025-01-21 21:50:41,190 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;36;22m*[m
+2025-01-21 21:50:41,190 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;36;22m* [0;36;1mI like the bread![m
+2025-01-21 21:50:41,190 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;37;22m[m
+2025-01-21 21:50:41,190 [32mINFO [m [m[Server thread][m [mc.s.w.b.WorldEditPlugin.publish(36)[m: [WorldEdit] Disabling WorldEdit v7.2.15+6463-5ca4dff
+2025-01-21 21:50:41,224 [32mINFO [m [m[Server thread][m [mc.s.w.e.p.PlatformManager.unregister(132)[m: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+2025-01-21 21:50:41,226 [32mINFO [m [m[Server thread][m [mx.s.SimpleTimer.publish(36)[m: [SimpleTimer] Disabling SimpleTimer v1.5.2
+2025-01-21 21:50:41,226 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;32;22m[SimpleTimer] [0;31;1mSuccessfully Disabled[m
+2025-01-21 21:50:41,227 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;32;22m[SimpleTimer] [0;37;1mXhasi [0;30;1m» [0;37;22mGood Bye[m
+2025-01-21 21:50:41,227 [32mINFO [m [m[Server thread][m [mn.s.b.SRBukkitBootstrap.publish(36)[m: [SkinsRestorer] Disabling SkinsRestorer v15.5.1
+2025-01-21 21:50:41,242 [32mINFO [m [m[Server thread][m [mp.a.PlayerTimeLimit.publish(36)[m: [PlayerTimeLimit] Disabling PlayerTimeLimit v1.6.1
+2025-01-21 21:50:41,245 [32mINFO [m [m[Server thread][m [m.sendMessage(60)[m: [0;30;1m[[0;36;1mPlayerTime[0;31;1mLimit[0;30;1m] [0;33;1mHas been disabled! [0;37;1mVersion: 1.6.1[m
+2025-01-21 21:50:41,246 [32mINFO [m [m[Server thread][m [md.m.v.Voicechat.publish(36)[m: [voicechat] Disabling voicechat v2.5.27
+2025-01-21 21:50:41,268 [32mINFO [m [m[Server thread][m [mm.m.c.Clearlag.publish(36)[m: [ClearLag] Disabling ClearLag v3.2.2
+2025-01-21 21:50:41,269 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: [ClearLag] Clearlag is now disabled!
+2025-01-21 21:50:41,270 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_7041_(696)[m: Saving players
+2025-01-21 21:50:41,298 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7026_(1412)[m: Jeiker45 lost connection: Server closed
+2025-01-21 21:50:41,298 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: Jeiker45 left the game
+2025-01-21 21:50:41,309 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7026_(1412)[m: DrakoOsmar lost connection: Server closed
+2025-01-21 21:50:41,309 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_213846_(1269)[m: DrakoOsmar left the game
+2025-01-21 21:50:41,416 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_7041_(702)[m: Saving worlds
+2025-01-21 21:51:41,129 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,130 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: The server has stopped responding! This is (probably) not a Spigot bug.
+2025-01-21 21:51:41,131 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: If you see a plugin in the Server thread dump below, then please report it to that author
+2025-01-21 21:51:41,131 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	 *Especially* if it looks like HTTP or MySQL operations are occurring
+2025-01-21 21:51:41,131 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: If you see a world save or edit, then it means you did far more than your server can handle at once
+2025-01-21 21:51:41,132 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	 If this is the case, consider increasing timeout-time in spigot.yml but note that this will replace the crash with LARGE lag spikes
+2025-01-21 21:51:41,132 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: If you are unsure or still think this is a Spigot bug, please report to https://www.spigotmc.org/
+2025-01-21 21:51:41,133 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Be sure to include ALL relevant console errors and Minecraft crash reports
+2025-01-21 21:51:41,133 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Spigot version: 1.19.2-139 (MC: 1.19.2)
+2025-01-21 21:51:41,134 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,134 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Server thread dump (Look for plugins here before reporting to Spigot!):
+2025-01-21 21:51:41,141 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,141 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Server thread
+2025-01-21 21:51:41,145 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 38 | Suspended: false | Native: false | State: RUNNABLE
+2025-01-21 21:51:41,145 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,145 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.LevelChunkSection.<init>(LevelChunkSection.java:45)
+2025-01-21 21:51:41,145 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.ChunkAccess.m_187634_(ChunkAccess.java:109)
+2025-01-21 21:51:41,145 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.ChunkAccess.<init>(ChunkAccess.java:102)
+2025-01-21 21:51:41,145 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.ProtoChunk.<init>(ProtoChunk.java:57)
+2025-01-21 21:51:41,145 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.ProtoChunk.<init>(ProtoChunk.java:53)
+2025-01-21 21:51:41,145 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.ImposterProtoChunk.<init>(ImposterProtoChunk.java:36)
+2025-01-21 21:51:41,145 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.ChunkSerializer.m_188230_(ChunkSerializer.java:231)
+2025-01-21 21:51:41,146 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkMap.m_214889_(ChunkMap.java:591)
+2025-01-21 21:51:41,146 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkMap$$Lambda$13430/0x00007dc9d9a04000.apply(Unknown Source)
+2025-01-21 21:51:41,146 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+2025-01-21 21:51:41,146 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+2025-01-21 21:51:41,146 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
+2025-01-21 21:51:41,146 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:573)
+2025-01-21 21:51:41,146 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
+2025-01-21 21:51:41,146 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:583)
+2025-01-21 21:51:41,146 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
+2025-01-21 21:51:41,146 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ServerChunkCache.m_7587_(ServerChunkCache.java:140)
+2025-01-21 21:51:41,146 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.Level.m_6522_(Level.java:286)
+2025-01-21 21:51:41,146 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.LevelReader.m_46819_(LevelReader.java:129)
+2025-01-21 21:51:41,147 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.Level.m_6325_(Level.java:281)
+2025-01-21 21:51:41,147 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.Level.m_8055_(Level.java:497)
+2025-01-21 21:51:41,147 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.Level.m_151543_(Level.java:816)
+2025-01-21 21:51:41,147 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.block.entity.BlockEntity.m_155232_(BlockEntity.java:151)
+2025-01-21 21:51:41,147 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.block.entity.BlockEntity.m_6596_(BlockEntity.java:145)
+2025-01-21 21:51:41,147 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/decocraft@3.0.0.8-beta-1.19.2/com.razz.decocraft.common.tileentities.DecobenchTileEntity.m_183515_(DecobenchTileEntity.java:125)
+2025-01-21 21:51:41,147 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.block.entity.BlockEntity.m_187482_(BlockEntity.java:85)
+2025-01-21 21:51:41,147 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.block.entity.BlockEntity.m_187480_(BlockEntity.java:72)
+2025-01-21 21:51:41,147 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.LevelChunk.m_8051_(LevelChunk.java:402)
+2025-01-21 21:51:41,147 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.ChunkSerializer.m_63454_(ChunkSerializer.java:355)
+2025-01-21 21:51:41,147 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkMap.m_140258_(ChunkMap.java:845)
+2025-01-21 21:51:41,147 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkMap.m_202998_(ChunkMap.java:525)
+2025-01-21 21:51:41,148 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkMap$$Lambda$15208/0x00007dc9d9cac258.accept(Unknown Source)
+2025-01-21 21:51:41,148 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+2025-01-21 21:51:41,148 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+2025-01-21 21:51:41,149 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkMap.m_140353_(ChunkMap.java:498)
+2025-01-21 21:51:41,149 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkMap.m_140280_(ChunkMap.java:469)
+2025-01-21 21:51:41,153 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCache.java:352)
+2025-01-21 21:51:41,153 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_7041_(MinecraftServer.java:717)
+2025-01-21 21:51:41,153 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.dedicated.DedicatedServer.m_7041_(DedicatedServer.java:600)
+2025-01-21 21:51:41,153 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:922)
+2025-01-21 21:51:41,154 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281)
+2025-01-21 21:51:41,154 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer$$Lambda$11700/0x00007dc9d93aab78.run(Unknown Source)
+2025-01-21 21:51:41,154 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,154 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,154 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Entire Thread Dump:
+2025-01-21 21:51:41,895 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,896 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Reference Handler
+2025-01-21 21:51:41,896 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 2 | Suspended: false | Native: false | State: RUNNABLE
+2025-01-21 21:51:41,896 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,897 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+2025-01-21 21:51:41,897 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.ref.Reference.processPendingReferences(Reference.java:253)
+2025-01-21 21:51:41,897 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+2025-01-21 21:51:41,898 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,898 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Finalizer
+2025-01-21 21:51:41,898 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 3 | Suspended: false | Native: false | State: WAITING
+2025-01-21 21:51:41,899 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,899 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Object.wait(Native Method)
+2025-01-21 21:51:41,900 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+2025-01-21 21:51:41,900 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+2025-01-21 21:51:41,900 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:172)
+2025-01-21 21:51:41,900 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,901 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Signal Dispatcher
+2025-01-21 21:51:41,901 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 4 | Suspended: false | Native: false | State: RUNNABLE
+2025-01-21 21:51:41,901 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,901 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,901 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Notification Thread
+2025-01-21 21:51:41,901 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 11 | Suspended: false | Native: false | State: RUNNABLE
+2025-01-21 21:51:41,901 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,902 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,902 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Common-Cleaner
+2025-01-21 21:51:41,902 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 12 | Suspended: false | Native: false | State: TIMED_WAITING
+2025-01-21 21:51:41,902 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,902 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Object.wait(Native Method)
+2025-01-21 21:51:41,902 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+2025-01-21 21:51:41,903 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+2025-01-21 21:51:41,903 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,903 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+2025-01-21 21:51:41,903 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,903 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Thread-0
+2025-01-21 21:51:41,903 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 23 | Suspended: false | Native: false | State: TIMED_WAITING
+2025-01-21 21:51:41,903 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,904 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+2025-01-21 21:51:41,904 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:376)
+2025-01-21 21:51:41,904 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/com.electronwill.nightconfig.core@3.6.4/com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:190)
+2025-01-21 21:51:41,904 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,904 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: FileSystemWatchService
+2025-01-21 21:51:41,904 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 24 | Suspended: false | Native: true | State: RUNNABLE
+2025-01-21 21:51:41,905 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,905 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.fs.LinuxWatchService.poll(Native Method)
+2025-01-21 21:51:41,905 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+2025-01-21 21:51:41,905 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,905 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,905 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Timer hack thread
+2025-01-21 21:51:41,905 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 27 | Suspended: false | Native: false | State: TIMED_WAITING
+2025-01-21 21:51:41,906 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,906 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.sleep(Native Method)
+2025-01-21 21:51:41,906 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.Util$9.run(Util.java:673)
+2025-01-21 21:51:41,906 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,906 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: FileSystemWatchService
+2025-01-21 21:51:41,906 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 32 | Suspended: false | Native: true | State: RUNNABLE
+2025-01-21 21:51:41,906 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,907 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.fs.LinuxWatchService.poll(Native Method)
+2025-01-21 21:51:41,907 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+2025-01-21 21:51:41,907 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,907 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,907 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Server thread
+2025-01-21 21:51:41,907 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 38 | Suspended: false | Native: false | State: RUNNABLE
+2025-01-21 21:51:41,907 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,908 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.levelgen.Heightmap.m_64256_(Heightmap.java:104)
+2025-01-21 21:51:41,908 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.ChunkSerializer.m_188230_(ChunkSerializer.java:211)
+2025-01-21 21:51:41,908 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkMap.m_214889_(ChunkMap.java:591)
+2025-01-21 21:51:41,908 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkMap$$Lambda$13430/0x00007dc9d9a04000.apply(Unknown Source)
+2025-01-21 21:51:41,908 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+2025-01-21 21:51:41,908 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+2025-01-21 21:51:41,909 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
+2025-01-21 21:51:41,909 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:573)
+2025-01-21 21:51:41,909 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
+2025-01-21 21:51:41,909 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:583)
+2025-01-21 21:51:41,909 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
+2025-01-21 21:51:41,909 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ServerChunkCache.m_7587_(ServerChunkCache.java:140)
+2025-01-21 21:51:41,909 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.Level.m_6522_(Level.java:286)
+2025-01-21 21:51:41,910 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.LevelReader.m_46819_(LevelReader.java:129)
+2025-01-21 21:51:41,910 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.Level.m_6325_(Level.java:281)
+2025-01-21 21:51:41,910 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.Level.m_8055_(Level.java:497)
+2025-01-21 21:51:41,910 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.Level.m_151543_(Level.java:816)
+2025-01-21 21:51:41,910 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.block.entity.BlockEntity.m_155232_(BlockEntity.java:151)
+2025-01-21 21:51:41,910 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.block.entity.BlockEntity.m_6596_(BlockEntity.java:145)
+2025-01-21 21:51:41,910 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/decocraft@3.0.0.8-beta-1.19.2/com.razz.decocraft.common.tileentities.DecobenchTileEntity.m_183515_(DecobenchTileEntity.java:125)
+2025-01-21 21:51:41,911 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.block.entity.BlockEntity.m_187482_(BlockEntity.java:85)
+2025-01-21 21:51:41,911 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.block.entity.BlockEntity.m_187480_(BlockEntity.java:72)
+2025-01-21 21:51:41,912 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.LevelChunk.m_8051_(LevelChunk.java:402)
+2025-01-21 21:51:41,912 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.chunk.storage.ChunkSerializer.m_63454_(ChunkSerializer.java:355)
+2025-01-21 21:51:41,913 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkMap.m_140258_(ChunkMap.java:845)
+2025-01-21 21:51:41,913 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkMap.m_202998_(ChunkMap.java:525)
+2025-01-21 21:51:41,913 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkMap$$Lambda$15208/0x00007dc9d9cac258.accept(Unknown Source)
+2025-01-21 21:51:41,914 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+2025-01-21 21:51:41,914 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+2025-01-21 21:51:41,914 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkMap.m_140353_(ChunkMap.java:498)
+2025-01-21 21:51:41,914 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ChunkMap.m_140280_(ChunkMap.java:469)
+2025-01-21 21:51:41,915 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCache.java:352)
+2025-01-21 21:51:41,915 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_7041_(MinecraftServer.java:717)
+2025-01-21 21:51:41,915 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.dedicated.DedicatedServer.m_7041_(DedicatedServer.java:600)
+2025-01-21 21:51:41,915 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:922)
+2025-01-21 21:51:41,915 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281)
+2025-01-21 21:51:41,915 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer$$Lambda$11700/0x00007dc9d93aab78.run(Unknown Source)
+2025-01-21 21:51:41,915 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,916 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,916 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: DestroyJavaVM
+2025-01-21 21:51:41,916 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 41 | Suspended: false | Native: false | State: RUNNABLE
+2025-01-21 21:51:41,916 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,916 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,916 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Server console handler
+2025-01-21 21:51:41,916 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 40 | Suspended: false | Native: false | State: RUNNABLE
+2025-01-21 21:51:41,917 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,917 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.io.FileInputStream.read0(Native Method)
+2025-01-21 21:51:41,917 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.io.FileInputStream.read(FileInputStream.java:228)
+2025-01-21 21:51:41,917 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/org.jline.terminal@3.21.0/org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73)
+2025-01-21 21:51:41,917 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/org.jline.terminal@3.21.0/org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62)
+2025-01-21 21:51:41,917 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/org.jline.terminal@3.21.0/org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168)
+2025-01-21 21:51:41,917 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/org.jline.terminal@3.21.0/org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57)
+2025-01-21 21:51:41,918 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/org.jline.reader@3.21.0/org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160)
+2025-01-21 21:51:41,918 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/org.jline.reader@3.21.0/org.jline.keymap.BindingReader.readBinding(BindingReader.java:110)
+2025-01-21 21:51:41,918 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/org.jline.reader@3.21.0/org.jline.keymap.BindingReader.readBinding(BindingReader.java:61)
+2025-01-21 21:51:41,918 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/org.jline.reader@3.21.0/org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923)
+2025-01-21 21:51:41,918 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/org.jline.reader@3.21.0/org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956)
+2025-01-21 21:51:41,918 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/org.jline.reader@3.21.0/org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651)
+2025-01-21 21:51:41,918 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/org.jline.reader@3.21.0/org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468)
+2025-01-21 21:51:41,918 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/forge@43.4.2/net.minecraftforge.server.console.TerminalHandler.handleCommands(TerminalHandler.java:46)
+2025-01-21 21:51:41,918 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/minecraft@1.19.2/net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:99)
+2025-01-21 21:51:41,919 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,919 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Netty Server IO #0
+2025-01-21 21:51:41,919 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 42 | Suspended: false | Native: true | State: RUNNABLE
+2025-01-21 21:51:41,919 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Thread is waiting on monitor(s):
+2025-01-21 21:51:41,919 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		Locked on:java.base@17.0.13/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+2025-01-21 21:51:41,919 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		Locked on:java.base@17.0.13/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+2025-01-21 21:51:41,919 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,919 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.EPoll.wait(Native Method)
+2025-01-21 21:51:41,920 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:118)
+2025-01-21 21:51:41,920 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+2025-01-21 21:51:41,920 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+2025-01-21 21:51:41,920 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+2025-01-21 21:51:41,920 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:813)
+2025-01-21 21:51:41,920 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+2025-01-21 21:51:41,921 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.common@4.1.77.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+2025-01-21 21:51:41,921 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.common@4.1.77.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+2025-01-21 21:51:41,921 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,921 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,921 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Spigot Watchdog Thread
+2025-01-21 21:51:41,921 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 43 | Suspended: false | Native: false | State: RUNNABLE
+2025-01-21 21:51:41,921 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,922 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.management@17.0.13/sun.management.ThreadImpl.dumpThreads0(Native Method)
+2025-01-21 21:51:41,922 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.management@17.0.13/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:528)
+2025-01-21 21:51:41,922 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.management@17.0.13/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:516)
+2025-01-21 21:51:41,922 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		TRANSFORMER/forge@43.4.2/org.spigotmc.WatchdogThread.run(WatchdogThread.java:82)
+2025-01-21 21:51:41,923 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,923 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: bStats-Metrics
+2025-01-21 21:51:41,923 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 45 | Suspended: false | Native: false | State: TIMED_WAITING
+2025-01-21 21:51:41,923 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,923 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+2025-01-21 21:51:41,923 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-01-21 21:51:41,923 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679)
+2025-01-21 21:51:41,923 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+2025-01-21 21:51:41,924 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+2025-01-21 21:51:41,924 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+2025-01-21 21:51:41,924 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+2025-01-21 21:51:41,924 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2025-01-21 21:51:41,924 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,924 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,924 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: bStats-Metrics
+2025-01-21 21:51:41,925 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 46 | Suspended: false | Native: false | State: TIMED_WAITING
+2025-01-21 21:51:41,925 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,925 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+2025-01-21 21:51:41,925 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-01-21 21:51:41,925 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679)
+2025-01-21 21:51:41,925 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+2025-01-21 21:51:41,925 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+2025-01-21 21:51:41,925 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+2025-01-21 21:51:41,926 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+2025-01-21 21:51:41,926 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2025-01-21 21:51:41,926 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,926 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,926 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: FileSystemWatchService
+2025-01-21 21:51:41,926 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 47 | Suspended: false | Native: true | State: RUNNABLE
+2025-01-21 21:51:41,926 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,927 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.fs.LinuxWatchService.poll(Native Method)
+2025-01-21 21:51:41,927 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+2025-01-21 21:51:41,927 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,927 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,927 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: ConfigSaver
+2025-01-21 21:51:41,927 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 57 | Suspended: false | Native: false | State: WAITING
+2025-01-21 21:51:41,927 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,927 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+2025-01-21 21:51:41,928 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+2025-01-21 21:51:41,928 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+2025-01-21 21:51:41,928 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+2025-01-21 21:51:41,928 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+2025-01-21 21:51:41,928 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1630)
+2025-01-21 21:51:41,928 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+2025-01-21 21:51:41,929 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+2025-01-21 21:51:41,929 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+2025-01-21 21:51:41,929 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2025-01-21 21:51:41,929 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,929 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,929 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: bStats-Metrics
+2025-01-21 21:51:41,929 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 59 | Suspended: false | Native: false | State: TIMED_WAITING
+2025-01-21 21:51:41,929 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,930 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+2025-01-21 21:51:41,930 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-01-21 21:51:41,930 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679)
+2025-01-21 21:51:41,930 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+2025-01-21 21:51:41,930 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+2025-01-21 21:51:41,930 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+2025-01-21 21:51:41,930 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+2025-01-21 21:51:41,931 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2025-01-21 21:51:41,931 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,931 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,931 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: bStats-Metrics
+2025-01-21 21:51:41,931 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 64 | Suspended: false | Native: false | State: TIMED_WAITING
+2025-01-21 21:51:41,931 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,931 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+2025-01-21 21:51:41,932 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-01-21 21:51:41,932 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679)
+2025-01-21 21:51:41,932 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+2025-01-21 21:51:41,932 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+2025-01-21 21:51:41,932 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+2025-01-21 21:51:41,932 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+2025-01-21 21:51:41,932 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2025-01-21 21:51:41,933 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,933 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,933 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: bStats-Metrics
+2025-01-21 21:51:41,933 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 67 | Suspended: false | Native: false | State: TIMED_WAITING
+2025-01-21 21:51:41,933 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,933 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+2025-01-21 21:51:41,933 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-01-21 21:51:41,933 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679)
+2025-01-21 21:51:41,934 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+2025-01-21 21:51:41,934 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+2025-01-21 21:51:41,934 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+2025-01-21 21:51:41,934 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+2025-01-21 21:51:41,934 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2025-01-21 21:51:41,934 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,934 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,935 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Metrics-1
+2025-01-21 21:51:41,935 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 68 | Suspended: false | Native: false | State: TIMED_WAITING
+2025-01-21 21:51:41,935 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,935 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+2025-01-21 21:51:41,935 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-01-21 21:51:41,935 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679)
+2025-01-21 21:51:41,935 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+2025-01-21 21:51:41,936 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+2025-01-21 21:51:41,936 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+2025-01-21 21:51:41,936 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+2025-01-21 21:51:41,936 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2025-01-21 21:51:41,936 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,936 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,936 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Worker-Main-10
+2025-01-21 21:51:41,937 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 87 | Suspended: false | Native: false | State: TIMED_WAITING
+2025-01-21 21:51:41,937 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,937 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+2025-01-21 21:51:41,937 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+2025-01-21 21:51:41,937 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+2025-01-21 21:51:41,937 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+2025-01-21 21:51:41,937 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+2025-01-21 21:51:41,938 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,938 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Netty Server IO #1
+2025-01-21 21:51:41,938 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 95 | Suspended: false | Native: true | State: RUNNABLE
+2025-01-21 21:51:41,938 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Thread is waiting on monitor(s):
+2025-01-21 21:51:41,938 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		Locked on:java.base@17.0.13/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+2025-01-21 21:51:41,938 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		Locked on:java.base@17.0.13/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+2025-01-21 21:51:41,938 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,939 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.EPoll.wait(Native Method)
+2025-01-21 21:51:41,939 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:118)
+2025-01-21 21:51:41,939 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+2025-01-21 21:51:41,939 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+2025-01-21 21:51:41,939 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+2025-01-21 21:51:41,939 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:813)
+2025-01-21 21:51:41,940 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+2025-01-21 21:51:41,940 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.common@4.1.77.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+2025-01-21 21:51:41,940 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.common@4.1.77.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+2025-01-21 21:51:41,940 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,940 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,940 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Netty Server IO #2
+2025-01-21 21:51:41,941 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 98 | Suspended: false | Native: true | State: RUNNABLE
+2025-01-21 21:51:41,941 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Thread is waiting on monitor(s):
+2025-01-21 21:51:41,941 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		Locked on:java.base@17.0.13/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+2025-01-21 21:51:41,941 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		Locked on:java.base@17.0.13/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+2025-01-21 21:51:41,941 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,941 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.EPoll.wait(Native Method)
+2025-01-21 21:51:41,941 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:118)
+2025-01-21 21:51:41,942 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+2025-01-21 21:51:41,942 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+2025-01-21 21:51:41,942 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+2025-01-21 21:51:41,942 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:813)
+2025-01-21 21:51:41,942 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+2025-01-21 21:51:41,942 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.common@4.1.77.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+2025-01-21 21:51:41,942 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.common@4.1.77.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+2025-01-21 21:51:41,943 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,943 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,943 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Worker-Main-20
+2025-01-21 21:51:41,943 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 108 | Suspended: false | Native: false | State: WAITING
+2025-01-21 21:51:41,943 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,943 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+2025-01-21 21:51:41,943 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+2025-01-21 21:51:41,946 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+2025-01-21 21:51:41,946 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+2025-01-21 21:51:41,946 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+2025-01-21 21:51:41,947 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,947 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Netty Server IO #3
+2025-01-21 21:51:41,947 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 117 | Suspended: false | Native: true | State: RUNNABLE
+2025-01-21 21:51:41,947 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Thread is waiting on monitor(s):
+2025-01-21 21:51:41,947 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		Locked on:java.base@17.0.13/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+2025-01-21 21:51:41,947 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		Locked on:java.base@17.0.13/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+2025-01-21 21:51:41,947 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,948 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.EPoll.wait(Native Method)
+2025-01-21 21:51:41,948 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:118)
+2025-01-21 21:51:41,948 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+2025-01-21 21:51:41,948 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+2025-01-21 21:51:41,948 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+2025-01-21 21:51:41,948 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:813)
+2025-01-21 21:51:41,949 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+2025-01-21 21:51:41,949 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.common@4.1.77.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+2025-01-21 21:51:41,949 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.common@4.1.77.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+2025-01-21 21:51:41,949 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,949 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,949 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Netty Server IO #4
+2025-01-21 21:51:41,949 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 118 | Suspended: false | Native: true | State: RUNNABLE
+2025-01-21 21:51:41,949 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Thread is waiting on monitor(s):
+2025-01-21 21:51:41,950 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		Locked on:java.base@17.0.13/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+2025-01-21 21:51:41,950 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		Locked on:java.base@17.0.13/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+2025-01-21 21:51:41,950 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,950 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.EPoll.wait(Native Method)
+2025-01-21 21:51:41,950 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:118)
+2025-01-21 21:51:41,950 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+2025-01-21 21:51:41,950 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+2025-01-21 21:51:41,950 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+2025-01-21 21:51:41,951 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:813)
+2025-01-21 21:51:41,951 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+2025-01-21 21:51:41,951 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.common@4.1.77.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+2025-01-21 21:51:41,951 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.common@4.1.77.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+2025-01-21 21:51:41,951 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,951 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,951 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Worker-Main-25
+2025-01-21 21:51:41,952 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 124 | Suspended: false | Native: false | State: TIMED_WAITING
+2025-01-21 21:51:41,952 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,952 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+2025-01-21 21:51:41,952 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+2025-01-21 21:51:41,952 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+2025-01-21 21:51:41,952 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+2025-01-21 21:51:41,952 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+2025-01-21 21:51:41,953 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,953 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Netty Server IO #5
+2025-01-21 21:51:41,953 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 125 | Suspended: false | Native: true | State: RUNNABLE
+2025-01-21 21:51:41,953 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Thread is waiting on monitor(s):
+2025-01-21 21:51:41,953 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		Locked on:java.base@17.0.13/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+2025-01-21 21:51:41,953 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		Locked on:java.base@17.0.13/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+2025-01-21 21:51:41,953 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,954 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.EPoll.wait(Native Method)
+2025-01-21 21:51:41,954 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:118)
+2025-01-21 21:51:41,954 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+2025-01-21 21:51:41,954 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+2025-01-21 21:51:41,954 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+2025-01-21 21:51:41,954 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:813)
+2025-01-21 21:51:41,954 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+2025-01-21 21:51:41,955 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.common@4.1.77.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+2025-01-21 21:51:41,955 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.common@4.1.77.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+2025-01-21 21:51:41,955 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,955 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,955 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Netty Server IO #6
+2025-01-21 21:51:41,955 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 126 | Suspended: false | Native: false | State: RUNNABLE
+2025-01-21 21:51:41,955 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Thread is waiting on monitor(s):
+2025-01-21 21:51:41,956 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		Locked on:java.base@17.0.13/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+2025-01-21 21:51:41,956 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		Locked on:java.base@17.0.13/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+2025-01-21 21:51:41,956 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,956 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.EPoll.wait(Native Method)
+2025-01-21 21:51:41,956 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:118)
+2025-01-21 21:51:41,956 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+2025-01-21 21:51:41,956 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+2025-01-21 21:51:41,956 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+2025-01-21 21:51:41,957 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:817)
+2025-01-21 21:51:41,957 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+2025-01-21 21:51:41,957 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.common@4.1.77.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+2025-01-21 21:51:41,957 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.common@4.1.77.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+2025-01-21 21:51:41,957 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,957 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,957 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Netty Server IO #7
+2025-01-21 21:51:41,958 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 137 | Suspended: false | Native: true | State: RUNNABLE
+2025-01-21 21:51:41,958 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Thread is waiting on monitor(s):
+2025-01-21 21:51:41,958 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		Locked on:java.base@17.0.13/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+2025-01-21 21:51:41,958 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		Locked on:java.base@17.0.13/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+2025-01-21 21:51:41,958 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,958 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.EPoll.wait(Native Method)
+2025-01-21 21:51:41,958 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:118)
+2025-01-21 21:51:41,959 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+2025-01-21 21:51:41,959 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+2025-01-21 21:51:41,959 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+2025-01-21 21:51:41,959 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:813)
+2025-01-21 21:51:41,959 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.transport@4.1.77.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+2025-01-21 21:51:41,959 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.common@4.1.77.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+2025-01-21 21:51:41,959 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		MC-BOOTSTRAP/io.netty.common@4.1.77.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+2025-01-21 21:51:41,960 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,960 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,960 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Java2D Disposer
+2025-01-21 21:51:41,960 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 148 | Suspended: false | Native: false | State: WAITING
+2025-01-21 21:51:41,960 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,960 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Object.wait(Native Method)
+2025-01-21 21:51:41,960 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+2025-01-21 21:51:41,961 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+2025-01-21 21:51:41,961 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.desktop@17.0.13/sun.java2d.Disposer.run(Disposer.java:145)
+2025-01-21 21:51:41,961 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,961 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,961 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Worker-Main-36
+2025-01-21 21:51:41,961 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 172 | Suspended: false | Native: false | State: TIMED_WAITING
+2025-01-21 21:51:41,961 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,961 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+2025-01-21 21:51:41,962 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+2025-01-21 21:51:41,962 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+2025-01-21 21:51:41,962 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+2025-01-21 21:51:41,962 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+2025-01-21 21:51:41,962 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,962 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Worker-Main-37
+2025-01-21 21:51:41,962 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 173 | Suspended: false | Native: false | State: WAITING
+2025-01-21 21:51:41,962 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,963 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+2025-01-21 21:51:41,963 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+2025-01-21 21:51:41,963 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+2025-01-21 21:51:41,963 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+2025-01-21 21:51:41,963 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+2025-01-21 21:51:41,963 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,963 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: Worker-Main-38
+2025-01-21 21:51:41,964 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 174 | Suspended: false | Native: false | State: TIMED_WAITING
+2025-01-21 21:51:41,964 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,964 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+2025-01-21 21:51:41,964 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+2025-01-21 21:51:41,964 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+2025-01-21 21:51:41,964 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+2025-01-21 21:51:41,964 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+2025-01-21 21:51:41,964 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,965 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: IO-Worker-45
+2025-01-21 21:51:41,965 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 199 | Suspended: false | Native: false | State: TIMED_WAITING
+2025-01-21 21:51:41,965 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,965 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+2025-01-21 21:51:41,965 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-01-21 21:51:41,965 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+2025-01-21 21:51:41,965 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+2025-01-21 21:51:41,966 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+2025-01-21 21:51:41,966 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+2025-01-21 21:51:41,966 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2025-01-21 21:51:41,966 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,966 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,966 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: IO-Worker-47
+2025-01-21 21:51:41,966 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 210 | Suspended: false | Native: false | State: TIMED_WAITING
+2025-01-21 21:51:41,966 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,967 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+2025-01-21 21:51:41,967 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-01-21 21:51:41,967 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+2025-01-21 21:51:41,967 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+2025-01-21 21:51:41,967 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+2025-01-21 21:51:41,967 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+2025-01-21 21:51:41,967 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2025-01-21 21:51:41,968 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,968 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,968 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: IO-Worker-56
+2025-01-21 21:51:41,968 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 271 | Suspended: false | Native: false | State: TIMED_WAITING
+2025-01-21 21:51:41,968 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,968 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+2025-01-21 21:51:41,968 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-01-21 21:51:41,969 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+2025-01-21 21:51:41,969 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+2025-01-21 21:51:41,969 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+2025-01-21 21:51:41,969 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+2025-01-21 21:51:41,969 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2025-01-21 21:51:41,969 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,969 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,969 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: IO-Worker-58
+2025-01-21 21:51:41,970 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 274 | Suspended: false | Native: false | State: TIMED_WAITING
+2025-01-21 21:51:41,970 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,970 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+2025-01-21 21:51:41,970 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-01-21 21:51:41,970 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+2025-01-21 21:51:41,970 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+2025-01-21 21:51:41,970 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+2025-01-21 21:51:41,971 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+2025-01-21 21:51:41,971 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2025-01-21 21:51:41,971 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,971 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,971 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: IO-Worker-59
+2025-01-21 21:51:41,971 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 278 | Suspended: false | Native: false | State: TIMED_WAITING
+2025-01-21 21:51:41,971 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,971 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+2025-01-21 21:51:41,972 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-01-21 21:51:41,972 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+2025-01-21 21:51:41,974 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+2025-01-21 21:51:41,974 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+2025-01-21 21:51:41,975 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+2025-01-21 21:51:41,975 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2025-01-21 21:51:41,975 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,975 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,975 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: ForkJoinPool.commonPool-worker-26
+2025-01-21 21:51:41,975 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 280 | Suspended: false | Native: false | State: TIMED_WAITING
+2025-01-21 21:51:41,975 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,975 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+2025-01-21 21:51:41,976 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+2025-01-21 21:51:41,976 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+2025-01-21 21:51:41,976 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+2025-01-21 21:51:41,976 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+2025-01-21 21:51:41,976 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,976 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: ForkJoinPool.commonPool-worker-27
+2025-01-21 21:51:41,976 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 281 | Suspended: false | Native: false | State: TIMED_WAITING
+2025-01-21 21:51:41,976 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,977 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+2025-01-21 21:51:41,977 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+2025-01-21 21:51:41,977 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+2025-01-21 21:51:41,977 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+2025-01-21 21:51:41,977 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+2025-01-21 21:51:41,978 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,978 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: ForkJoinPool.commonPool-worker-28
+2025-01-21 21:51:41,978 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 282 | Suspended: false | Native: false | State: TIMED_WAITING
+2025-01-21 21:51:41,978 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,978 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+2025-01-21 21:51:41,979 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+2025-01-21 21:51:41,979 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+2025-01-21 21:51:41,979 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+2025-01-21 21:51:41,979 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+2025-01-21 21:51:41,979 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,979 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: IO-Worker-60
+2025-01-21 21:51:41,979 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 283 | Suspended: false | Native: false | State: TIMED_WAITING
+2025-01-21 21:51:41,980 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,980 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+2025-01-21 21:51:41,980 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-01-21 21:51:41,980 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+2025-01-21 21:51:41,980 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+2025-01-21 21:51:41,980 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+2025-01-21 21:51:41,980 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+2025-01-21 21:51:41,980 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2025-01-21 21:51:41,981 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,981 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
+2025-01-21 21:51:41,982 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: Current Thread: IO-Worker-61
+2025-01-21 21:51:41,982 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	PID: 284 | Suspended: false | Native: false | State: TIMED_WAITING
+2025-01-21 21:51:41,982 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 	Stack:
+2025-01-21 21:51:41,982 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+2025-01-21 21:51:41,982 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+2025-01-21 21:51:41,983 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+2025-01-21 21:51:41,983 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+2025-01-21 21:51:41,983 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+2025-01-21 21:51:41,984 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+2025-01-21 21:51:41,984 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2025-01-21 21:51:41,984 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: 		java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+2025-01-21 21:51:41,984 [1;31mERROR[m [m[Spigot Watchdog Thread][m [mMinecraft.publish(32)[m: ------------------------------
