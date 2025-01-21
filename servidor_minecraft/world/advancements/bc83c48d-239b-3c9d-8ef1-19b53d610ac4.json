@@ -131,6 +131,12 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/building_blocks/stripped_redwood_wood": {
+    "criteria": {
+      "has_log": "2025-01-21 21:18:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_helmet": {
     "criteria": {
       "has_leather": "2025-01-19 16:50:33 +0000"
@@ -603,6 +609,12 @@
   "minecraft:recipes/redstone/crimson_button": {
     "criteria": {
       "has_planks": "2025-01-20 02:22:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2025-01-21 21:33:00 +0000"
     },
     "done": true
   },
@@ -1939,6 +1951,12 @@
   "aquaculture:recipes/misc/bonemeal_from_fish_bones": {
     "criteria": {
       "has_items": "2025-01-18 17:45:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_tulip": {
+    "criteria": {
+      "has_red_flower": "2025-01-21 21:33:10 +0000"
     },
     "done": true
   },

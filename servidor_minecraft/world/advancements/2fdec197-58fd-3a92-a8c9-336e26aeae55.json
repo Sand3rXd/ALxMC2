@@ -113,6 +113,12 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/building_blocks/stripped_redwood_wood": {
+    "criteria": {
+      "has_log": "2025-01-21 21:19:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_planks": "2025-01-18 16:27:41 +0000"
@@ -1278,6 +1284,12 @@
   "securitycraft:recipes/securitycraft/sand_mine": {
     "criteria": {
       "has_mine": "2025-01-19 17:18:11 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/redwood_planks": {
+    "criteria": {
+      "has_logs": "2025-01-21 21:19:01 +0000"
     },
     "done": true
   },

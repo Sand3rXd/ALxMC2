@@ -295,7 +295,8 @@
   },
   "betterdungeons:all_dungeons": {
     "criteria": {
-      "in_better_spider_dungeon": "2025-01-20 00:31:35 +0000"
+      "in_better_spider_dungeon": "2025-01-20 00:31:35 +0000",
+      "in_better_monster_room": "2025-01-21 21:24:44 +0000"
     },
     "done": false
   },
@@ -1097,6 +1098,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2025-01-21 21:19:19 +0000"
+    },
+    "done": true
+  },
   "alexsmobs:alexsmobs/crimson_mosquito": {
     "criteria": {
       "killed_by": "2025-01-20 02:08:00 +0000"
@@ -1584,6 +1591,12 @@
     },
     "done": true
   },
+  "betterdungeons:small_dungeon": {
+    "criteria": {
+      "in_better_monster_room": "2025-01-21 21:24:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_pressure_plate": {
     "criteria": {
       "has_planks": "2025-01-18 19:05:51 +0000"
@@ -2006,6 +2019,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "cod": "2025-01-21 21:19:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
     "criteria": {
       "has_kelp": "2025-01-21 20:46:58 +0000"
@@ -2039,6 +2058,12 @@
   "mcwbridges:recipes/balustrade_diorite_bridge": {
     "criteria": {
       "has_planks": "2025-01-19 23:17:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2025-01-21 21:19:19 +0000"
     },
     "done": true
   },
@@ -2607,8 +2632,10 @@
       "cooked_beef": "2025-01-19 23:30:18 +0000",
       "beef": "2025-01-20 17:48:50 +0000",
       "porkchop": "2025-01-20 17:38:44 +0000",
+      "apple": "2025-01-21 21:04:35 +0000",
       "bread": "2025-01-20 00:15:25 +0000",
       "rotten_flesh": "2025-01-20 02:02:10 +0000",
+      "glow_berries": "2025-01-21 21:03:01 +0000",
       "salmon": "2025-01-19 23:19:00 +0000",
       "cooked_chicken": "2025-01-19 23:23:46 +0000",
       "carrot": "2025-01-19 23:28:04 +0000"
@@ -2642,6 +2669,12 @@
   "securitycraft:recipes/securitycraft/reinforced_light_gray_stained_glass": {
     "criteria": {
       "has_glass": "2025-01-20 01:38:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2025-01-21 21:19:19 +0000"
     },
     "done": true
   },
