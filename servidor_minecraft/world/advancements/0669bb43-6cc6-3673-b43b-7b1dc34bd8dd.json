@@ -197,6 +197,12 @@
     },
     "done": true
   },
+  "mcwbridges:recipes/mossy_cobblestone_bridge": {
+    "criteria": {
+      "has_planks": "2025-01-21 20:44:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobbled_deepslate_slab": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-19 03:57:41 +0000"
@@ -272,6 +278,12 @@
   "mcwdoors:recipes/spruce": {
     "criteria": {
       "has_wood": "2025-01-18 19:13:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-01-21 20:44:48 +0000"
     },
     "done": true
   },
@@ -377,6 +389,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2025-01-21 20:46:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/hopper": {
     "criteria": {
       "has_iron_ingot": "2025-01-18 19:11:10 +0000"
@@ -422,6 +440,12 @@
   "securitycraft:recipes/securitycraft/taser": {
     "criteria": {
       "has_redstone": "2025-01-19 03:58:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-01-21 20:44:48 +0000"
     },
     "done": true
   },
@@ -507,6 +531,12 @@
   "minecraft:recipes/combat/leather_leggings": {
     "criteria": {
       "has_leather": "2025-01-19 23:29:42 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/aquaculture/tackle_box": {
+    "criteria": {
+      "has_items": "2025-01-21 20:46:58 +0000"
     },
     "done": true
   },
@@ -636,6 +666,12 @@
     },
     "done": true
   },
+  "mcwbridges:recipes/mossy_stone_brick_bridge": {
+    "criteria": {
+      "has_planks": "2025-01-21 20:44:48 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
       "shrubland": "2025-01-19 23:07:26 +0000",
@@ -671,6 +707,12 @@
   "minecraft:recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-19 03:57:41 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/balustrade_mossy_cobblestone_bridge": {
+    "criteria": {
+      "has_planks": "2025-01-21 20:44:48 +0000"
     },
     "done": true
   },
@@ -719,6 +761,12 @@
   "aquaculture:recipes/misc/jellyfish_to_slimeball": {
     "criteria": {
       "has_items": "2025-01-18 18:58:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2025-01-21 20:46:58 +0000"
     },
     "done": true
   },
@@ -1764,6 +1812,7 @@
       "minecraft:forest": "2025-01-18 18:59:57 +0000",
       "minecraft:lush_caves": "2025-01-19 03:56:06 +0000",
       "minecraft:ocean": "2025-01-21 00:39:27 +0000",
+      "minecraft:flower_forest": "2025-01-21 20:52:34 +0000",
       "minecraft:old_growth_birch_forest": "2025-01-19 23:27:33 +0000",
       "minecraft:meadow": "2025-01-18 18:59:31 +0000",
       "minecraft:plains": "2025-01-19 23:46:47 +0000"
@@ -1954,6 +2003,12 @@
   "minecraft:recipes/misc/raw_iron": {
     "criteria": {
       "has_raw_iron_block": "2025-01-20 00:46:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2025-01-21 20:46:58 +0000"
     },
     "done": true
   },
@@ -2291,6 +2346,12 @@
   "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
       "has_gold_ingot": "2025-01-20 02:21:43 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/mossy_cobblestone_bridge_pier": {
+    "criteria": {
+      "has_planks": "2025-01-21 20:44:48 +0000"
     },
     "done": true
   },
@@ -2758,6 +2819,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-01-21 20:44:48 +0000"
+    },
+    "done": true
+  },
   "mcwbridges:recipes/asian_red_bridge_pier": {
     "criteria": {
       "has_planks": "2025-01-18 19:10:21 +0000"
@@ -2797,6 +2864,12 @@
   "securitycraft:recipes/securitycraft/emerald_mine": {
     "criteria": {
       "has_mine": "2025-01-19 23:40:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-01-21 20:44:48 +0000"
     },
     "done": true
   },
@@ -3364,6 +3437,12 @@
     },
     "done": true
   },
+  "mcwbridges:recipes/mossy_stone_bridge_pier": {
+    "criteria": {
+      "has_planks": "2025-01-21 20:44:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cyan_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-01-20 02:17:04 +0000"
@@ -3655,6 +3734,18 @@
   "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-01-20 02:17:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-01-21 20:44:48 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/mossy_cobblestone_bridge_stair": {
+    "criteria": {
+      "has_planks": "2025-01-21 20:44:48 +0000"
     },
     "done": true
   },
@@ -4250,6 +4341,12 @@
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2025-01-18 19:11:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-01-21 20:44:48 +0000"
     },
     "done": true
   },
