@@ -277,3 +277,9 @@ Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 2025-01-23 17:57:36,094 [32mINFO [m [m[Craft Scheduler Thread - 1][m [m.sendMessage(60)[m: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[GitHubUpdate] The update will be loaded on the next server restart[0;39m[m
 2025-01-23 18:48:32,205 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_241158_(2088)[m: [Server] SEXO ANAL
 2025-01-23 18:48:51,384 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_241158_(2088)[m: [Server] QUIEN ESTA NIGGA SDEX
+2025-01-23 19:03:23,275 [32mINFO [m [m[User Authenticator #1][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(378)[m: UUID of player un_randompro is 4f2ddd44-221e-3406-80eb-bdd38f185eca
+2025-01-23 19:03:23,679 [1;31mERROR[m [m[Netty Server IO #2][m [mn.m.n.NetworkRegistry.validateChannels(239)[m: Channels [patchouli:main] rejected their client side version number
+2025-01-23 19:03:23,681 [1;31mERROR[m [m[Netty Server IO #2][m [mn.m.n.HandshakeHandler.handleClientModListOnServer(247)[m: Terminating connection with client, mismatched mod list
+2025-01-23 19:03:23,692 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerLoginPacketListenerImpl.m_7026_(185)[m: com.mojang.authlib.GameProfile@382618e0[id=4f2ddd44-221e-3406-80eb-bdd38f185eca,name=un_randompro,properties={},legacy=false] (/127.224.235.140:43037) lost connection: Connection closed - mismatched mod channel list
+2025-01-23 19:06:22,962 [32mINFO [m [m[User Authenticator #2][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(378)[m: UUID of player un_randompro is 4f2ddd44-221e-3406-80eb-bdd38f185eca
+2025-01-23 19:06:24,338 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerLoginPacketListenerImpl.m_7026_(185)[m: com.mojang.authlib.GameProfile@38f384f1[id=4f2ddd44-221e-3406-80eb-bdd38f185eca,name=un_randompro,properties={},legacy=false] (/127.224.235.140:54147) lost connection: Disconnected
