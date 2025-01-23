@@ -263,6 +263,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/securitycraft/reinforced_spruce_button": {
+    "criteria": {
+      "has_block": "2025-01-21 23:27:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_button": {
     "criteria": {
       "has_planks": "2025-01-18 16:27:41 +0000"
@@ -311,6 +317,12 @@
       "in_better_spider_dungeon": "2025-01-18 19:29:42 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-01-22 01:09:02 +0000"
+    },
+    "done": true
   },
   "securitycraft:recipes/securitycraft/electrified_iron_fence": {
     "criteria": {
@@ -499,6 +511,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2025-01-22 01:09:06 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/building_blocks/fir_wood": {
     "criteria": {
       "has_log": "2025-01-18 18:51:30 +0000"
@@ -585,8 +603,10 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
+      "woodland": "2025-01-22 01:00:22 +0000",
       "shrubland": "2025-01-18 04:45:27 +0000",
       "rocky_shrubland": "2025-01-18 16:11:20 +0000",
+      "scrubland": "2025-01-22 01:00:59 +0000",
       "highland": "2025-01-18 16:17:02 +0000",
       "clover_patch": "2025-01-18 03:25:20 +0000",
       "mystic_grove": "2025-01-20 00:51:58 +0000",
@@ -618,6 +638,12 @@
   "minecraft:recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-18 19:25:03 +0000"
+    },
+    "done": true
+  },
+  "iammusicplayer:iammusicplayer/root": {
+    "criteria": {
+      "iammusicplayer": "2025-01-21 22:37:22 +0000"
     },
     "done": true
   },
@@ -821,7 +847,8 @@
       "minecraft:phantom": "2025-01-20 01:23:54 +0000",
       "minecraft:witch": "2025-01-18 19:11:29 +0000",
       "minecraft:cave_spider": "2025-01-18 19:07:15 +0000",
-      "minecraft:zombie": "2025-01-18 19:11:39 +0000"
+      "minecraft:zombie": "2025-01-18 19:11:39 +0000",
+      "minecraft:zombie_villager": "2025-01-22 00:56:27 +0000"
     },
     "done": false
   },
@@ -894,6 +921,12 @@
   "minecraft:recipes/decorations/lime_carpet_from_white_carpet": {
     "criteria": {
       "has_lime_dye": "2025-01-20 18:58:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2025-01-21 23:07:58 +0000"
     },
     "done": true
   },
@@ -1212,6 +1245,12 @@
   "securitycraft:recipes/securitycraft/smart_module": {
     "criteria": {
       "has_iron": "2025-01-18 19:10:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-01-22 01:09:06 +0000"
     },
     "done": true
   },
@@ -1574,6 +1613,7 @@
       "minecraft:dripstone_caves": "2025-01-20 03:58:52 +0000",
       "minecraft:forest": "2025-01-18 04:11:01 +0000",
       "minecraft:ocean": "2025-01-20 22:14:49 +0000",
+      "minecraft:old_growth_birch_forest": "2025-01-22 01:05:34 +0000",
       "minecraft:deep_dark": "2025-01-18 19:25:20 +0000",
       "minecraft:meadow": "2025-01-18 04:11:32 +0000",
       "minecraft:plains": "2025-01-18 04:10:51 +0000"
@@ -2019,6 +2059,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-01-22 01:09:06 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/willow_boat": {
     "criteria": {
       "in_water": "2025-01-18 04:04:57 +0000"
@@ -2082,6 +2128,12 @@
   "minecraft:recipes/decorations/candle": {
     "criteria": {
       "has_string": "2025-01-18 19:07:16 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_spruce_stairs": {
+    "criteria": {
+      "has_block": "2025-01-21 23:27:11 +0000"
     },
     "done": true
   },
@@ -2289,6 +2341,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/securitycraft/reinforced_spruce_pressure_plate": {
+    "criteria": {
+      "has_block": "2025-01-21 23:27:11 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/reinforced_blue_stained_glass_pane_from_dye": {
     "criteria": {
       "has_glass": "2025-01-19 23:30:02 +0000"
@@ -2407,6 +2465,12 @@
   "securitycraft:recipes/securitycraft/reinforced_light_blue_stained_glass_pane_from_glass": {
     "criteria": {
       "has_glass": "2025-01-19 23:30:02 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_bookshelf": {
+    "criteria": {
+      "has_book": "2025-01-22 01:09:06 +0000"
     },
     "done": true
   },
@@ -2647,6 +2711,12 @@
   "alexsmobs:alexsmobs/grizzly_bear": {
     "criteria": {
       "killed_by": "2025-01-20 00:54:20 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_spruce_slab": {
+    "criteria": {
+      "has_block": "2025-01-21 23:27:11 +0000"
     },
     "done": true
   },
@@ -3406,6 +3476,12 @@
     },
     "done": true
   },
+  "iammusicplayer:recipes/iammusicplayer.iammusicplayer/manual": {
+    "criteria": {
+      "has_book": "2025-01-22 01:09:06 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/reinforced_black_stained_glass": {
     "criteria": {
       "has_glass": "2025-01-19 23:30:02 +0000"
@@ -3644,6 +3720,12 @@
   "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
     "criteria": {
       "has_raw_copper": "2025-01-21 00:08:56 +0000"
+    },
+    "done": true
+  },
+  "dungeons_plus:adventure/find_tower": {
+    "criteria": {
+      "in_structure": "2025-01-22 01:06:24 +0000"
     },
     "done": true
   },
