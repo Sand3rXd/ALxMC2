@@ -13369,3 +13369,7 @@ Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 2025-01-23 18:00:53,123 [36mDEBUG[m [m[Netty Server IO #1][m [mi.n.u.Recycler.<clinit>(88)[m: -Dio.netty.recycler.blocking: false
 2025-01-23 18:02:35,380 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1408)[m: Gathering id map for writing to world save world
 2025-01-23 18:02:35,401 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1414)[m: ID Map collection complete world
+2025-01-23 18:07:35,361 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1408)[m: Gathering id map for writing to world save world
+2025-01-23 18:07:35,377 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1414)[m: ID Map collection complete world
+2025-01-23 18:12:35,356 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1408)[m: Gathering id map for writing to world save world
+2025-01-23 18:12:35,377 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1414)[m: ID Map collection complete world
